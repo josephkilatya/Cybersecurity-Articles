@@ -55,8 +55,24 @@ Select Language <img width="948" height="654" alt="image" src="https://github.co
 Accessibilty in Ubuntu: Leave default
 Select your keyboard layout
 Connect to internet: Use wired connection
-An update is available for the intaller: Skip
+An update is available for the intaller: Update now or Skip
+Hou would you like to install Ubuntu? Interactive installation
+<img width="955" height="656" alt="image" src="https://github.com/user-attachments/assets/a645f9f8-ac81-472a-8fbb-cb4486002437" />
+<img width="540" height="387" alt="image" src="https://github.com/user-attachments/assets/38b1060c-b8ec-4684-b1d9-33ca307ae154" />
 
+Check ALl:
+<img width="693" height="590" alt="image" src="https://github.com/user-attachments/assets/8a601c17-e710-4b29-adcb-5ca2005302bf" />
+
+<img width="761" height="567" alt="image" src="https://github.com/user-attachments/assets/fc004314-3175-4b68-8b59-f727dd57cd34" />
+
+<img width="560" height="498" alt="image" src="https://github.com/user-attachments/assets/85f2b7b1-60c5-4c24-a664-8899d52bdfaa" />
+
+
+<img width="953" height="654" alt="image" src="https://github.com/user-attachments/assets/f106149a-3eb9-4ac2-b30f-f6823341bc0d" />
+
+<img width="946" height="624" alt="image" src="https://github.com/user-attachments/assets/26c453d8-f242-427c-8a0d-0828ce3ee134" />
+
+<img width="709" height="652" alt="image" src="https://github.com/user-attachments/assets/55baef24-6c7d-4b05-979b-93167a8d5f5d" />
 
 
 
