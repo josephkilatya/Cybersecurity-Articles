@@ -1,20 +1,20 @@
-Introduction
+# Introduction
 
 
-Lab Setup
+# Lab Setup
 
-Creating a Virtual Network
+## Creating a Virtual Network
 
-Setting Up Windows VM
+## Setting Up Windows VM
 
-Setting Up Linux VM
+## Setting Up Linux VM
 
-Setting Up Wazuh VirtualBox
+## Setting Up Wazuh VirtualBox
 
-Installing Agents (on Windows and Linux)
+## Installing Agents (on Windows and Linux)
 
-Attack Simulation
+## Attack Simulation
 
-Logs Collection
+## Logs Collection
 
 
