@@ -10,7 +10,10 @@
  
 
 ## Creating a Virtual Network
+
 Step 1: <img width="948" height="299" alt="image" src="https://github.com/user-attachments/assets/e5430adc-f839-4712-8f0b-80b66e5a560e" />
+
+If you do not see the Network Section, You can Expand the Left Naviation bar by Clicking the **Menu** icon (3 bars) at the bottom left.
 Pop up Windows: Do you want to allow this app to make changes to your devices. Click Yes.
 New Interface: <img width="820" height="198" alt="image" src="https://github.com/user-attachments/assets/1ceb69c5-005c-4aad-b08d-c80b85fcf466" />
 Right Click and Go to Properties. (Find Screenshot to Attach.)
@@ -27,6 +30,7 @@ Notice Adapter is enabled: <img width="828" height="145" alt="image" src="https:
 ## Setting Up Windows VM
 
 ## Setting Up Linux VM
+
 
 ## Setting Up Wazuh VirtualBox
 Go to File -> Import Appliance -> Locate Wazuh Virtual Machine
