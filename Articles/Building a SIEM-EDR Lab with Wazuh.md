@@ -37,6 +37,21 @@ Go to File -> Import Appliance -> Locate Wazuh Virtual Machine
  Go to Settings -> MAC Address Policy -> Generate new MAC addresses for all network adapters: Leave the rest as default
  <img width="895" height="467" alt="image" src="https://github.com/user-attachments/assets/ee108115-12af-4820-a5e0-7cc7ce631995" />
 
+ Go to Machines: You will find Imported Machine
+ <img width="960" height="307" alt="image" src="https://github.com/user-attachments/assets/8e2050b1-0d64-4224-ac20-40669b595784" />
+
+ ### Add VM to Virtal Network
+ Select VM -> Go To Settings
+
+ Reduce Memory: <img width="774" height="586" alt="image" src="https://github.com/user-attachments/assets/d2ea1801-8b7d-4521-9cb1-b6b4faf4730b" />
+
+ Reduce Processor: <img width="590" height="294" alt="image" src="https://github.com/user-attachments/assets/93d0bc88-4fdb-431f-a4f2-af1cb27d2e4e" />
+
+ To Be Continued
+
+
+
+
 
 
 ## Installing Agents (on Windows and Linux)
