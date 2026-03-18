@@ -23,6 +23,15 @@ Enable DHCP Server and Apply to save changes <img width="826" height="371" alt="
 
 Notice Adapter is enabled: <img width="828" height="145" alt="image" src="https://github.com/user-attachments/assets/bc187448-9b6d-40ad-b5d9-ef283a1b7240" />
 
+### Start Installation:
+Select VM -> Start
+<img width="838" height="296" alt="image" src="https://github.com/user-attachments/assets/47e4c0be-3525-476d-9453-d09aa7011bc9" />
+
+<img width="721" height="484" alt="image" src="https://github.com/user-attachments/assets/3393b9a2-2352-4022-b23b-eb2658e5444f" />
+
+Wait Ubuntu Preparation:
+
+
 
 
 
@@ -30,6 +39,17 @@ Notice Adapter is enabled: <img width="828" height="145" alt="image" src="https:
 ## Setting Up Windows VM
 
 ## Setting Up Linux VM
+Click New: <img width="784" height="556" alt="image" src="https://github.com/user-attachments/assets/d860b049-ad55-4198-a767-9701a434fbbc" />
+
+Specifying virtual hardware:
+<img width="627" height="162" alt="image" src="https://github.com/user-attachments/assets/782121cd-5864-40e5-931f-5211dfd97234" />
+
+
+Disk Size -> Finish
+<img width="780" height="554" alt="image" src="https://github.com/user-attachments/assets/a7209b7e-c207-4bed-bb67-3fe2e97829f2" />
+
+
+
 
 
 ## Setting Up Wazuh VirtualBox
