@@ -23,10 +23,35 @@ Enable DHCP Server and Apply to save changes <img width="826" height="371" alt="
 
 Notice Adapter is enabled: <img width="828" height="145" alt="image" src="https://github.com/user-attachments/assets/bc187448-9b6d-40ad-b5d9-ef283a1b7240" />
 
+Basics:
+<img width="1007" height="770" alt="image" src="https://github.com/user-attachments/assets/eba0918b-62fd-4b4a-99fb-96c6c61e9392" />
+
+<img width="1018" height="783" alt="image" src="https://github.com/user-attachments/assets/c0826eb2-8b56-4a8c-baed-2e718833db90" />
+
+<img width="1033" height="770" alt="image" src="https://github.com/user-attachments/assets/b029043f-686b-4f4b-a0a8-812c5cf90b3c" />
+
+<img width="868" height="624" alt="image" src="https://github.com/user-attachments/assets/6b67a56c-e2c8-4099-90f2-1438b8d741ef" />
 
 
+Skip email signup
+Go for Domain Joined
 
+<img width="997" height="600" alt="image" src="https://github.com/user-attachments/assets/3549f768-6182-4d69-b2e8-c197d73d2832" />
 
+<img width="1005" height="623" alt="image" src="https://github.com/user-attachments/assets/3eda97cc-9982-498b-8943-63d16b61e880" />
+
+Password -> Confirm Password
+
+Security Questions
+
+Wait
+
+Privacy: Disable All
+<img width="1021" height="734" alt="image" src="https://github.com/user-attachments/assets/979a35db-5c09-4290-afd2-dc24654b33f2" />
+
+Cortana
+
+<img width="1029" height="795" alt="image" src="https://github.com/user-attachments/assets/f6a42599-9ba9-42aa-a3b1-d72c51c77bb1" />
 
 
 
