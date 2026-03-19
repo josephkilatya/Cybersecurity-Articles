@@ -55,6 +55,11 @@ Start Installation: <img width="952" height="313" alt="image" src="https://githu
 
 <img width="710" height="527" alt="image" src="https://github.com/user-attachments/assets/67310e3c-2289-4d88-aff6-374cbf08e943" />
 
+<img width="739" height="554" alt="image" src="https://github.com/user-attachments/assets/05c3f4eb-31fc-4355-888c-518e6155be58" />
+
+DON NOT PUBLISH THIS:
+While the idea is clever, the Windows Enterprise trial's license timer is designed to prevent this exact scenario. However, the built-in `slmgr /rearm` command is the legitimate way to extend your trial significantly.
+
 
 ![Uploading image.png…]()
 
