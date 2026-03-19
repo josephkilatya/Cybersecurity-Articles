@@ -6,6 +6,8 @@
  Ubuntu 24.04.4 LTS: https://ubuntu.com/download/desktop
  Windows 10 Enterprise x64 ISO: https://go.microsoft.com/fwlink/p/?LinkID=2208844&clcid=0x409&culture=en-us&country=US
  VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+ Ubuntu (Jammy Jelly Fish): https://releases.ubuntu.com/22.04/?_ga=2.149898549.2084151835.1707729318-1126754318.1683186906
  
  
 
@@ -91,11 +93,24 @@ DON NOT PUBLISH THIS:
 While the idea is clever, the Windows Enterprise trial's license timer is designed to prevent this exact scenario. However, the built-in `slmgr /rearm` command is the legitimate way to extend your trial significantly.
 
 
-![Uploading image.png…]()
+<img width="893" height="284" alt="image" src="https://github.com/user-attachments/assets/e17da35b-210e-4ebc-a60a-14f9a2c0a24c" />
 
 
 
 ## Setting Up Linux VM
+<img width="876" height="249" alt="image" src="https://github.com/user-attachments/assets/76938d9f-7ca9-46b0-9143-fd1ef1f0e736" />
+
+<img width="874" height="268" alt="image" src="https://github.com/user-attachments/assets/de15e81d-eb22-4cc5-99e9-9bd4d1284d1a" />
+
+<img width="870" height="167" alt="image" src="https://github.com/user-attachments/assets/80c1ddba-b49f-4407-95d7-22c26f01d3d8" />
+
+<img width="878" height="420" alt="image" src="https://github.com/user-attachments/assets/0f770c83-43e6-4378-8f74-51d68841c5d5" />
+
+
+
+
+
+
 Click New: <img width="784" height="556" alt="image" src="https://github.com/user-attachments/assets/d860b049-ad55-4198-a767-9701a434fbbc" />
 
 Specifying virtual hardware:
