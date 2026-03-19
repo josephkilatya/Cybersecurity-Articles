@@ -31,6 +31,26 @@ Notice Adapter is enabled: <img width="828" height="145" alt="image" src="https:
 
 
 ## Setting Up Windows VM
+New -> <img width="876" height="256" alt="image" src="https://github.com/user-attachments/assets/e012086a-f34d-4fdd-b3ec-9b2a6dacd656" />
+
+Skip: <img width="857" height="242" alt="image" src="https://github.com/user-attachments/assets/703e29c6-ecef-4615-a228-3e0877863ee3" />
+
+<img width="878" height="165" alt="image" src="https://github.com/user-attachments/assets/5f936cd6-bf18-4bca-8b58-80ad546cb9ac" />
+
+<img width="883" height="364" alt="image" src="https://github.com/user-attachments/assets/695b0036-7fbe-4956-8a77-c01621265394" />
+
+Start Installation: <img width="952" height="313" alt="image" src="https://github.com/user-attachments/assets/5baac01e-59fc-48d6-8700-78a1ca69e2ee" />
+
+<img width="631" height="468" alt="image" src="https://github.com/user-attachments/assets/3ace19b0-3038-49b4-9b78-0ab9622f635c" />
+
+<img width="638" height="472" alt="image" src="https://github.com/user-attachments/assets/cff08bdf-a08e-4568-b918-fc894b772709" />
+
+<img width="881" height="557" alt="image" src="https://github.com/user-attachments/assets/492b1104-71c4-4213-a989-38cfb5edc322" />
+
+<img width="687" height="510" alt="image" src="https://github.com/user-attachments/assets/611cb040-6939-4fff-8d3c-74f5f8a78cfb" />
+
+![Uploading image.png…]()
+
 
 ## Setting Up Linux VM
 Click New: <img width="784" height="556" alt="image" src="https://github.com/user-attachments/assets/d860b049-ad55-4198-a767-9701a434fbbc" />
