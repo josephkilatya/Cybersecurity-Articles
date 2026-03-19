@@ -34,6 +34,8 @@ Basics:
 
 <img width="868" height="624" alt="image" src="https://github.com/user-attachments/assets/6b67a56c-e2c8-4099-90f2-1438b8d741ef" />
 
+Wait for Reboot
+
 
 Skip email signup
 Go for Domain Joined
@@ -108,6 +110,19 @@ While the idea is clever, the Windows Enterprise trial's license timer is design
 
 <img width="1260" height="786" alt="image" src="https://github.com/user-attachments/assets/c93af960-9db2-4ec1-a490-92fe4498d779" /> Wait to finish
 
+<img width="1266" height="785" alt="image" src="https://github.com/user-attachments/assets/d6c5fbbf-7a67-4534-bc3f-f2bdf8e80d07" />
+
+<img width="573" height="221" alt="image" src="https://github.com/user-attachments/assets/503d72c0-8cb0-4c86-8a8d-5d1fefb374c3" />
+
+<img width="1030" height="402" alt="image" src="https://github.com/user-attachments/assets/f87095bd-e5f1-4dec-9a2d-720d8abf7b0b" />
+
+<img width="963" height="401" alt="image" src="https://github.com/user-attachments/assets/9694208d-bd43-415b-b233-5864505a8a58" />
+
+<img width="1112" height="731" alt="image" src="https://github.com/user-attachments/assets/078f7124-7de3-400c-984b-b770ee705b19" />
+
+<img width="1035" height="727" alt="image" src="https://github.com/user-attachments/assets/fd9b7b1e-eada-412b-ae7e-5b32051d878a" />
+
+<img width="559" height="333" alt="image" src="https://github.com/user-attachments/assets/9f720c82-9d33-4fea-8b33-8f9dacd35179" />
 
 
 
