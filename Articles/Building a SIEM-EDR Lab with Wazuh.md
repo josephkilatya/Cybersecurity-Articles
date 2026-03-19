@@ -106,6 +106,7 @@ While the idea is clever, the Windows Enterprise trial's license timer is design
 
 <img width="878" height="420" alt="image" src="https://github.com/user-attachments/assets/0f770c83-43e6-4378-8f74-51d68841c5d5" />
 
+<img width="1260" height="786" alt="image" src="https://github.com/user-attachments/assets/c93af960-9db2-4ec1-a490-92fe4498d779" /> Wait to finish
 
 
 
