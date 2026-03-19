@@ -49,7 +49,15 @@ Start Installation: <img width="952" height="313" alt="image" src="https://githu
 
 <img width="687" height="510" alt="image" src="https://github.com/user-attachments/assets/611cb040-6939-4fff-8d3c-74f5f8a78cfb" />
 
+<img width="686" height="507" alt="image" src="https://github.com/user-attachments/assets/d4c541ca-c637-4352-930b-26884058c41e" />
+
+<img width="689" height="515" alt="image" src="https://github.com/user-attachments/assets/65c6fe75-1e48-4fd8-a199-d284ea9d2092" />
+
+<img width="710" height="527" alt="image" src="https://github.com/user-attachments/assets/67310e3c-2289-4d88-aff6-374cbf08e943" />
+
+
 ![Uploading image.png…]()
+
 
 
 ## Setting Up Linux VM
