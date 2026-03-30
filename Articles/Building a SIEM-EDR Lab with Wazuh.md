@@ -1,3 +1,5 @@
+<!-- 
+
 # Introduction
 
 
@@ -217,5 +219,7 @@ Select VM -> Start
 Wait Ubuntu Preparation:
 
 Select Language <img width="948" height="654" alt="image" src="https://github.com/user-attachments/assets/5ba1250a-d33c-47d7-9a88-6d0e55259742" />
+
+-->
 
 
