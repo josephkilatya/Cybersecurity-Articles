@@ -70,15 +70,26 @@ TASK 5: Practice, Practice, Practice
 
 <img width="1691" height="451" alt="image" src="https://github.com/user-attachments/assets/9fa938d7-60d6-44f5-993c-8a1d4aad8050" />
 
+<img width="1266" height="569" alt="image" src="https://github.com/user-attachments/assets/13e6405d-fd7b-45ad-9f65-1a899477595b" />
 
 
-TASK 6:
+TASK 6: Your First Official Cook
 
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
 
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
 
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
+
+<img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
+
+<img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
+
+<img width="1257" height="587" alt="image" src="https://github.com/user-attachments/assets/b4a1040f-558b-43d8-9550-83bc67d8dd61" />
+
+
+
+TASK 7: Conclusion
 
 
 
