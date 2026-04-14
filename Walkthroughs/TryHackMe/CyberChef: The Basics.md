@@ -72,6 +72,18 @@ TASK 5: Practice, Practice, Practice
 
 
 
+TASK 6:
+
+<img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
+
+<img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
+
+<img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
+
+
+
+
+
 
 
 
