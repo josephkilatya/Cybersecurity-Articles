@@ -81,19 +81,21 @@ Step 3: Select the Operations you might want to use - Go to operations section a
 Step 4: Check the output to see if is the intended result - From the example used in my case, we would expect base64 version of "I LOVE CYBERSECURITY", which is "SSBMT1ZFIENZQkVSU0VDVVJJVFk="
 
 ANSWERING THE QUESTIONS
-<br>
-<img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
-*Figure 9:*
-<br>
-<br>
+<br><br>
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
-*Figure 10:*
+
+*Figure 9: How to get answer to question above.*
+<br>
+<br>
+
+<img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
+*Figure 10: Correct Answer submitted*
  
 ## TASK 5: Practice, Practice, Practice
-As the old saying goes, Practice makes perfect. That's is what this section helps by getting our hands a little dirty 😅.
+As the old saying goes, Practice makes perfect. So, getting ready to get your hands a little dirty 😅.
 
-Before we do that, there's a few new things introduced here:
-1. Extractors: Honestly, I did not know about them until I went through this room (See why continous learning helps 🙂). This are operations used to extract data such as
+Before we do that, there's a few new things introduced in this section:
+1. Extractors: Honestly, I did not know about them until I went through this room (See why continous learning helps 🙂). This are operations used to;
    - Extract IP addresses - Extracts all IPv4 and IPv6 addresses from input data
    - Extract URLs
    - Extract email addresses
@@ -101,6 +103,8 @@ Before we do that, there's a few new things introduced here:
 2. Date and Time: Operataions that help with converting Timestamps
    - **From UNIX Timestamp** to datetime string
    - **To UNIX Timestamp** - converts UTC datestring into corresponding timestamp
+<br>
+Suppose you are asking UNIX timestamp is, it is a system for representing a point in time by counting the number of seconds that have elapsed since January 1, 1970, at 00:00:00 UTC, which is known as the Unix Epoch. 
   
 3. Data Format: This are operations that convert input data from one form to another. Some need to be combined in order to get the desired output. They include the following:
    - From Base64
@@ -109,60 +113,65 @@ Before we do that, there's a few new things introduced here:
    - From Base58
    - To Base62
   
-This section also describes how to change data from Base encodings or vice-versa using manual technique.
+The section also does teache us how to change data from Base(64, 85, 58, 62) encodings and vice-versa manually. 
 
 ANSWERING THE QUESTIONS:
 _What is the hidden email address?_
 <br>
+<br>
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
- *Figure 11:*
+ *Figure 11: Getting the answer*
 <br>
 <br>
 <img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
- *Figure 12:*
+ *Figure 12: Correct answer submitted.*
 <br>
 <br>
 _What is the hidden IP address that ends in .232?_
+<br>
+<br>
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
- *Figure 13:*
+ *Figure 13: Steps to getting the answer.*
 <br>
 <br>
 <img width="696" height="112" alt="image" src="https://github.com/user-attachments/assets/551c7ba6-1988-456a-a59e-01038fc4880a" />
- *Figure 14:*
+ *Figure 14: Correct answer submitted*
 
 <br>
 
 _Which domain address starts with the letter "T"?_
+<br>
+<br>
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
- *Figure 15:*
+ *Figure 15: Steps to getting the answer.*
 <br>
 <br>
 <img width="1256" height="117" alt="image" src="https://github.com/user-attachments/assets/919d7cbc-3db4-42d4-89fb-9f6a0fbefa29" />
-*Figure 16:*
+*Figure 16: Answer submitted.*
 
 <br>
 <br>
 _What is the binary value of the decimal number 78?_
 <br>
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
- *Figure 17:*
+ *Figure 17: Steps to getting answer*
 
 <br>
 <br>
 <img width="686" height="94" alt="image" src="https://github.com/user-attachments/assets/6390f427-130a-4681-8cb3-12dda9ac79f4" />
- *Figure 18:*
+ *Figure 18: Answer submitted.*
 <br>
 <br>
 
 _What is the URL encoded value of https://tryhackme.com/r/careers?_
 <br>
 <img width="1691" height="451" alt="image" src="https://github.com/user-attachments/assets/9fa938d7-60d6-44f5-993c-8a1d4aad8050" />
- *Figure 19:*
+ *Figure 19: Steps to getting answer.*
 
 <br>
 <br>
 <img width="1255" height="99" alt="image" src="https://github.com/user-attachments/assets/7aa6c456-d965-4567-9a0f-3b77ba67e11a" />
-*Figure 20:*
+*Figure 20: Answer submitted.*
 
 
 ## TASK 6: Your First Official Cook
@@ -175,53 +184,58 @@ _Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
 <br>
 <br>
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
-*Figure 21:*
+*Figure 21:Getting the answer.*
 
 <br>
 <br>
 <img width="1274" height="117" alt="image" src="https://github.com/user-attachments/assets/e700c92f-f7b7-4c7a-a5be-6801c913d412" />
-*Figure 22:*
+
+_Figure 22: Answer submitted._
  
 _What is the base64 encoded value of the string "Nice Room!"?_
 <br>
 <br>
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
-*Figure 23:*
+*Figure 23: Steps to getting the answer.*
  
 <br>
 <br>
 <img width="1270" height="101" alt="image" src="https://github.com/user-attachments/assets/0a68e3d4-11b4-4677-ba45-a9540430381d" />
-*Figure 24:*
+
+*Figure 24: Answer submitted*
  
 _What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_
 <br>
 <br>
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
- *Figure 25:*
+ *Figure 25: Steps to getting the answer.*
  
 <br>
 <br>
 <img width="1257" height="97" alt="image" src="https://github.com/user-attachments/assets/d681e68a-55af-4ddc-bd55-ada4f9818333" />
-*Figure 26:*
+
+*Figure 26: Answer submitted*
  
 _What is the datetime string for the Unix timestamp 1725151258?_
 <br>
 <img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
-*Figure 27:*
+*Figure 27:Steps to getting answer*
 
 <br>
 <img width="1276" height="96" alt="image" src="https://github.com/user-attachments/assets/86189e28-d7ff-4c96-8487-b6be01d1174f" />
-*Figure 28:*
+
+*Figure 28: Answer submitted.*
  
 _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 <br>
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
-*Figure 29:*
+*Figure 29: Steps to getting answer.*
 
 <br>
 <br>
 <img width="1246" height="112" alt="image" src="https://github.com/user-attachments/assets/096d4a2a-d0c7-4e3f-823e-4b2c214ea20b" />
-*Figure 30:*
+
+*Figure 30: Answer submitted.*
 
 ## TASK 7: Conclusion
 This section covers a summary of what was learned from the room.
