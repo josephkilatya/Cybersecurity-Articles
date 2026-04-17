@@ -24,9 +24,9 @@ For this room I will however be using the Online one for easy access and simplic
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
 *Figure 2: Online Web Access of CyberChef Platfrom.*
 
-Answer the questions below
+ANSWERING THE QUESTIONS
 I have access to CyberChef and I’m ready to dive into it.
-<img width="676" height="173" alt="image" src="https://github.com/user-attachments/assets/0afd9180-6d9d-40f3-9688-4f2ff2f54830" /><br>
+<img width="1267" height="123" alt="image" src="https://github.com/user-attachments/assets/7eea3308-5d93-4747-860d-d2f2e97ee8e4" />
 *Figure 3: Answers to Questions in this section. None required.*
 
 ## TASK 3: Navigating The Interface
