@@ -21,19 +21,25 @@ Accorind to the room, there are two ways to access CyberChef.
 Personally I use the Local Copy access from my malware analysis lab, Flare-VM. You can find an article I wrote on how to set up Flare-VM. Anlysing malware in an isolated is a good practice as it helps prevents infecting your host system with malware accidentaly.
 
 For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
+*Figure 2: Online Web Access of CyberChef Platfrom.*
 
 Answer the questions below
 I have access to CyberChef and I’m ready to dive into it.
-<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
-
+<img width="676" height="173" alt="image" src="https://github.com/user-attachments/assets/0afd9180-6d9d-40f3-9688-4f2ff2f54830" />
+*Figure 3: Answers to Questions in this section. None required.*
 
 ## TASK 3: Navigating The Interface
-These are the following areas:
+CyberChef interface has the following sections that make it whole and each serving different functionality.
 
-Operations
-Recipe
-Input
-Output
+Operations: Think of operations as functions. Some of the functions include:
+1. URL Encode - Serves the purpose of encoding URLs,
+2. To Base64 - Encodes ASCII text to Base64 formart
+     
+Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirables functioning. Kind of adding ingridients to your recipe when preparing a meal. The ingridinets you add will determine the taste of your meal (output)
+
+Input: Input is basically the data that you want to process (cooking your recipe)
+Output: The results from input data after processing running your selected operations over your input data 
 
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
 
