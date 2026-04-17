@@ -23,11 +23,13 @@ Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. 
 
 For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
 <br>
+<br>
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
 *Figure 2: Online Web Access of CyberChef Platfrom.*
 
 ANSWERING THE QUESTIONS
 I have access to CyberChef and I’m ready to dive into it.
+<br>
 <br>
 <img width="1267" height="123" alt="image" src="https://github.com/user-attachments/assets/7eea3308-5d93-4747-860d-d2f2e97ee8e4" />
 *Figure 3: Answers to Questions in this section. None required.*
@@ -45,7 +47,9 @@ Input: Input is basically the data that you want to process (cooking your recipe
 Output: The results from input data after processing running your selected operations over your input data 
 
 ANSWERING THE QUESTIONS
+<br>
 _In which area can you find "From Base64"?_
+<br>
 <br>
 <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
  *Figure 4: Screenshot showing where to find answer to question above*
