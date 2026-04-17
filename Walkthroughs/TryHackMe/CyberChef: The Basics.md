@@ -11,7 +11,7 @@ The prerequisites listed are:
 2. [Cryptography Basics](https://tryhackme.com/r/room/cryptographybasics)
    
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
-_Figure 1: No answers needed for questions in this section._
+*Figure 1: No answers needed for questions in this section.*
 
 ## TASK 2: Accessing The Tool
 Accorind to the room, there are two ways to access CyberChef.
@@ -48,14 +48,14 @@ _In which area can you find "From Base64"?_
  
 
  <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
-  *Figure 5:*
+*Figure 5:*
 
 _Which area is considered the heart of the tool?_
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
  *Figure 7:*
 
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
- *Figure 8:*
+*Figure 8:*
 
 ## TASK 4: Before Anaything Else
 This section highlights the thought process for achieving better results from using CyberChef:
@@ -69,10 +69,10 @@ Step 4: Check the output to see if is the intended result - From the example use
 
 ANSWERING THE QUESTIONS
 <img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
- *Figure 9:*
+*Figure 9:*
 
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
- *Figure 10:*
+*Figure 10:*
  
 ## TASK 5: Practice, Practice, Practice
 As the old saying goes, Practice makes perfect. That's is what this section helps by getting our hands a little dirty 😅.
@@ -116,8 +116,8 @@ _Which domain address starts with the letter "T"?_
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
  *Figure 15:*
 
-<img width="676" height="109" alt="image" src="https://github.com/user-attachments/assets/fdcc59a8-9b71-4641-9cd5-36ed460885fc" />
- *Figure 16:*
+<img width="1256" height="117" alt="image" src="https://github.com/user-attachments/assets/919d7cbc-3db4-42d4-89fb-9f6a0fbefa29" />
+*Figure 16:*
 
 
 _What is the binary value of the decimal number 78?_
@@ -134,8 +134,8 @@ _What is the URL encoded value of https://tryhackme.com/r/careers?_
  *Figure 19:*
 
 
-<img width="680" height="118" alt="image" src="https://github.com/user-attachments/assets/fc5d0f09-7a9b-483d-994c-77a8c60594ea" />
- *Figure 20:*
+<img width="1255" height="99" alt="image" src="https://github.com/user-attachments/assets/7aa6c456-d965-4567-9a0f-3b77ba67e11a" />
+*Figure 20:*
 
 
 ## TASK 6: Your First Official Cook
@@ -146,38 +146,38 @@ This section notes down a key point, _"It's best to try to answer the questions 
 ANSWERING THE QUESTIONS:
 _Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
- *Figure 21:*
+*Figure 21:*
 
 <img width="1274" height="117" alt="image" src="https://github.com/user-attachments/assets/e700c92f-f7b7-4c7a-a5be-6801c913d412" />
- *Figure 22:*
+*Figure 22:*
  
 _What is the base64 encoded value of the string "Nice Room!"?_
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
- *Figure 23:*
+*Figure 23:*
  
 <img width="1270" height="101" alt="image" src="https://github.com/user-attachments/assets/0a68e3d4-11b4-4677-ba45-a9540430381d" />
- *Figure 24:*
+*Figure 24:*
  
 _What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
  *Figure 25:*
  
 <img width="1257" height="97" alt="image" src="https://github.com/user-attachments/assets/d681e68a-55af-4ddc-bd55-ada4f9818333" />
- *Figure 26:*
+*Figure 26:*
  
 _What is the datetime string for the Unix timestamp 1725151258?_
 <img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
- *Figure 27:*
+*Figure 27:*
 
 <img width="1276" height="96" alt="image" src="https://github.com/user-attachments/assets/86189e28-d7ff-4c96-8487-b6be01d1174f" />
- *Figure 28:*
+*Figure 28:*
  
 _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
- *Figure 29:*
+*Figure 29:*
 
 <img width="1246" height="112" alt="image" src="https://github.com/user-attachments/assets/096d4a2a-d0c7-4e3f-823e-4b2c214ea20b" />
- *Figure 30:*
+*Figure 30:*
 
 ## TASK 7: Conclusion
 This section covers a summary of what was learned from the room.
@@ -185,7 +185,7 @@ This section covers a summary of what was learned from the room.
 ANSWERING THE QUESTIONS
 _I will have CyberChef, the Swiss Army knife of cyber security, ready for my upcoming journeys!_
 <img width="680" height="115" alt="image" src="https://github.com/user-attachments/assets/13fed1de-e64f-489f-8cdf-f09bbb7bb519" />
-*Figure 31: No Anwers Needed for above question*
+*Figure 31: No Anwers Needed for above question.*
 
 # CONCLUSION
 Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of knew things such working with Extractor Operataions. I will leave it there folks. Happy Haccking :)
