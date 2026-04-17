@@ -1,21 +1,12 @@
-TASK 1: Introduction:
-CyberChef is a simple, intuitive web-based application designed to help with various “cyber” operation tasks within your web browser. Think of it as a Swiss Army knife for data - like having a toolbox of different tools designed to do a specific task. These tasks range from simple encodings like XOR or Base64 to complex operations like AES encryption or RSA decryption. CyberChef operates on recipes, a series of operations executed in order.
+# Introduction
 
-Learning Objectives
-Learn what CyberChef is
-Learn how to navigate the interface
-Understand common operations
-Learn how to create recipes and process the data
-Room Prerequisites
-Familiarity with the following rooms is recommended but is not mandatory before starting this room.
 
-Hashing Basics
-Cryptography Basics
-
+# Walkthrough
+## TASK 1: Introduction:
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
 
 
-TASK 2: Accessing The Tool
+## TASK 2: Accessing The Tool
 
 There are different ways to access and run CyberChef. Let's check the two most convenient methods!
 
@@ -30,7 +21,7 @@ I have access to CyberChef and I’m ready to dive into it.
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
 
 
-TASK 3: Navigating The Interface
+## TASK 3: Navigating The Interface
 These are the following areas:
 
 Operations
@@ -52,13 +43,13 @@ Output
 
 
 
-TASK 4: Before Anaything Else
+## TASK 4: Before Anaything Else
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
 
 <img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
 
 
-TASK 5: Practice, Practice, Practice
+## TASK 5: Practice, Practice, Practice
 
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
 
@@ -73,7 +64,7 @@ TASK 5: Practice, Practice, Practice
 <img width="1266" height="569" alt="image" src="https://github.com/user-attachments/assets/13e6405d-fd7b-45ad-9f65-1a899477595b" />
 
 
-TASK 6: Your First Official Cook
+## TASK 6: Your First Official Cook
 
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
 
@@ -89,7 +80,10 @@ TASK 6: Your First Official Cook
 
 
 
-TASK 7: Conclusion
+## TASK 7: Conclusion
+<img width="680" height="115" alt="image" src="https://github.com/user-attachments/assets/13fed1de-e64f-489f-8cdf-f09bbb7bb519" />
+
+# CONCLUSION
 
 
 
