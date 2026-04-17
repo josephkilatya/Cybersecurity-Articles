@@ -44,15 +44,13 @@ Output: The results from input data after processing running your selected opera
 ANSWERING THE QUESTIONS:
 _In which area can you find "From Base64"?_
  <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- 
-<img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
+
+ <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
 
 _Which area is considered the heart of the tool?_
-<img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
+<img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
 
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
-
-
 
 ## TASK 4: Before Anaything Else
 This section highlights the thought process for achieving better results from using CyberChef:
@@ -65,13 +63,12 @@ Step 3: Select the Operations you might want to use - Go to operations section a
 Step 4: Check the output to see if is the intended result - From the example used in my case, we would expect base64 version of "I LOVE CYBERSECURITY", which is "SSBMT1ZFIENZQkVSU0VDVVJJVFk="
 
 ANSWERING THE QUESTIONS
-<img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
-
 <img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
 
+<img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
 
 ## TASK 5: Practice, Practice, Practice
-As the old saying goes, Practice makes perfect. That's is what this section helps by getting our hands a little dirty.
+As the old saying goes, Practice makes perfect. That's is what this section helps by getting our hands a little dirty 😅.
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
 
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
