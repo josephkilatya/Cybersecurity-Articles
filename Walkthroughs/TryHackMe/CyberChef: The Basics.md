@@ -14,11 +14,11 @@ The prerequisites listed are:
 *Figure 1: No answers needed for questions in this section.*
 
 ## TASK 2: Accessing The Tool
-Accorind to the room, there are two ways to access CyberChef.
-1. Online Access through a web browser
-2. Offline or Local Copy
+According to the room, there are two ways to access CyberChef.
+1. Online Access through a web browser [here](https://gchq.github.io/CyberChef)
+2. Offline or Local Copy cloned from GitHub repo [here](https://github.com/gchq/cyberchef)
 
-Personally I use the Local Copy access from my malware analysis lab, Flare-VM. You can find an article I wrote on how to set up Flare-VM. Anlysing malware in an isolated is a good practice as it helps prevents infecting your host system with malware accidentaly.
+Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. CyberChef comes by default with Flare-VM. You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Anlysing malware in an isolated environment is a good practice as it prevents malware from accidentaly infecting your host system.
 
 For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
@@ -44,18 +44,20 @@ Output: The results from input data after processing running your selected opera
 ANSWERING THE QUESTIONS
 _In which area can you find "From Base64"?_
  <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- *Figure 4:*
+ *Figure 4: Screenshot showing where to find answer to question above*
  
 
  <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
-*Figure 5:*
+*Figure 5: Correct answer submitted*
+<br>
+<br>
 
 _Which area is considered the heart of the tool?_
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7:*
+ *Figure 7: Screenshot showing how to get answer to above question*
 
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
-*Figure 8:*
+*Figure 8: Screenshot showing correct answer submitted*
 
 ## TASK 4: Before Anaything Else
 This section highlights the thought process for achieving better results from using CyberChef:
