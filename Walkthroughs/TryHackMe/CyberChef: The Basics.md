@@ -11,7 +11,7 @@ The prerequisites listed are:
 2. [Cryptography Basics](https://tryhackme.com/r/room/cryptographybasics)
    
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
-*Figure 1: No answers needed for questions in this section.*
+_Figure 1: No answers needed for questions in this section._
 
 ## TASK 2: Accessing The Tool
 Accorind to the room, there are two ways to access CyberChef.
