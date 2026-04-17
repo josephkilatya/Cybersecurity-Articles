@@ -1,4 +1,5 @@
-# Introduction
+# CyberChef: The Basics - TryHackMe Walkthrough
+**Introduction**
 From the room..."_CyberChef is a simple, intuitive web-based application designed to help with various “cyber” operation tasks within your web browser. Think of it as a Swiss Army knife for data - like having a toolbox of different tools designed to do a specific task. These tasks range from simple encodings like XOR or Base64 to complex operations like AES encryption or RSA decryption. CyberChef operates on recipes, a series of operations executed in order._"
 
 This not being my first time to interact with CyberChef, I have been using it in my career to decode malware scripts. The tool is really reliable for any security professional be it a defender or offensive security individuals. To me, this room is going to be more of refresher.
@@ -19,7 +20,7 @@ According to the room, there are two ways to access CyberChef.
 1. Online Access through a web browser [here](https://gchq.github.io/CyberChef)
 2. Offline or Local Copy cloned from GitHub repo [here](https://github.com/gchq/cyberchef)
 
-Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. CyberChef comes by default with Flare-VM. You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Analysing malware in an isolated environment is a good practice as it prevents malware from accidentaly infecting your host system.
+Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. CyberChef comes by default with Flare-VM. You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Analysing malware in an isolated environment is a good practice as it prevents malware from accidentally infecting your host system.
 
 For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
 <br>
@@ -32,14 +33,14 @@ I have access to CyberChef and I’m ready to dive into it.
 <br>
 <br>
 <img width="1267" height="123" alt="image" src="https://github.com/user-attachments/assets/7eea3308-5d93-4747-860d-d2f2e97ee8e4" />
-*Figure 3: No answer reuired for question above.*
+*Figure 3: No answer required for question above.*
 
 ## TASK 3: Navigating The Interface
 CyberChef interface has the following sections that make it whole and each serving different functionality.
 
 Operations: Think of operations as functions. Some of the functions include:
 1. URL Encode - Serves the purpose of encoding URLs,
-2. To Base64 - Encodes ASCII text to Base64 formart
+2. To Base64 - Encodes ASCII text to Base64 format
      
 Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirable functioning. Kind of adding ingredients to your recipe when preparing a cake. The ingredinets you add will determine the taste of your cake (output)
 
@@ -52,7 +53,7 @@ _In which area can you find "From Base64"?_
 <br>
 <br>
 <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- *Figure 4:  Steps to getting the answer.*
+ *Figure 4:  Steps to how to find the answer.*
  
 
 <br>
@@ -64,7 +65,7 @@ _In which area can you find "From Base64"?_
 _Which area is considered the heart of the tool?_
 <br>
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7:  Steps to getting the answer.*
+ *Figure 7:  Steps to how to find the answer.*
 <br>
 <br>
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
@@ -84,7 +85,7 @@ ANSWERING THE QUESTIONS
 <br><br>
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
 
-*Figure 9:  Steps to getting the answer.*
+*Figure 9:  Steps to how to find the answer.*
 <br>
 <br>
 
@@ -120,7 +121,7 @@ _What is the hidden email address?_
 <br>
 <br>
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
- *Figure 11:  Steps to getting the answer.*
+ *Figure 11:  Steps to how to find the answer.*
 <br>
 <br>
 <img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
@@ -131,7 +132,7 @@ _What is the hidden IP address that ends in .232?_
 <br>
 <br>
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
- *Figure 13: Steps to getting the answer.*
+ *Figure 13: Steps to how to find the answer.*
 <br>
 <br>
 <img width="696" height="112" alt="image" src="https://github.com/user-attachments/assets/551c7ba6-1988-456a-a59e-01038fc4880a" />
@@ -143,7 +144,7 @@ _Which domain address starts with the letter "T"?_
 <br>
 <br>
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
- *Figure 15: Steps to getting the answer.*
+ *Figure 15: Steps to how to find the answer.*
 <br>
 <br>
 <img width="1256" height="117" alt="image" src="https://github.com/user-attachments/assets/919d7cbc-3db4-42d4-89fb-9f6a0fbefa29" />
@@ -184,7 +185,7 @@ _Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
 <br>
 <br>
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
-*Figure 21:Getting the answer.*
+*Figure 21:how to find the answer.*
 
 <br>
 <br>
@@ -196,7 +197,7 @@ _What is the base64 encoded value of the string "Nice Room!"?_
 <br>
 <br>
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
-*Figure 23: Steps to getting the answer.*
+*Figure 23: Steps to how to find the answer.*
  
 <br>
 <br>
@@ -208,7 +209,7 @@ _What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcy
 <br>
 <br>
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
- *Figure 25: Steps to getting the answer.*
+ *Figure 25: Steps to how to find the answer.*
  
 <br>
 <br>
@@ -247,7 +248,7 @@ _I will have CyberChef, the Swiss Army knife of cyber security, ready for my upc
 *Figure 31: No Answers Needed for above question.*
 
 # CONCLUSION
-Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of new things such working with Extractor Operataions. I will leave it there folks. Happy Hacking :)
+Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of new things such working with Extractor Operations. I will leave it there folks. Happy Hacking :)
 
 
 
