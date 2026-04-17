@@ -151,10 +151,15 @@ _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 
 
 ## TASK 7: Conclusion
+This section covers a summary of what was learned from the room.
+
+ANSWERING THE QUESTIONS
+_I will have CyberChef, the Swiss Army knife of cyber security, ready for my upcoming journeys!_
 <img width="680" height="115" alt="image" src="https://github.com/user-attachments/assets/13fed1de-e64f-489f-8cdf-f09bbb7bb519" />
+*Figure: No Anwers Needed for above question*
 
 # CONCLUSION
-
+Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of knew things such working with Extractor Operataions. I will leave it there folks. Happy Haccking :)
 
 
 
