@@ -69,6 +69,17 @@ ANSWERING THE QUESTIONS
 
 ## TASK 5: Practice, Practice, Practice
 As the old saying goes, Practice makes perfect. That's is what this section helps by getting our hands a little dirty 😅.
+
+Before we do that, there's a few new things introduced here:
+1. Extractors: Honestly, I did not know about them until I went through this room (See why continous learning helps 🙂). This are operations used to extract data such as
+   - Extract IP addresses - Extracts all IPv4 and IPv6 addresses from input data
+   - Extract URLs
+   - Extract email addresses
+
+2. Date and Time: Operataions that help with converting Timestamps
+   - **From UNIX Timestamp** to datetime string
+   - **To UNIX Timestamp** - converts UTC datestring into corresponding timestamp
+     
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
 
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
