@@ -115,21 +115,36 @@ _What is the URL encoded value of https://tryhackme.com/r/careers?_
 
 <img width="680" height="118" alt="image" src="https://github.com/user-attachments/assets/fc5d0f09-7a9b-483d-994c-77a8c60594ea" />
 
-
-<img width="1266" height="569" alt="image" src="https://github.com/user-attachments/assets/13e6405d-fd7b-45ad-9f65-1a899477595b" />
-
-
 ## TASK 6: Your First Official Cook
+Time for more practice.
 
+This section notes down a key point, _"It's best to try to answer the questions first without using the hints."_
+
+ANSWERING THE QUESTIONS:
+_Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
 
+<img width="1274" height="117" alt="image" src="https://github.com/user-attachments/assets/e700c92f-f7b7-4c7a-a5be-6801c913d412" />
+
+_What is the base64 encoded value of the string "Nice Room!"?_
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
 
+<img width="1270" height="101" alt="image" src="https://github.com/user-attachments/assets/0a68e3d4-11b4-4677-ba45-a9540430381d" />
+
+_What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
 
+<img width="1257" height="97" alt="image" src="https://github.com/user-attachments/assets/d681e68a-55af-4ddc-bd55-ada4f9818333" />
+
+_What is the datetime string for the Unix timestamp 1725151258?_
 <img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
 
+<img width="1276" height="96" alt="image" src="https://github.com/user-attachments/assets/86189e28-d7ff-4c96-8487-b6be01d1174f" />
+
+_What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
+
+<img width="1246" height="112" alt="image" src="https://github.com/user-attachments/assets/096d4a2a-d0c7-4e3f-823e-4b2c214ea20b" />
 
 <img width="1257" height="587" alt="image" src="https://github.com/user-attachments/assets/b4a1040f-558b-43d8-9550-83bc67d8dd61" />
 
