@@ -11,7 +11,7 @@ The prerequisites listed are:
 2. [Cryptography Basics](https://tryhackme.com/r/room/cryptographybasics)
    
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
-*Figure 1: No answers needed for questions in this section*
+*Figure 1: No answers needed for questions in this section.*
 
 ## TASK 2: Accessing The Tool
 Accorind to the room, there are two ways to access CyberChef.
@@ -145,10 +145,6 @@ _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
 
 <img width="1246" height="112" alt="image" src="https://github.com/user-attachments/assets/096d4a2a-d0c7-4e3f-823e-4b2c214ea20b" />
-
-<img width="1257" height="587" alt="image" src="https://github.com/user-attachments/assets/b4a1040f-558b-43d8-9550-83bc67d8dd61" />
-
-
 
 ## TASK 7: Conclusion
 This section covers a summary of what was learned from the room.
