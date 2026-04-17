@@ -41,9 +41,10 @@ Recipe: Once you select the operation you want it is added into this section. Yo
 Input: Input is basically the data that you want to process (cooking your recipe)
 Output: The results from input data after processing running your selected operations over your input data 
 
-ANSWERING THE QUESTIONS:
+ANSWERING THE QUESTIONS
 _In which area can you find "From Base64"?_
  <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
+ 
 
  <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
 
