@@ -26,7 +26,7 @@ For this room I will however be using the Online one for easy access and simplic
 
 Answer the questions below
 I have access to CyberChef and I’m ready to dive into it.
-<img width="676" height="173" alt="image" src="https://github.com/user-attachments/assets/0afd9180-6d9d-40f3-9688-4f2ff2f54830" />
+<img width="676" height="173" alt="image" src="https://github.com/user-attachments/assets/0afd9180-6d9d-40f3-9688-4f2ff2f54830" /><br>
 *Figure 3: Answers to Questions in this section. None required.*
 
 ## TASK 3: Navigating The Interface
