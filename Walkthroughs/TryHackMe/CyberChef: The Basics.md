@@ -1,20 +1,26 @@
 # Introduction
+From the room..."_CyberChef is a simple, intuitive web-based application designed to help with various “cyber” operation tasks within your web browser. Think of it as a Swiss Army knife for data - like having a toolbox of different tools designed to do a specific task. These tasks range from simple encodings like XOR or Base64 to complex operations like AES encryption or RSA decryption. CyberChef operates on recipes, a series of operations executed in order._"
 
+This not being my first time to interact with CyberChef, I have been using it in my career to decode malware scripts. The tool is really reliable for any security professional be it a defender or offensive security individuals. To me, this room is going to be more of refresher.
 
 # Walkthrough
 ## TASK 1: Introduction:
+This section covers the introduction on what the tool is, the learning objectives and the prerequisites needed for the room.
+The prerequisites listed are:
+1. [Hashing Basics](https://tryhackme.com/r/room/hashingbasics)
+2. [Cryptography Basics](https://tryhackme.com/r/room/cryptographybasics)
+   
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
-
+*Figure 1: No answers needed for questions in this section*
 
 ## TASK 2: Accessing The Tool
+Accorind to the room, there are two ways to access CyberChef.
+1. Online Access through a web browser
+2. Offline or Local Copy
 
-There are different ways to access and run CyberChef. Let's check the two most convenient methods!
+Personally I use the Local Copy access from my malware analysis lab, Flare-VM. You can find an article I wrote on how to set up Flare-VM. Anlysing malware in an isolated is a good practice as it helps prevents infecting your host system with malware accidentaly.
 
-Online Access
-All you need is a web browser and an internet connection. Then, you can click this link(opens in new tab) to open CyberChef directly within your web browser.
-
-Offline or Local Copy
-You can run this offline or locally on your machine by downloading the latest release file from this link(opens in new tab). This will work on both Windows and Linux platforms. As best practice, you should download the most stable version.
+For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
 
 Answer the questions below
 I have access to CyberChef and I’m ready to dive into it.
