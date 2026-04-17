@@ -19,20 +19,20 @@ According to the room, there are two ways to access CyberChef.
 1. Online Access through a web browser [here](https://gchq.github.io/CyberChef)
 2. Offline or Local Copy cloned from GitHub repo [here](https://github.com/gchq/cyberchef)
 
-Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. CyberChef comes by default with Flare-VM. You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Anlysing malware in an isolated environment is a good practice as it prevents malware from accidentaly infecting your host system.
+Personally, I use the Local Copy access from my malware analysis lab, Flare-VM. CyberChef comes by default with Flare-VM. You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Analysing malware in an isolated environment is a good practice as it prevents malware from accidentaly infecting your host system.
 
 For this room I will however be using the Online one for easy access and simplicity as the goal is to learn.
 <br>
 <br>
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
-*Figure 2: Online Web Access of CyberChef Platfrom.*
+*Figure 2: Online Web Access of CyberChef Platform.*
 
 ANSWERING THE QUESTIONS
 I have access to CyberChef and I’m ready to dive into it.
 <br>
 <br>
 <img width="1267" height="123" alt="image" src="https://github.com/user-attachments/assets/7eea3308-5d93-4747-860d-d2f2e97ee8e4" />
-*Figure 3: Answers to Questions in this section. None required.*
+*Figure 3: No answer reuired for question above.*
 
 ## TASK 3: Navigating The Interface
 CyberChef interface has the following sections that make it whole and each serving different functionality.
@@ -41,7 +41,7 @@ Operations: Think of operations as functions. Some of the functions include:
 1. URL Encode - Serves the purpose of encoding URLs,
 2. To Base64 - Encodes ASCII text to Base64 formart
      
-Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirables functioning. Kind of adding ingridients to your recipe when preparing a meal. The ingridinets you add will determine the taste of your meal (output)
+Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirable functioning. Kind of adding ingredients to your recipe when preparing a cake. The ingredinets you add will determine the taste of your cake (output)
 
 Input: Input is basically the data that you want to process (cooking your recipe)
 Output: The results from input data after processing running your selected operations over your input data 
@@ -52,31 +52,31 @@ _In which area can you find "From Base64"?_
 <br>
 <br>
 <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- *Figure 4: Screenshot showing where to find answer to question above*
+ *Figure 4:  Steps to getting the answer.*
  
 
 <br>
 <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
-*Figure 5: Correct answer submitted*
+*Figure 5: Answer submitted.*
 <br>
 <br>
 
 _Which area is considered the heart of the tool?_
 <br>
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7: Screenshot showing how to get answer to above question*
+ *Figure 7:  Steps to getting the answer.*
 <br>
 <br>
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
-*Figure 8: Screenshot showing correct answer submitted*
+*Figure 8: Answer submitted.*
 
-## TASK 4: Before Anaything Else
+## TASK 4: Before Anything Else
 This section highlights the thought process for achieving better results from using CyberChef:
-Step 1: Set a clear objective - Knowing what you want to achieve really helps you in determining the operations you want. For example; I want to convert/encode ASCII text "I LOVE CYBERSECURITY" to Base64.
+Step 1: Set a clear objective - Knowing what you want to achieve really helps you in determining the operations you want. For example; I want to convert/encode ASCII text "I LOVE CYBERSECURITY" to base64.
 
 Step 2: Put your data into the input area - From the example given above, this could involve typing or pasting the text "I LOVE CYBERSECURITY" in the data input field.
 
-Step 3: Select the Operations you might want to use - Go to operations section and search "to bas64". Next we double-click the operation to add it in the recipe section or drag-and-dropping it there. Once everything is ready, BAKE your recipe (processing your data through selected operations)
+Step 3: Select the Operations you might want to use - Go to operations section and search "to base64". Next we double-click the operation to add it in the recipe section or drag-and-dropping it there. Once everything is ready, BAKE your recipe (processing your data through selected operations)
 
 Step 4: Check the output to see if is the intended result - From the example used in my case, we would expect base64 version of "I LOVE CYBERSECURITY", which is "SSBMT1ZFIENZQkVSU0VDVVJJVFk="
 
@@ -84,47 +84,47 @@ ANSWERING THE QUESTIONS
 <br><br>
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
 
-*Figure 9: How to get answer to question above.*
+*Figure 9:  Steps to getting the answer.*
 <br>
 <br>
 
 <img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
-*Figure 10: Correct Answer submitted*
+*Figure 10: Answer submitted.*
  
 ## TASK 5: Practice, Practice, Practice
 As the old saying goes, Practice makes perfect. So, getting ready to get your hands a little dirty 😅.
 
 Before we do that, there's a few new things introduced in this section:
-1. Extractors: Honestly, I did not know about them until I went through this room (See why continous learning helps 🙂). This are operations used to;
+1. Extractors: Honestly, I did not know about them until I went through this room (See why continuous learning helps 🙂). This are operations used to;
    - Extract IP addresses - Extracts all IPv4 and IPv6 addresses from input data
    - Extract URLs
    - Extract email addresses
 
-2. Date and Time: Operataions that help with converting Timestamps
+2. Date and Time: Operations that help with converting Timestamps
    - **From UNIX Timestamp** to datetime string
    - **To UNIX Timestamp** - converts UTC datestring into corresponding timestamp
 <br>
 Suppose you are asking UNIX timestamp is, it is a system for representing a point in time by counting the number of seconds that have elapsed since January 1, 1970, at 00:00:00 UTC, which is known as the Unix Epoch. 
   
-3. Data Format: This are operations that convert input data from one form to another. Some need to be combined in order to get the desired output. They include the following:
+3. Data Format: These are operations that convert input data from one form to another. Some need to be combined in order to get the desired output. They include the following:
    - From Base64
    - URL Decode
    - From Base85
    - From Base58
    - To Base62
   
-The section also does teache us how to change data from Base(64, 85, 58, 62) encodings and vice-versa manually. 
+The section also teaches us how to change data from Base(64, 85, 58, 62) encodings and vice-versa manually. 
 
 ANSWERING THE QUESTIONS:
 _What is the hidden email address?_
 <br>
 <br>
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
- *Figure 11: Getting the answer*
+ *Figure 11:  Steps to getting the answer.*
 <br>
 <br>
 <img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
- *Figure 12: Correct answer submitted.*
+ *Figure 12: Answer submitted..*
 <br>
 <br>
 _What is the hidden IP address that ends in .232?_
@@ -135,7 +135,7 @@ _What is the hidden IP address that ends in .232?_
 <br>
 <br>
 <img width="696" height="112" alt="image" src="https://github.com/user-attachments/assets/551c7ba6-1988-456a-a59e-01038fc4880a" />
- *Figure 14: Correct answer submitted*
+ *Figure 14: Answer submitted.*
 
 <br>
 
@@ -244,10 +244,10 @@ ANSWERING THE QUESTIONS
 _I will have CyberChef, the Swiss Army knife of cyber security, ready for my upcoming journeys!_
 <br>
 <img width="680" height="115" alt="image" src="https://github.com/user-attachments/assets/13fed1de-e64f-489f-8cdf-f09bbb7bb519" />
-*Figure 31: No Anwers Needed for above question.*
+*Figure 31: No Answers Needed for above question.*
 
 # CONCLUSION
-Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of knew things such working with Extractor Operataions. I will leave it there folks. Happy Haccking :)
+Overall this was really an informative room. A good knowledge refresher for me and grabbed a couple of new things such working with Extractor Operataions. I will leave it there folks. Happy Hacking :)
 
 
 
