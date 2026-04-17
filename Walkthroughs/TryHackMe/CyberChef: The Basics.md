@@ -79,16 +79,42 @@ Before we do that, there's a few new things introduced here:
 2. Date and Time: Operataions that help with converting Timestamps
    - **From UNIX Timestamp** to datetime string
    - **To UNIX Timestamp** - converts UTC datestring into corresponding timestamp
-     
+  
+3. Data Format: This are operations that convert input data from one form to another. Some need to be combined in order to get the desired output. They include the following:
+   - From Base64
+   - URL Decode
+   - From Base85
+   - From Base58
+   - To Base62
+  
+This section also describes how to change data from Base encodings or vice-versa using manual technique.
+
+ANSWERING THE QUESTIONS:
+_What is the hidden email address?_
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
 
+<img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
+     
+_What is the hidden IP address that ends in .232?_
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
 
+<img width="696" height="112" alt="image" src="https://github.com/user-attachments/assets/551c7ba6-1988-456a-a59e-01038fc4880a" />
+
+_Which domain address starts with the letter "T"?_
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
 
+<img width="676" height="109" alt="image" src="https://github.com/user-attachments/assets/fdcc59a8-9b71-4641-9cd5-36ed460885fc" />
+
+_What is the binary value of the decimal number 78?_
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
 
+<img width="686" height="94" alt="image" src="https://github.com/user-attachments/assets/6390f427-130a-4681-8cb3-12dda9ac79f4" />
+
+_What is the URL encoded value of https://tryhackme.com/r/careers?_
 <img width="1691" height="451" alt="image" src="https://github.com/user-attachments/assets/9fa938d7-60d6-44f5-993c-8a1d4aad8050" />
+
+<img width="680" height="118" alt="image" src="https://github.com/user-attachments/assets/fc5d0f09-7a9b-483d-994c-77a8c60594ea" />
+
 
 <img width="1266" height="569" alt="image" src="https://github.com/user-attachments/assets/13e6405d-fd7b-45ad-9f65-1a899477595b" />
 
