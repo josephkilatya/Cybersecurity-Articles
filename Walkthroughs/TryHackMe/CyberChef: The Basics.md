@@ -240,18 +240,18 @@ _What is the datetime string for the Unix timestamp 1725151258?_
 <br>
 <img width="1276" height="96" alt="image" src="https://github.com/user-attachments/assets/86189e28-d7ff-4c96-8487-b6be01d1174f" />
 
-*Figure 28: Answer submitted.*
+*Figure 28: The UTC Timestamp is `Sun 1 September 2024 00:40:58 UTC`*
  
 _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
 <br>
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
-*Figure 29: Steps to getting answer.*
+*Figure 29: Clear current Recipe and data input from previous question and copy-paste our new data in the Input field. Search for the operation **From Base85** and add it to Operations. Bake*
 
 <br>
 <br>
 <img width="1246" height="112" alt="image" src="https://github.com/user-attachments/assets/096d4a2a-d0c7-4e3f-823e-4b2c214ea20b" />
 
-*Figure 30: Answer submitted.*
+*Figure 30: Newly decoded data is `This is fun!`*
 
 ## TASK 7: Conclusion
 This section covers a summary of what was learned from the room.
