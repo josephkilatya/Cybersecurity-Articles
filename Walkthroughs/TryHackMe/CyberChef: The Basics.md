@@ -26,7 +26,7 @@ For this room I will however be using the Online one for easy access and simplic
 <br>
 <br>
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
-*Figure 2: Online Web Access of CyberChef Platform.*
+*Figure 2: Online Web Access of CyberChef Platform. To access the online platform, click embeded link in the THM room or this article*
 
 ANSWERING THE QUESTIONS
 I have access to CyberChef and I’m ready to dive into it.
@@ -50,10 +50,19 @@ Output: The results from input data after processing running your selected opera
 ANSWERING THE QUESTIONS
 <br>
 _In which area can you find "From Base64"?_
+<img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
+ *Figure 7:  To get the answer to question above. Visit your CyberChef session accessed from initial task. When you look around the platform, you will find **From Base64** pinned under Operations section Favourites.*
+<br>
+<br>
+<img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
+*Figure 8: Answer submitted.*
+
+_Which area is considered the heart of the tool?_
+<br>
 <br>
 <br>
 <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- *Figure 4:  Steps to how to find the answer.*
+ *Figure 4:  You can find the answer to the above question in this task's notes*
  
 
 <br>
@@ -62,14 +71,6 @@ _In which area can you find "From Base64"?_
 <br>
 <br>
 
-_Which area is considered the heart of the tool?_
-<br>
-<img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7:  Steps to how to find the answer.*
-<br>
-<br>
-<img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
-*Figure 8: Answer submitted.*
 
 ## TASK 4: Before Anything Else
 This section highlights the thought process for achieving better results from using CyberChef:
