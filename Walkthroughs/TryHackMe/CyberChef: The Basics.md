@@ -99,10 +99,10 @@ _At which step would you determine, "What do I want to accomplish?_
 *Figure 10: Correct Answer is Step 1*
  
 ## TASK 5: Practice, Practice, Practice
-As the old saying goes, Practice makes perfect. So, getting ready to get your hands a little dirty 😅.
+As the old saying goes, Practice makes perfect. So, getting ready to get your hands a little dirty.
 
 Before we do that, there's a few new things introduced in this section:
-1. Extractors: Honestly, I did not know about them until I went through this room (See why continuous learning helps 🙂). This are operations used to;
+1. Extractors: Honestly, I did not know about them until I went through this room (See why continuous learning helps). This are operations used to;
    - Extract IP addresses - Extracts all IPv4 and IPv6 addresses from input data
    - Extract URLs
    - Extract email addresses
@@ -122,27 +122,30 @@ Suppose you are asking UNIX timestamp is, it is a system for representing a poin
   
 The section also teaches us how to change data from Base(64, 85, 58, 62) encodings and vice-versa manually. 
 
-ANSWERING THE QUESTIONS:
+ANSWERING THIS TASK'S QUESTIONS:
+First Download Task File attached in this section. Open the .txt using your favourite text editor (NotePad, Sublime Text, Notepad++ or any other)
+<br>
+<br>
 _What is the hidden email address?_
 <br>
 <br>
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
- *Figure 11:  Steps to how to find the answer.*
+ *Figure 11:  Following the steps from the previous task, our goal is extract data from the data provided. Having the .txt file open in a text editor, copy the whole of it. Next, go to CyberChef Platform and paste the text in Input fiel. Search email under Operations search field and select Extract email address operation to add to Recipe by double clicking. Under Recipe section, Click Bake to run selected Operaration over our data input. Any found emails will be shown under Output Section, below our input data.*
 <br>
 <br>
 <img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
- *Figure 12: Answer submitted..*
+ *Figure 12: Email found for this case is **hidden@hotmail.com***
 <br>
 <br>
 _What is the hidden IP address that ends in .232?_
 <br>
 <br>
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
- *Figure 13: Steps to how to find the answer.*
+ *Figure 13: Proceeding to the above question. Clear the previous Operation from the Recipe by Clicking the trash icon under the same section. Search **Extract Ip** under Operations section, select **Extract IP addresses** as done in previous question to add to recipe. Bake as from previous question. You will get two IP address with one that ends with .232*
 <br>
 <br>
 <img width="696" height="112" alt="image" src="https://github.com/user-attachments/assets/551c7ba6-1988-456a-a59e-01038fc4880a" />
- *Figure 14: Answer submitted.*
+ *Figure 14: From the output after baking the input data with the Recipe provided, the required IP is **102.20.11.232***
 
 <br>
 
@@ -150,35 +153,40 @@ _Which domain address starts with the letter "T"?_
 <br>
 <br>
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
- *Figure 15: Steps to how to find the answer.*
+ *Figure 15: Repeat steps from previous question to clear current Recipe. Search and Add Extract Domains Operation to our Recipe. Bake. Identified domains from the input data will be displayed under Output Section*
 <br>
 <br>
 <img width="1256" height="117" alt="image" src="https://github.com/user-attachments/assets/919d7cbc-3db4-42d4-89fb-9f6a0fbefa29" />
-*Figure 16: Answer submitted.*
+*Figure 16: Based on the above question, the domain name that starts with "T" is `TryHackMe.com`*
 
 <br>
 <br>
 _What is the binary value of the decimal number 78?_
 <br>
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
- *Figure 17: Steps to getting answer*
+ *Figure 17: Repeat previous steps. However, for this particular question, we will be using two operation combined **From Decimal** and **To Binary**. Reason: Computers see everything as a series of bytes. Think of a byte as a small "container" that can hold any decimal number from 0 to 255.
+From Decimal: This tells CyberChef, "I am giving you a number (78). Treat this number as a single byte of data."
+To Binary: This tells CyberChef, "Now, show me the 0s and 1s that make up that byte."
+Because 78 is smaller than 255, it fits perfectly into one byte, and CyberChef reveals its binary "code" (01001110) instantly.*
 
 <br>
 <br>
 <img width="686" height="94" alt="image" src="https://github.com/user-attachments/assets/6390f427-130a-4681-8cb3-12dda9ac79f4" />
- *Figure 18: Answer submitted.*
+
+ *Figure 18: Revealed binary after baking is `01001110`*
 <br>
 <br>
 
 _What is the URL encoded value of https://tryhackme.com/r/careers?_
 <br>
 <img width="1691" height="451" alt="image" src="https://github.com/user-attachments/assets/9fa938d7-60d6-44f5-993c-8a1d4aad8050" />
- *Figure 19: Steps to getting answer.*
+ *Figure 19: Clear input data by clicking the trash icon in the Input section. Paste the URL from the question. Search **URL Encode** under Operations section. Add the operation to Recipe and check the box **Encode all special chars**. By checking the Encode all special chars box, we ensure that every symbol—including those with special functions like &, ?, and /—is converted into its percent-encoded format so it is treated as plain data and doesn't accidentally break the structure of the URL.*
 
 <br>
 <br>
 <img width="1255" height="99" alt="image" src="https://github.com/user-attachments/assets/7aa6c456-d965-4567-9a0f-3b77ba67e11a" />
-*Figure 20: Answer submitted.*
+
+*Figure 20: The Encoded URL is `https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Fcareers`*
 
 
 ## TASK 6: Your First Official Cook
