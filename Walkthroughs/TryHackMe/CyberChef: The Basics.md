@@ -2,7 +2,7 @@
 ## Introduction
 From the room..."_CyberChef is a simple, intuitive web-based application designed to help with various “cyber” operation tasks within your web browser. Think of it as a Swiss Army knife for data - like having a toolbox of different tools designed to do a specific task. These tasks range from simple encodings like XOR or Base64 to complex operations like AES encryption or RSA decryption. CyberChef operates on recipes, a series of operations executed in order._"
 
-Knowing how to use CyberChef is an handy skill as it helps when decoding obfuscated malicious scripts to gain a better understanding of how they work among other things.
+Knowing how to use CyberChef is a handy skill as it helps when decoding obfuscated malicious scripts to gain a better understanding of how they work among other things.
 
 # Walkthrough
 ## TASK 1: Introduction:
@@ -19,7 +19,7 @@ The prerequisites listed are:
 <br>
 <img width="1259" height="144" alt="image" src="https://github.com/user-attachments/assets/b12f402c-ea9f-4cee-b21d-7585f2a93f43" />
 
-*Figure 1: No answer needed for the question abover*
+*Figure 1: No answer needed for the question above*
 
 ## TASK 2: Accessing The Tool
 From the room, we learn that here are two ways to access CyberChef.
