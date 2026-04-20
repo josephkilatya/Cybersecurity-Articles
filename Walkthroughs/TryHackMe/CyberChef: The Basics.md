@@ -22,17 +22,17 @@ The prerequisites listed are:
 *Figure 1: No answer needed for the question above*
 
 ## TASK 2: Accessing The Tool
-From the room, we learn that here are two ways to access CyberChef.
+From the room, we learn that there are two ways to access CyberChef.
 1. Online Access through a web browser [here](https://gchq.github.io/CyberChef)
 2. Offline or Local Copy cloned from GitHub repo [here](https://github.com/gchq/cyberchef)
 
-Personally, I do use the Local Copy access from my malware analysis virtual machine, FLARE-VM. CyberChef comes by default with FLARE-VM. In FLARE-VM, you can find CyberChed under Desktop\FLARE\Utilities\CyberChef folder.You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Analysing malware in an isolated environment is a good practice as it prevents from accidentally infecting host system with malware during analysis.
+Personally, I do use the Local Copy access from my malware analysis virtual machine, FLARE-VM. CyberChef comes by default with FLARE-VM. In FLARE-VM, you can find CyberChef under Desktop\FLARE\Utilities\CyberChef folder.You can find an article I wrote on how to set up Flare-VM [here](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Articles/FLARE-VM%20-%20Building%20A%20Malware%20Analysis%20Lab.md) to guide you with setting up. Analysing malware in an isolated environment is a good practice as it prevents from accidentally infecting host system with malware during analysis.
 
 However, for the case of this room, I will be using the Online one for easy access and simplicity.
 <br>
 <br>
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/36588f96-0b9e-477c-b6f7-a1bf5cc37cd4" />
-*Figure 2: Online Web Access of CyberChef Platform. To access the online platform, click embeded link in the THM room or in this article*
+*Figure 2: Online Web Access of CyberChef Platform. To access the online platform, click embedded link in the THM room or in this article*
 
 ### Task Questions
 _**I have access to CyberChef and I’m ready to dive into it.**_
@@ -48,10 +48,10 @@ Operations: Think of operations as functions. Some of the functions include:
 1. URL Encode - Serves the purpose of encoding URLs,
 2. To Base64 - Encodes ASCII text to Base64 format
      
-Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirable functioning. Kind of adding ingredients to your recipe when preparing a cake. The ingredinets you add will determine the taste of your cake (output)
+Recipe: Once you select the operation you want it is added into this section. You can perform some tweaks/configurations to the operation to achieve desirable functioning. Kind of adding ingredients to your recipe when preparing a cake. The ingredients you add will determine the taste of your cake (output)
 
 Input: Input is basically the data that you want to process (cooking your recipe)
-Output: The results from input data after processing running your selected operations over your input data 
+Output: The results from input data after processing thr selected operations over your input data 
 
 Additional and better to understand CyberChef Sections include:
 Operations Search Field: This acts as a search bar that allows you to quickly find specific tools or functions from CyberChef’s massive library by typing in keywords like "Base64," "URL," or "Hex."
@@ -63,7 +63,7 @@ Bake: This button manually triggers the "Recipe" you have built, processing the 
 
 **_In which area can you find "From Base64"?_**
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7:  To get the answer to question above. Visit your opned CyberChef session from previous task. When you look around the platform, you will find **From Base64** operation pinned under Operations' section Favourites.*
+ *Figure 7:  To get the answer to question above. Visit your opened CyberChef session from previous task. When you look around the platform, you will find **From Base64** operation pinned under Operations' section Favourites.*
 <br>
 <br>
 <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
@@ -124,7 +124,7 @@ Before we do that, there's a few new things introduced in this section:
    - **From UNIX Timestamp** to datetime string
    - **To UNIX Timestamp** - converts UTC datestring into corresponding timestamp
 <br>
-Suppose you are asking UNIX timestamp is, it is a system for representing a point in time by counting the number of seconds that have elapsed since January 1, 1970, at 00:00:00 UTC, which is known as the Unix Epoch. 
+If you`re wondering what a UNIX timestamp is, it is a system for representing a point in time by counting the number of seconds that have elapsed since January 1, 1970, at 00:00:00 UTC, which is known as the Unix Epoch. 
   
 3. Data Format: These are operations that convert input data from one form to another. Some need to be combined in order to get the desired output. They include the following:
    - From Base64
@@ -178,7 +178,7 @@ First Download Task File attached in this section. Open the .txt using your favo
 <br>
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
 
- *Figure 17: Repeat previous steps. However, for this particular question, we will be using two operations combined; **From Decimal** and **To Binary**. Logic behind the convertion: Computers see everything as a series of bytes. Think of a byte as a small "container" that can hold any decimal number from 0 to 255.
+ *Figure 17: Repeat previous steps. However, for this particular question, we will be using two operations combined; **From Decimal** and **To Binary**. Logic behind the conversion: Computers see everything as a series of bytes. Think of a byte as a small "container" that can hold any decimal number from 0 to 255.
 From Decimal: This tells CyberChef, "I am giving you a number (78). Treat this number as a single byte of data."
 To Binary: This tells CyberChef, "Now, show me the 0s and 1s that make up that byte."
 Because 78 is smaller than 255, it fits perfectly into one byte, and CyberChef reveals its binary "code" (01001110) instantly.*
@@ -207,7 +207,7 @@ Because 78 is smaller than 255, it fits perfectly into one byte, and CyberChef r
 Time for more practice.
 
 Key **NOTE** from the Task:** _"It's best to try to answer the questions first without using the hints."_**
-Trying to solve the question on your own is a good practice as it strengthens your problem solving skills. Since, you are already here, you probably might have been stuck and looked for solutions on how to approach the questions. That is also a good practice.
+Trying to solve the question on your own is a good practice as it strengthens your problem solving skills. Since you are already here, you probably might have gotten stuck and looked for solutions on how to approach the questions. Don't feel bad about it, that's how we learn.
 
 ### Task Questions:
 **_Using the file you downloaded in Task 5, which IP starts and ends with "10"?_**
