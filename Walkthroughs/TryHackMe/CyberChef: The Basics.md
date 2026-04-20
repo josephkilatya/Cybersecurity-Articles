@@ -51,7 +51,7 @@ ANSWERING THE QUESTIONS
 <br>
 _In which area can you find "From Base64"?_
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
- *Figure 7:  To get the answer to question above. Visit your CyberChef session accessed from initial task. When you look around the platform, you will find **From Base64** pinned under Operations section Favourites.*
+ *Figure 7:  To get the answer to question above. Visit your CyberChef opened session from previous task. When you look around the platform, you will find **From Base64** operation pinned under Operations' section Favourites.*
 <br>
 <br>
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
@@ -62,12 +62,14 @@ _Which area is considered the heart of the tool?_
 <br>
 <br>
 <img width="1252" height="157" alt="image" src="https://github.com/user-attachments/assets/8d0c827f-6efe-4e72-ba4f-5d8555ebf586" />
- *Figure 4:  You can find the answer to the above question in this task's notes*
+ *Figure 4:  You can find the answer to the above question in the task's notes*
  
 
 <br>
 <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
-*Figure 5: Answer submitted.*
+
+*Figure 5: The correct Anser is **Recipe***
+
 <br>
 <br>
 
@@ -84,14 +86,17 @@ Step 4: Check the output to see if is the intended result - From the example use
 
 ANSWERING THE QUESTIONS
 <br><br>
+_At which step would you determine, "What do I want to accomplish?_
+<br>
+<br>
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
 
-*Figure 9:  Steps to how to find the answer.*
+*Figure 9:  Answer to the question above can be found under the tasks notes as shown in screenshot above.*
 <br>
 <br>
 
 <img width="1266" height="161" alt="image" src="https://github.com/user-attachments/assets/b9e4b724-629a-4d38-9fb7-879db693de03" />
-*Figure 10: Answer submitted.*
+*Figure 10: Correct Answer is Step 1*
  
 ## TASK 5: Practice, Practice, Practice
 As the old saying goes, Practice makes perfect. So, getting ready to get your hands a little dirty 😅.
