@@ -164,6 +164,7 @@ _Which domain address starts with the letter "T"?_
 _What is the binary value of the decimal number 78?_
 <br>
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
+
  *Figure 17: Repeat previous steps. However, for this particular question, we will be using two operation combined **From Decimal** and **To Binary**. Reason: Computers see everything as a series of bytes. Think of a byte as a small "container" that can hold any decimal number from 0 to 255.
 From Decimal: This tells CyberChef, "I am giving you a number (78). Treat this number as a single byte of data."
 To Binary: This tells CyberChef, "Now, show me the 0s and 1s that make up that byte."
@@ -192,49 +193,49 @@ _What is the URL encoded value of https://tryhackme.com/r/careers?_
 ## TASK 6: Your First Official Cook
 Time for more practice.
 
-This section notes down a key point, _"It's best to try to answer the questions first without using the hints."_
+This section notes down a key point, _"It's best to try to answer the questions first without using the hints."_ This really helps in building problem solving skills which are essential for any career in **Tech**.
 
-ANSWERING THE QUESTIONS:
+ANSWERING THIS TASKS QUESTIONS:
 _Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
 <br>
 <br>
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
-*Figure 21:how to find the answer.*
+*Figure 21: To answer the questions in this task, we will have to copy the text from previous task and paste it in the Input section of CyberChef. After doing that, search for the operation **Extract IP addresses** from the Operations search field and add it to Recipe. You will get two IP addresses as we got from the previous section. Only one of the IP addresses found starts and ends with "10".*
 
 <br>
 <br>
 <img width="1274" height="117" alt="image" src="https://github.com/user-attachments/assets/e700c92f-f7b7-4c7a-a5be-6801c913d412" />
 
-_Figure 22: Answer submitted._
+_Figure 22: IP address found from is `10.10.2.10`._
  
 _What is the base64 encoded value of the string "Nice Room!"?_
 <br>
 <br>
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
-*Figure 23: Steps to how to find the answer.*
+*Figure 23: To encode the provided string in base64 formart, you will first need to clear previously added data. Copy and Paste the provided string in the Input field. Next, search for **to Base64** operation and it to Recipe. Bake.*
  
 <br>
 <br>
 <img width="1270" height="101" alt="image" src="https://github.com/user-attachments/assets/0a68e3d4-11b4-4677-ba45-a9540430381d" />
 
-*Figure 24: Answer submitted*
+*Figure 24: The base64 encoded version of "Nice Room!" is "TmljZSBSb29tIQ==".*
  
 _What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_
 <br>
 <br>
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
- *Figure 25: Steps to how to find the answer.*
+ *Figure 25: First clear data input from previous question. Paste the encoded URL in the Input field. Search for **URL Decode** Operation and add it to Recipe. Bake.* 
  
 <br>
 <br>
 <img width="1257" height="97" alt="image" src="https://github.com/user-attachments/assets/d681e68a-55af-4ddc-bd55-ada4f9818333" />
 
-*Figure 26: Answer submitted*
+*Figure 26: The decoded URL is `https://tryhackme.com/r/room/cyberchefbasics`*
  
 _What is the datetime string for the Unix timestamp 1725151258?_
 <br>
 <img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
-*Figure 27:Steps to getting answer*
+*Figure 27: Clear input data from previous question and copy-paste the new data, the UNIX timestamp provided. Search for the operation **From UNIX Timestamp** and add to Recipe. Bake*
 
 <br>
 <img width="1276" height="96" alt="image" src="https://github.com/user-attachments/assets/86189e28-d7ff-4c96-8487-b6be01d1174f" />
