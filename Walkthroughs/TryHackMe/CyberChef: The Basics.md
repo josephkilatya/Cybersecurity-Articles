@@ -29,11 +29,11 @@ For this room I will however be using the Online one for easy access and simplic
 *Figure 2: Online Web Access of CyberChef Platform. To access the online platform, click embeded link in the THM room or this article*
 
 ### ANSWERING THE QUESTIONS
-I have access to CyberChef and I’m ready to dive into it.
+**I have access to CyberChef and I’m ready to dive into it.**
 <br>
 <br>
 <img width="1267" height="123" alt="image" src="https://github.com/user-attachments/assets/7eea3308-5d93-4747-860d-d2f2e97ee8e4" />
-*Figure 3: No answer required for question above.*
+*Figure 3: No answer required for above question.*
 
 ## TASK 3: Navigating The Interface
 CyberChef interface has the following sections that make it whole and each serving different functionality.
@@ -49,7 +49,8 @@ Output: The results from input data after processing running your selected opera
 
 ### ANSWERING THE QUESTIONS
 <br>
-#### _In which area can you find "From Base64"?_
+
+**_In which area can you find "From Base64"?_**
 <img width="1115" height="468" alt="image" src="https://github.com/user-attachments/assets/c6e1f03e-6453-4971-80ee-31e64b00f59a" />
  *Figure 7:  To get the answer to question above. Visit your CyberChef opened session from previous task. When you look around the platform, you will find **From Base64** operation pinned under Operations' section Favourites.*
 <br>
@@ -57,7 +58,7 @@ Output: The results from input data after processing running your selected opera
 <img width="1249" height="104" alt="image" src="https://github.com/user-attachments/assets/01d6d431-83ee-4995-8506-099ae1334902" />
 *Figure 8: Answer submitted.*
 
-#### _Which area is considered the heart of the tool?_
+**_Which area is considered the heart of the tool?_**
 <br>
 <br>
 <br>
@@ -68,7 +69,7 @@ Output: The results from input data after processing running your selected opera
 <br>
 <img width="1261" height="155" alt="image" src="https://github.com/user-attachments/assets/a6376e03-cf2d-40e6-a6f1-e83ff558cb02" />
 
-*Figure 5: The correct Anser is **Recipe***
+*Figure 5: The Answer is **Recipe***
 <br>
 <br>
 
@@ -85,7 +86,7 @@ Step 4: Check the output to see if is the intended result - From the example use
 
 ### ANSWERING THE QUESTIONS
 <br><br>
-#### _At which step would you determine, "What do I want to accomplish?_
+**_At which step would you determine, "What do I want to accomplish?_**
 <br>
 <br>
 <img width="1258" height="570" alt="image" src="https://github.com/user-attachments/assets/f77af77b-b7f7-4935-a1f3-0d09c7616eae" />
@@ -125,7 +126,7 @@ The section also teaches us how to change data from Base(64, 85, 58, 62) encodin
 First Download Task File attached in this section. Open the .txt using your favourite text editor (NotePad, Sublime Text, Notepad++ or any other)
 <br>
 <br>
-#### _What is the hidden email address?_
+**_What is the hidden email address?_**
 <br>
 <br>
 <img width="1910" height="646" alt="image" src="https://github.com/user-attachments/assets/61633070-3b58-4b2a-94fc-9de80b1dda73" />
@@ -136,7 +137,7 @@ First Download Task File attached in this section. Open the .txt using your favo
  *Figure 12: Email found for this case is **hidden@hotmail.com***
 <br>
 <br>
-#### _What is the hidden IP address that ends in .232?_
+**_What is the hidden IP address that ends in .232?_**
 <br>
 <br>
 <img width="1919" height="681" alt="image" src="https://github.com/user-attachments/assets/c415ecd4-5a01-4b90-a146-686d0ea2ba4f" />
@@ -148,7 +149,7 @@ First Download Task File attached in this section. Open the .txt using your favo
 
 <br>
 
-#### _Which domain address starts with the letter "T"?_
+**_Which domain address starts with the letter "T"?_**
 <br>
 <br>
 <img width="1918" height="670" alt="image" src="https://github.com/user-attachments/assets/54457945-d636-447b-af88-f0857fdce33a" />
@@ -160,7 +161,7 @@ First Download Task File attached in this section. Open the .txt using your favo
 
 <br>
 <br>
-#### _What is the binary value of the decimal number 78?_
+**_What is the binary value of the decimal number 78?_**
 <br>
 <img width="1919" height="412" alt="image" src="https://github.com/user-attachments/assets/5b284e0a-229c-417c-9365-eb2702917913" />
 
@@ -177,7 +178,7 @@ Because 78 is smaller than 255, it fits perfectly into one byte, and CyberChef r
 <br>
 <br>
 
-#### _What is the URL encoded value of https://tryhackme.com/r/careers?_
+**_What is the URL encoded value of https://tryhackme.com/r/careers?_**
 <br>
 <img width="1691" height="451" alt="image" src="https://github.com/user-attachments/assets/9fa938d7-60d6-44f5-993c-8a1d4aad8050" />
  *Figure 19: Clear input data by clicking the trash icon in the Input section. Paste the URL from the question. Search **URL Encode** under Operations section. Add the operation to Recipe and check the box **Encode all special chars**. By checking the Encode all special chars box, we ensure that every symbol—including those with special functions like &, ?, and /—is converted into its percent-encoded format so it is treated as plain data and doesn't accidentally break the structure of the URL.*
@@ -195,7 +196,7 @@ Time for more practice.
 This section notes down a key point, _"It's best to try to answer the questions first without using the hints."_ This really helps in building problem solving skills which are essential for any career in **Tech**.
 
 ### ANSWERING THIS TASKS QUESTIONS:
-#### _Using the file you downloaded in Task 5, which IP starts and ends with "10"?_
+**_Using the file you downloaded in Task 5, which IP starts and ends with "10"?_**
 <br>
 <br>
 <img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/edb4f944-6711-40ad-ac3c-db2d9db6153f" />
@@ -207,7 +208,7 @@ This section notes down a key point, _"It's best to try to answer the questions 
 
 _Figure 22: IP address found from is `10.10.2.10`._
  
-#### _What is the base64 encoded value of the string "Nice Room!"?_
+**_What is the base64 encoded value of the string "Nice Room!"?_**
 <br>
 <br>
 <img width="1355" height="471" alt="image" src="https://github.com/user-attachments/assets/b7abe56f-719c-449e-b290-39cf8f42f1b7" />
@@ -219,7 +220,7 @@ _Figure 22: IP address found from is `10.10.2.10`._
 
 *Figure 24: The base64 encoded version of "Nice Room!" is "TmljZSBSb29tIQ==".*
  
-#### _What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_
+**_What is the URL decoded value for https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Froom%2Fcyberchefbasics?_**
 <br>
 <br>
 <img width="1468" height="468" alt="image" src="https://github.com/user-attachments/assets/d3c9c85b-87f7-4db3-a207-7558bb3660a9" />
@@ -231,7 +232,7 @@ _Figure 22: IP address found from is `10.10.2.10`._
 
 *Figure 26: The decoded URL is `https://tryhackme.com/r/room/cyberchefbasics`*
  
-#### _What is the datetime string for the Unix timestamp 1725151258?_
+**_What is the datetime string for the Unix timestamp 1725151258?_**
 <br>
 <img width="1434" height="461" alt="image" src="https://github.com/user-attachments/assets/794ac64a-1302-460f-977d-88f1a06bd92b" />
 *Figure 27: Clear input data from previous question and copy-paste the new data, the UNIX timestamp provided. Search for the operation **From UNIX Timestamp** and add to Recipe. Bake*
@@ -241,7 +242,7 @@ _Figure 22: IP address found from is `10.10.2.10`._
 
 *Figure 28: The UTC Timestamp is `Sun 1 September 2024 00:40:58 UTC`*
  
-#### _What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_
+**_What is the Base85 decoded string of the value <+oue+DGm>Ap%u7?_**
 <br>
 <img width="1529" height="500" alt="image" src="https://github.com/user-attachments/assets/26184d4d-3cac-435f-86f6-cbc78ea3cae3" />
 *Figure 29: Clear current Recipe and data input from previous question and copy-paste our new data in the Input field. Search for the operation **From Base85** and add it to Operations. Bake*
@@ -256,7 +257,7 @@ _Figure 22: IP address found from is `10.10.2.10`._
 This section covers a summary of what was learned from the room.
 
 ### ANSWERING THE QUESTIONS
-#### _I will have CyberChef, the Swiss Army knife of cyber security, ready for my upcoming journeys!_
+**_I will have CyberChef, the Swiss Army knife of cyber security, ready for my upcoming journeys!_**
 <br>
 <img width="680" height="115" alt="image" src="https://github.com/user-attachments/assets/13fed1de-e64f-489f-8cdf-f09bbb7bb519" />
 *Figure 31: No Answers Needed for above question.*
