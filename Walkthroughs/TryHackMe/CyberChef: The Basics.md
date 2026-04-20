@@ -147,7 +147,7 @@ First Download Task File attached in this section. Open the .txt using your favo
 <br>
 <br>
 <img width="686" height="128" alt="image" src="https://github.com/user-attachments/assets/5e143faa-f5c2-4f2e-848b-4327e72e83d9" />
- *Figure 12: Discovered Email is **hidden@hotmail.com***
+ *Figure 12: Discovered Email is `hidden@hotmail.com`*
 <br>
 <br>
 **_What is the hidden IP address that ends in .232?_**
