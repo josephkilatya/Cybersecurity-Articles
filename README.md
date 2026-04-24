@@ -1,3 +1,7 @@
+---
+layout: default
+title: README
+---
 # Cybersecurity Writeups & Lab Notes 🛡️
 
 Hey there 👋
