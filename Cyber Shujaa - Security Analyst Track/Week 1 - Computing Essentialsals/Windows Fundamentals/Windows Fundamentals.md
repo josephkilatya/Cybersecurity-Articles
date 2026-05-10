@@ -18,7 +18,7 @@ The module provides a high-level overview of Microsoft Windows, covering the his
 
 <img width="983" height="834" alt="1 1 introduction answer" src="https://github.com/user-attachments/assets/c46521a7-3515-434a-ab29-bd9ff17b0343" />
 
-_Screenshot showing powershell command to get build number and Windows NT version_
+_Screenshot showing PowerShell command to get build number and Windows NT version_
 
 
 ### Section: Operating System Structure
@@ -28,7 +28,7 @@ _Screenshot showing powershell command to get build number and Windows NT versio
 
 <img width="1081" height="975" alt="2 1 operating system structure answer" src="https://github.com/user-attachments/assets/dae52f47-deb8-4c5f-a81a-055add221e7e" />
 
-_Screenshot showing steps and command to get the flag_
+_Screenshot showing steps and PowerShell commands to get the flag_
 
 ### Section: File System
 
@@ -53,13 +53,14 @@ _Screenshot showing filesharing protocol used in Windows Systems_
 
 <img width="1920" height="1079" alt="4 2 ntfs vs share permission answer" src="https://github.com/user-attachments/assets/38010d4a-1ae1-4b29-a20d-9fe713346448" />
 
+_Screenshot showing utility to view Windows Event Logs. **Event Viewer** utility is useful tool during Windows DFIR_
+
 **Question:** What is the full directory path to the Company Data share we created?  
 **Answer:** `C:\Users\htb-student\Desktop\Company Data`
 
 <img width="1920" height="1080" alt="4 3 ntfs vs share permission answer" src="https://github.com/user-attachments/assets/9c6dd6c6-142e-40af-b409-51aed671b75b" />
 
-
-_Screenshot showing utility used by windows Event Viewer. Event Viewer is a handy tool when in come Windows Incident _
+_Screenshot showing directory full path to **Company Data** share_
 
 ### Section: Windows Services & Processes
 
@@ -67,6 +68,8 @@ _Screenshot showing utility used by windows Event Viewer. Event Viewer is a hand
 **Answer:** `FoxitReaderUpdateService.exe`
 
 <img width="1102" height="984" alt="5  1 windows service and processes answer" src="https://github.com/user-attachments/assets/cb05580f-2351-48d6-af04-b6885264cdd4" />
+
+_Screenshot showing Command to runnig services on the system while identifying the non-standard update service **FoxitReaderUpdateService.exe**. Useful command during Windows DFIR to view non-standard installed/running services (malware)_
 
 
 ### Section: Interacting with the Windows Operating System
@@ -76,12 +79,14 @@ _Screenshot showing utility used by windows Event Viewer. Event Viewer is a hand
 
 <img width="1104" height="1009" alt="6 1 interacting with windows os answer" src="https://github.com/user-attachments/assets/61ce519d-8b5e-46f6-802e-b36b2f91084e" />
 
+_Screenshot showing `ifconfig` as the alias for **ipconfig.exe**_
 
 **Question:** Find the Execution Policy set for the LocalMachine scope.  
 **Answer:** `Unrestricted`
 
 <img width="1100" height="560" alt="6 2 interacting with windows os answer" src="https://github.com/user-attachments/assets/0367175d-5ea6-4ed7-84b5-56e411e2db8d" />
 
+_Screenshot shwoing command to get the **ExecutionPolicy** for the LocalMachine_
 
 ### Section: Windows Management Instrumentation (WMI)
 
@@ -89,6 +94,8 @@ _Screenshot showing utility used by windows Event Viewer. Event Viewer is a hand
 **Answer:** `00329-10280-00000-AA938`
 
 <img width="1101" height="211" alt="7 1 windows management instrumentation" src="https://github.com/user-attachments/assets/e1d76167-d134-4ea7-bcf8-17ee95d08cc2" />
+
+_Screenshot showing **WMI** command to get the operating system serial number_
 
 
 ### Section: Windows Security
@@ -98,9 +105,12 @@ _Screenshot showing utility used by windows Event Viewer. Event Viewer is a hand
 
 <img width="1097" height="544" alt="81  windows security" src="https://github.com/user-attachments/assets/c7f143b2-c77f-436f-a327-877a35612869" />
 
+_Screenshot showing command to get user bob.smith **SID**_
 
 **Question:** What 3rd party security application is disabled at startup for the current user? (The answer is case sensitive).  
 **Answer:** `NordVPN`
+
+
 
 <img width="897" height="593" alt="8 2 windows security" src="https://github.com/user-attachments/assets/3c893fd1-75e5-4b73-81d2-ab2f4e2de832" />
 
