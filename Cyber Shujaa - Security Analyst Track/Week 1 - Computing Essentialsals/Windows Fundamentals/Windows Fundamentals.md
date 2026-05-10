@@ -102,27 +102,37 @@ _Screenshot showing utility used by windows Event Viewer. Event Viewer is a hand
 **Question:** What 3rd party security application is disabled at startup for the current user? (The answer is case sensitive).  
 **Answer:** `NordVPN`
 
+<img width="897" height="593" alt="8 2 windows security" src="https://github.com/user-attachments/assets/3c893fd1-75e5-4b73-81d2-ab2f4e2de832" />
+
 ### Section: Skills Assessment - Windows Fundamentals
 
 **Question:** What is the name of the group that is present in the Company Data Share Permissions ACL by default?  
 **Answer:** `Everyone`
 
+<img width="1919" height="1078" alt="1 1 group" src="https://github.com/user-attachments/assets/fcb957d7-3a8e-42d1-a315-1260066e34fb" />
 
 **Question:** What is the name of the tab that allows you to configure NTFS permissions?  
 **Answer:** `Security`
 
+<img width="527" height="562" alt="security tab" src="https://github.com/user-attachments/assets/0e4975da-b9d2-4fd2-81d2-40bf1ad507f6" />
+
+
 **Question:** What is the name of the service associated with Windows Update?  
 **Answer:** `wuauserv`
+
+<img width="1102" height="548" alt="1 2 windows update" src="https://github.com/user-attachments/assets/2b18600c-c28c-4a63-9f72-3e441d12fe62" />
+
 
 **Question:** List the SID associated with the user account Jim you created.  
 **Answer:** `S-1-5-21-2614195641-1726409526-3792725429-1006`
 
+<img width="1100" height="594" alt="1 3 jim sid" src="https://github.com/user-attachments/assets/39aa2124-b841-4d54-8763-0d5831e2e3f9" />
+
+
 **Question:** List the SID associated with the HR security group you created.  
 **Answer:** `S-1-5-21-2614195641-1726409526-3792725429-1007`
 
-
-
-
+<img width="1097" height="681" alt="1 4 group sid" src="https://github.com/user-attachments/assets/a057d29f-03b9-48a8-bfcf-de534199740a" />
 
 ## Module Completion
 
@@ -136,5 +146,4 @@ This module has significantly increased my confidence in working with Windows en
 
 ---
 
-**Report Prepared:** May 2026  
-**Student:** [Your Name]
+**Report Prepared:** May 2024  
