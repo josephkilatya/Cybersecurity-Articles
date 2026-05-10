@@ -17,6 +17,7 @@ The module provides a high-level overview of Microsoft Windows, covering the his
 **Answer:** `Windows 10`
 
 <img width="983" height="834" alt="1 1 introduction answer" src="https://github.com/user-attachments/assets/c46521a7-3515-434a-ab29-bd9ff17b0343" />
+
 _Screenshot showing powershell command to get build number and Windows NT version_
 
 
@@ -43,39 +44,60 @@ _Screenshot showing how to get users control right using `icacls` command_
 **Question:** What protocol discussed in this section is used to share resources on the network using Windows? (Format: case sensitive)  
 **Answer:** `SMB`
 
-<img width="1920" height="1080" alt="4 1 ntfs vs share permissons" src="https://github.com/user-attachments/assets/4bffba42-92d3-46a2-9935-45a77aef7ce1" />
-_Screenshot showing filesharing protocol used in Windows Systems_
+<img width="1920" height="1080" alt="4 1 ntfs vs share permissons" src="https://github.com/user-attachments/assets/9915bad1-4aff-4f32-ad4f-2cf8375e8d5d" />
 
-### Section: Logs & Shares
+_Screenshot showing filesharing protocol used in Windows Systems_
 
 **Question:** What is the name of the utility that can be used to view logs made by a Windows system? (Format: 2 words, 1 space, not case sensitive)  
 **Answer:** `Event Viewer`
 
+<img width="1920" height="1079" alt="4 2 ntfs vs share permission answer" src="https://github.com/user-attachments/assets/38010d4a-1ae1-4b29-a20d-9fe713346448" />
+
 **Question:** What is the full directory path to the Company Data share we created?  
 **Answer:** `C:\Users\htb-student\Desktop\Company Data`
+
+<img width="1920" height="1080" alt="4 3 ntfs vs share permission answer" src="https://github.com/user-attachments/assets/9c6dd6c6-142e-40af-b409-51aed671b75b" />
+
+
+_Screenshot showing utility used by windows Event Viewer. Event Viewer is a handy tool when in come Windows Incident _
 
 ### Section: Windows Services & Processes
 
 **Question:** Identify one of the non-standard update services running on the host. Submit the full name of the service executable (not the DisplayName) as your answer.  
 **Answer:** `FoxitReaderUpdateService.exe`
 
+<img width="1102" height="984" alt="5  1 windows service and processes answer" src="https://github.com/user-attachments/assets/cb05580f-2351-48d6-af04-b6885264cdd4" />
+
+
 ### Section: Interacting with the Windows Operating System
 
 **Question:** What is the alias set for the `ipconfig.exe` command?  
 **Answer:** `ifconfig`
 
+<img width="1104" height="1009" alt="6 1 interacting with windows os answer" src="https://github.com/user-attachments/assets/61ce519d-8b5e-46f6-802e-b36b2f91084e" />
+
+
 **Question:** Find the Execution Policy set for the LocalMachine scope.  
 **Answer:** `Unrestricted`
+
+<img width="1100" height="560" alt="6 2 interacting with windows os answer" src="https://github.com/user-attachments/assets/0367175d-5ea6-4ed7-84b5-56e411e2db8d" />
+
 
 ### Section: Windows Management Instrumentation (WMI)
 
 **Question:** Use WMI to find the serial number of the system.  
 **Answer:** `00329-10280-00000-AA938`
 
+<img width="1101" height="211" alt="7 1 windows management instrumentation" src="https://github.com/user-attachments/assets/e1d76167-d134-4ea7-bcf8-17ee95d08cc2" />
+
+
 ### Section: Windows Security
 
 **Question:** Find the SID of the `bob.smith` user.  
 **Answer:** `S-1-5-21-2614195641-1726409526-3792725429-1003`
+
+<img width="1097" height="544" alt="81  windows security" src="https://github.com/user-attachments/assets/c7f143b2-c77f-436f-a327-877a35612869" />
+
 
 **Question:** What 3rd party security application is disabled at startup for the current user? (The answer is case sensitive).  
 **Answer:** `NordVPN`
@@ -84,6 +106,7 @@ _Screenshot showing filesharing protocol used in Windows Systems_
 
 **Question:** What is the name of the group that is present in the Company Data Share Permissions ACL by default?  
 **Answer:** `Everyone`
+
 
 **Question:** What is the name of the tab that allows you to configure NTFS permissions?  
 **Answer:** `Security`
@@ -96,6 +119,10 @@ _Screenshot showing filesharing protocol used in Windows Systems_
 
 **Question:** List the SID associated with the HR security group you created.  
 **Answer:** `S-1-5-21-2614195641-1726409526-3792725429-1007`
+
+
+
+
 
 ## Module Completion
 
