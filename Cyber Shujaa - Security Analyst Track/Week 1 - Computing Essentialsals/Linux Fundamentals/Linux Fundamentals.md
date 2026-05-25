@@ -15,23 +15,26 @@ In this post, I'll share key takeaways from the **HackTheBox Linux Fundamentals 
 
 ## Walkthrough
 ## Section: System Information
-Question: Find out the machine hardware name and submit it as the answer.
-Answer: x86_64
+Question: Find out the machine hardware name and submit it as the answer.<br>
+Answer: **x86_64**
 <img width="1461" height="114" alt="1 1 system information" src="https://github.com/user-attachments/assets/a5e9c958-8711-49de-a8bc-16220eb73410" />
+_Figure 1: using `uname -i` command to get the hardware architecture_
 
 
-Question: What is the path to htb-student's home directory?
-Answer: /home/htb-student
+Question: What is the path to htb-student's home directory?<br>
+Answer: **/home/htb-student**
 <img width="1459" height="108" alt="1 2 system information" src="https://github.com/user-attachments/assets/ee321f30-f806-4091-b645-4720f7b4006d" />
+_Fingure 2: using `pwd` to get the full path for htb_student's home directory. **pwd** in full stands for **print working directory**_
 
-
-Question: What is the path to the htb-student's mail?
-Answer: /var/mail/htb-student
+Question: What is the path to the htb-student's mail?<br>
+Answer: **/var/mail/htb-student**
 <img width="1458" height="111" alt="1 3 system information" src="https://github.com/user-attachments/assets/be75eff8-6a8a-494d-ba11-c495a788e657" />
+_Figure 3: using `echo $MAIL` command to get the path. what the command does is look for the passed variable **$MAIL** return it's path_
 
-Question: Which shell is specified for the htb-student user?
-Answer: /bin/bash
+Question: Which shell is specified for the htb-student user?<br>
+Answer:**/bin/bash**
 <img width="1460" height="104" alt="1 4 system information" src="https://github.com/user-attachments/assets/3d8219ee-41dc-4822-b10a-1421f8eb1eb2" />
+_Figure 4: Using the command `echo $SHELL` to get the user specified bash. Command works the same as in previous question_
 
 Question: Which kernel version is installed on the system? (Format: 1.22.3)
 Answer: 4.15.0
