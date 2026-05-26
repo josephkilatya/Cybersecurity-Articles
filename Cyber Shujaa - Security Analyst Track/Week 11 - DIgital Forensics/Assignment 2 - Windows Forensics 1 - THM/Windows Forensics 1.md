@@ -33,7 +33,7 @@ Question: What is the Current Build Number of the machine whose data is being in
 Answer: **19044**  <br>
 
 Question: Which ControlSet contains the last known good configuration?  <br>
-Answer: **1**  <br>
+Answer: **1** <br>
 
 Question: What is the Computer Name of the computer?  <br>
 Answer: **THM-4n6**  <br>
@@ -45,7 +45,7 @@ Question: What is the DHCP IP address  <br>
 Answer: **192.168.100.58**  <br>
 
 Question: What is the RID of the Guest User account?
-Answer: **501 ** <br>
+Answer: **501** <br>
 
 ## Task 7: Usage or knowledge of files/folders
 Question: When was EZtools opened?  <br>
@@ -75,7 +75,7 @@ Answer: **BAM/DAM**  <br>
 
 ## Task 9: External Devices/USB device forensics 
 Question: What is the serial number of the device from the manufacturer 'Kingston'?  <br>
-Answer: **1C6f654E59A3B0C179D366AE&0 ** <br>
+Answer: **1C6f654E59A3B0C179D366AE&0** <br>
 
 Question: What is the name of this device?  <br>
 Answer: **Kingston Data Traveler 2.0 USB Device**  <br>
@@ -85,7 +85,7 @@ Answer: **USB**  <br>
 
 ## Task 10: Hands-on Challenge
 Question: How many user created accounts are present on the system?  <br>
-Answer: **3 ** <br>
+Answer: **3** <br>
 
 Question: What is the username of the account that has never been logged in?  <br>
 Answer: **thm-user2**  <br>
