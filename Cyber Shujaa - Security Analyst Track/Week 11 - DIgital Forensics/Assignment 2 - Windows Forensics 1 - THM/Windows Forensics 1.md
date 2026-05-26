@@ -77,19 +77,19 @@ Answer: **2021-11-30 10:56:19**  <br>
 ## Task 8: Evidence of Execution
 Question: How many times was the File Explorer launched?  <br>
 Answer: **26**  <br>
-<img width="1482" height="189" alt="task 8 (1)" src="https://github.com/user-attachments/assets/326aa8e9-ff26-46fb-af3b-a2da6b47c834" />
+<img width="1775" height="478" alt="task 8 1" src="https://github.com/user-attachments/assets/8981859c-e1af-4b61-a136-d7f3a9c72e2e" />
 
 Question: What is another name for ShimCache?  <br>
 Answer: **AppCompatCache**  <br>
-<img width="1508" height="314" alt="task 8 (2)" src="https://github.com/user-attachments/assets/01747b44-9e71-4839-a433-b497ec8ca3e9" />
+<img width="1462" height="220" alt="task 8 2" src="https://github.com/user-attachments/assets/b061e384-4592-4da4-9ba7-d954f01cfd2e" />
 
 Question: Which of the artifacts also saves SHA1 hashes of the executed programs?  <br>
 Answer: **AmCache**  <br>
-<img width="1775" height="478" alt="task 8 (3)" src="https://github.com/user-attachments/assets/cf4ba40c-aa90-4e0c-969a-d60901a25502" />
+<img width="1482" height="189" alt="task 8 4" src="https://github.com/user-attachments/assets/1848718b-88bb-45f4-a591-c0a2df0153a9" />
 
 Question: Which of the artifacts saves the full path of the executed programs?  <br>
 Answer: **BAM/DAM**  <br>
-<img width="1462" height="220" alt="task 8 (5)" src="https://github.com/user-attachments/assets/4b5d7642-1b2d-4baa-ac0a-a9eb30932709" />
+<img width="1508" height="314" alt="task 8 5" src="https://github.com/user-attachments/assets/42694200-d51c-4bda-97fb-12e816cc6e5c" />
 
 ## Task 9: External Devices/USB device forensics 
 Question: What is the serial number of the device from the manufacturer 'Kingston'?  <br>
