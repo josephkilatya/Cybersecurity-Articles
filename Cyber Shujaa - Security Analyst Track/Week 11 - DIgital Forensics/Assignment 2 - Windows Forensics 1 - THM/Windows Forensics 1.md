@@ -53,35 +53,43 @@ Question: What is the DHCP IP address  <br>
 Answer: **192.168.100.58**  <br>
 <img width="1330" height="575" alt="task 4 5" src="https://github.com/user-attachments/assets/79afa356-5fa4-4f34-8c2a-bb37eddb31bb" />
 
-Question: What is the RID of the Guest User account?
+Question: What is the RID of the Guest User account? <br>
 Answer: **501** <br>
 <img width="1351" height="538" alt="task 4 6" src="https://github.com/user-attachments/assets/16ef020b-1db3-4adc-8801-5b6da5e4f0c2" />
 
 ## Task 7: Usage or knowledge of files/folders
 Question: When was EZtools opened?  <br>
 Answer: **2021-12-01 13:00:34**  <br>
+<img width="1318" height="498" alt="task 7 1" src="https://github.com/user-attachments/assets/3ae63e46-70e8-4ae3-bd8a-247fb3d4976a" />
 
 Question: At what time was My Computer last interacted with?
 Answer: **2021-12-01 13:06:47**  <br>
+<img width="1328" height="316" alt="task 7 2" src="https://github.com/user-attachments/assets/8ceb3e6f-78d2-4424-be7f-0ae6e8a5bb00" />
 
 Question: What is the Absolute Path of the file opened using notepad.exe?  <br>
 Answer: **C:\Program Files\Amazon\Ec2ConfigService\Settings**  <br>
+<img width="1352" height="174" alt="task 7 3" src="https://github.com/user-attachments/assets/18832633-3c3b-4860-8157-6ff14f9b68f5" />
 
 Question: When was this file opened?  <br>
 Answer: **2021-11-30 10:56:19**  <br>
+<img width="1353" height="191" alt="task 7 4" src="https://github.com/user-attachments/assets/f8714c8a-0712-4e69-861e-113f08af8b6e" />
 
 ## Task 8: Evidence of Execution
 Question: How many times was the File Explorer launched?  <br>
 Answer: **26**  <br>
+<img width="1482" height="189" alt="task 8 (1)" src="https://github.com/user-attachments/assets/326aa8e9-ff26-46fb-af3b-a2da6b47c834" />
 
 Question: What is another name for ShimCache?  <br>
 Answer: **AppCompatCache**  <br>
+<img width="1508" height="314" alt="task 8 (2)" src="https://github.com/user-attachments/assets/01747b44-9e71-4839-a433-b497ec8ca3e9" />
 
 Question: Which of the artifacts also saves SHA1 hashes of the executed programs?  <br>
 Answer: **AmCache**  <br>
+<img width="1775" height="478" alt="task 8 (3)" src="https://github.com/user-attachments/assets/cf4ba40c-aa90-4e0c-969a-d60901a25502" />
 
 Question: Which of the artifacts saves the full path of the executed programs?  <br>
 Answer: **BAM/DAM**  <br>
+<img width="1462" height="220" alt="task 8 (5)" src="https://github.com/user-attachments/assets/4b5d7642-1b2d-4baa-ac0a-a9eb30932709" />
 
 ## Task 9: External Devices/USB device forensics 
 Question: What is the serial number of the device from the manufacturer 'Kingston'?  <br>
