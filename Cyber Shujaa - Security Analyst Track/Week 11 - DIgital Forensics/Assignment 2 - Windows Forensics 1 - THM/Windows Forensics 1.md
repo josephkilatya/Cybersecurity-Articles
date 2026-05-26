@@ -27,7 +27,6 @@ Answer: **C:\Windows\AppCompat\Programs\Amcache.hve**  <br>
 ## Task 4: Data Acquisition
 Question: Try collecting data on your own system or the attached VM using one of the above mentioned tools.  <br>
 Answer: **No answer needed.**  <br>
-<img width="1374" height="681" alt="task 4 1" src="https://github.com/user-attachments/assets/06ab0b1f-0b5c-4652-a401-94fd94615f68" />
 
 ## Task 5: Exploring Windows Registry
 Question: Study the above material to understand the difference between the different tools  <br>
@@ -36,7 +35,7 @@ Answer: **No answer needed.**  <br>
 ## Task 6: Sysytem Information and System Accounts
 Question: What is the Current Build Number of the machine whose data is being investigated?  <br>
 Answer: **19044**  <br>
-<img width="1063" height="339" alt="task 4 2" src="https://github.com/user-attachments/assets/c06433b8-df44-4ca6-8f9d-c1e662c4bdc0" />
+<img width="1374" height="681" alt="task 4 1" src="https://github.com/user-attachments/assets/05bb858f-356b-4727-bcb1-6811eadbba2d" />
 
 Question: Which ControlSet contains the last known good configuration?  <br>
 Answer: **1** <br>
