@@ -28,7 +28,7 @@ Answer: **whenevernoteartinstant**
 
 To get the answer, we filter for http traffic using the filter http and analyze the filtered results. <br>
 <img width="1152" height="253" alt="task 1 3" src="https://github.com/user-attachments/assets/d3fd3520-ca2e-4d8a-b202-77b0d6a08ae8" /> <br>
-**Password used by attacker for privilege escalation**
+_Password used by attacker for privilege escalation_
 
 Question: How did the attacker establish persistence? <br>
 Answer: **https://github.com/NinjaJc01/ssh-backdoor** <br>
