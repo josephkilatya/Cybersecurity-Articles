@@ -39,20 +39,23 @@ Answer: **19044**  <br>
 
 Question: Which ControlSet contains the last known good configuration?  <br>
 Answer: **1** <br>
-<img width="1298" height="209" alt="task 4 3" src="https://github.com/user-attachments/assets/2845c355-f5d6-40a5-9a18-fb47e68e8512" />
+<img width="1063" height="339" alt="task 4 2" src="https://github.com/user-attachments/assets/400c46d0-3ab2-49cd-9153-57317221629a" />
 
 Question: What is the Computer Name of the computer?  <br>
 Answer: **THM-4n6**  <br>
-<img width="1370" height="371" alt="task 4 4" src="https://github.com/user-attachments/assets/7a16787c-0181-4c1d-8bcf-3d3a86830378" />
+<img width="1298" height="209" alt="task 4 3" src="https://github.com/user-attachments/assets/ce8f517a-9b65-40fa-9c7e-afb639c0395c" />
 
 Question: What is the value of the TimeZoneKeyName?  <br>
 Answer: **Pakistan Standard Time**  <br>
+<img width="1370" height="371" alt="task 4 4" src="https://github.com/user-attachments/assets/433bc7c2-97ed-428c-9e8d-ea6fe35012c8" />
 
 Question: What is the DHCP IP address  <br>
 Answer: **192.168.100.58**  <br>
+<img width="1330" height="575" alt="task 4 5" src="https://github.com/user-attachments/assets/79afa356-5fa4-4f34-8c2a-bb37eddb31bb" />
 
 Question: What is the RID of the Guest User account?
 Answer: **501** <br>
+<img width="1351" height="538" alt="task 4 6" src="https://github.com/user-attachments/assets/16ef020b-1db3-4adc-8801-5b6da5e4f0c2" />
 
 ## Task 7: Usage or knowledge of files/folders
 Question: When was EZtools opened?  <br>
