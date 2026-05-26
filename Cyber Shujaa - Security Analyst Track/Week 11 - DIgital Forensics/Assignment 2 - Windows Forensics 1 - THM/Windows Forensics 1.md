@@ -94,12 +94,15 @@ Answer: **BAM/DAM**  <br>
 ## Task 9: External Devices/USB device forensics 
 Question: What is the serial number of the device from the manufacturer 'Kingston'?  <br>
 Answer: **1C6f654E59A3B0C179D366AE&0** <br>
+<img width="1767" height="241" alt="task 9 1" src="https://github.com/user-attachments/assets/29dc8dad-c041-4350-8ecc-45be4516ea31" />
 
 Question: What is the name of this device?  <br>
 Answer: **Kingston Data Traveler 2.0 USB Device**  <br>
+<img width="1786" height="286" alt="task 9 2" src="https://github.com/user-attachments/assets/afde7863-bf00-436a-a831-dc451184bada" />
 
 Question: What is the friendly name of the device from the manufacturer 'Kingston'?  <br>
 Answer: **USB**  <br>
+<img width="1766" height="219" alt="task 9 3" src="https://github.com/user-attachments/assets/e441848f-e211-4908-9a96-1d78d74f24f7" />
 
 ## Task 10: Hands-on Challenge
 Question: How many user created accounts are present on the system?  <br>
