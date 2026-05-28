@@ -41,26 +41,25 @@ Answer: **customer.inlanefreight.com** <br>
 Question: Try running a VHost fuzzing scan on 'academy.htb', and see what other VHosts you get. What other VHosts did you get? <br>
 Answer: **test.academy.htb** <br>
 <img width="766" height="173" alt="filtering results" src="https://github.com/user-attachments/assets/1d251435-3eec-4408-97f2-4f22f902a3c7" />
-
-<Other discovered vhost>
+_Other discovered vhost_
   
 ## Section: Parameter Fuzzing- GET
 Question: Using what you learned in this section, run a parameter fuzzing scan on this page. what is the parameter accepted by this webpage? <br>
 Answer: **user** <br>
-
-<Accepted parameter>
+<img width="1047" height="418" alt="parameter fuzzing - get" src="https://github.com/user-attachments/assets/3a62bed6-5476-4feb-88f5-f222e272478f" />
+_Accepted parameter_
   
 ## Section: Value Fuzzing
 Question: ry to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag? <br>
 Answer: **HTB{p4r4m373r_fuzz1n6_15_k3y!}** <br>
-<flag>
+<img width="1049" height="71" alt="value fuzzing - flag" src="https://github.com/user-attachments/assets/926d603e-c927-4bde-a569-9901840f30c8" />
+_flag_
 
 ## Section: Skill Assessment- Web Fuzzing
 Question: Run a sub-domain/vhost fuzzing scan on '*.academy.htb' for the IP shown above. What are all the sub-domains you can identify? (Only write the sub-domain name) <br>
 Answer: **test,archive,faculty** <br>
 <img width="807" height="51" alt="skill assessment - parameter fuzzing" src="https://github.com/user-attachments/assets/8a3804a7-b0ca-4187-a7fc-656d2a26d088" />
-
-<Discovered sub-domains>
+_Discovered sub-domains_
 
 ## Question: Before you run your page fuzzing scan, you should first run an extension fuzzing scan. What are the different extensions accepted by the domains? <br>
 Answer: **.php,.phps,.php7** <br>
