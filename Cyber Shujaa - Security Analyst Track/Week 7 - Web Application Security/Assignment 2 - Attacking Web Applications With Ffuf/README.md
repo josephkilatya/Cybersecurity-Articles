@@ -58,7 +58,7 @@ _flag_
 ## Section: Skill Assessment- Web Fuzzing
 Question: Run a sub-domain/vhost fuzzing scan on '*.academy.htb' for the IP shown above. What are all the sub-domains you can identify? (Only write the sub-domain name) <br>
 Answer: **test,archive,faculty** <br>
-<img width="807" height="51" alt="skill assessment - parameter fuzzing" src="https://github.com/user-attachments/assets/8a3804a7-b0ca-4187-a7fc-656d2a26d088" />
+<img width="1188" height="453" alt="skill assessment - web fuzzing" src="https://github.com/user-attachments/assets/ed717297-afde-4092-9c45-e08abd24719f" />
 _Discovered sub-domains_
 
 ## Question: Before you run your page fuzzing scan, you should first run an extension fuzzing scan. What are the different extensions accepted by the domains? <br>
