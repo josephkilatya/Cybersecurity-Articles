@@ -17,6 +17,7 @@ Required qualifications (most common):
 ## Section: A career as a Junior (Associate) Security Analyst
 Question: What will be your role as a Junior Security Analyst? <br>
 Answer: **Triage Specialist** <br>
+<img width="1230" height="73" alt="triage specialist" src="https://github.com/user-attachments/assets/472edd8a-8af2-4f78-be82-a05e78db667a" />
 
 ## Section: Security Operations Center (SOC)
 Question: Read the above. <br>
@@ -28,12 +29,16 @@ Answer: **No answer needed** <br>
 
 Question: What was the malicious IP address in the alerts? <br>
 Answer: **221.181.185.159** <br>
+<img width="876" height="910" alt="malicious ip" src="https://github.com/user-attachments/assets/f3dff658-ac4d-4a7e-aa3b-f0f799611a7b" />
 
 Question: To whom did you escalate the event associated with the malicious IP address? <br>
 Answer: **Will Griffin** <br>
+<img width="938" height="535" alt="will griffin" src="https://github.com/user-attachments/assets/f883e354-b863-4f1d-ad5d-4191ae871c9c" />
 
 Question: After blocking the malicious IP address on the firewall, what message did the malicious actor leave for you? <br>
 Answer: **THM{UNTIL-WE-MEET-AGAIN}** <br>
+<img width="898" height="747" alt="flag" src="https://github.com/user-attachments/assets/df4e08f4-d4f2-4f33-aaf6-a32b45d58269" />
+
 
 ## Module completion
 TryHackMe Profile Link : https://tryhackme.com/p/kl45h
