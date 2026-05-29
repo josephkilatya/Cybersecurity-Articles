@@ -48,49 +48,49 @@ _Step 3: Getting our flag by visiting the page listed in robots.txt_
 ## Section: Public Exploits 
 Question: Try to identify the services running on the server above, and then try to search to find public exploits to exploit them. Once you do, try to get the content of the '/flag.txt' file. (note: the web server may take a few seconds to start) 
 Answer: HTB{my_f1r57_h4ck} 
-
-<Exploiting target machine with Metasploit framework> 
+<img width="1372" height="973" alt="4 1 public exploits" src="https://github.com/user-attachments/assets/cb0797dd-2e9b-4237-9fec-e727fa3262f1" />
+_Exploiting target machine with Metasploit framework _
   
 ## Section: Privilege Escalation 
 Question: SSH into the server above with the provided credentials, and use the '-p xxxxxx' to specify the port shown above. Once you login, try to find a way to move to 'user2', to get the flag in '/home/user2/flag.txt'. 
 Answer: HTB{l473r4l_m0v3m3n7_70_4n07h3r_u53r} 
-
-<user flag> 
+<img width="1173" height="666" alt="5 1 priviledge escalation" src="https://github.com/user-attachments/assets/5895b06c-9132-4088-845a-184349b6dafb" />
+_user flag_
   
 Question: Once you gain access to 'user2', try to find a way to escalate your privileges to root, to get the flag in '/root/flag.txt'. 
 Answer: HTB{pr1v1l363_35c4l4710n_2_r007} 
-
-<Root flag> 
+<img width="1184" height="969" alt="5 2 privilege escalation" src="https://github.com/user-attachments/assets/cc2cfc3d-14a1-4364-b48c-62a997cb22db" />
+_Root flag_ 
   
 ## Nibbles Sections: Attacking Your Box  
 ### Enumeration 
 Question: Run an nmap script scan on the target. What is the Apache version running on the server? (answer format: X.X.XX) 
 Answer: 2.4.18 
-
-<Nibbles Enumeration> 
+<img width="1198" height="419" alt="1 1 enumeration" src="https://github.com/user-attachments/assets/91af6cff-60e7-4b08-953e-2f7f31a55c69" />
+_Nibbles Enumeration_ 
   
 ### Initial Foothold 
 Question: Gain a foothold on the target and submit the user.txt flag 
 Answer: 79c03865431abf47b90ef24b9695e148 
-
-<Getting user flag> 
+<img width="952" height="973" alt="2 1 intial foothold" src="https://github.com/user-attachments/assets/4a9f3bd6-54ad-4be1-857b-dce2234f412d" />
+_Getting user flag_ 
   
 ### Privilege Escalation 
 Question: Escalate privileges and submit the root.txt flag. 
 Answer: de5e5d6619862a8aa5b9b212314e0cdd 
-
-<Getting root flag> 
+<img width="1920" height="975" alt="3 1 privilege escalation" src="https://github.com/user-attachments/assets/f7493571-7c54-4d84-bba8-d979b4cc9a68" />
+_Getting root flag_
   
 ## Section: Knowledge Check 
 Question: Spawn the target, gain a foothold and submit the contents of the user.txt flag. 
 Answer: 7002d65b149b0a4d19132a66feed21d8 
-
-<Getting user flag> 
+<img width="1917" height="971" alt="1 1 user flag" src="https://github.com/user-attachments/assets/84d877d2-a591-4394-8970-3dcd20d5ed7a" />
+_Getting user flag_ 
   
 Question: After obtaining a foothold on the target, escalate privileges to root and submit the contents of the root.txt flag. 
 Answer: f1fba6e9f71efb2630e6e34da6387842 
-
-<Getting root flag> 
+<img width="1229" height="959" alt="2 1 root flag" src="https://github.com/user-attachments/assets/f6ad3ebb-cdb7-4067-b4cb-3c7acea49b7b" />
+_Getting root flag_ 
   
 ## Module Completion 
 Link: https://academy.hackthebox.com/achievement/1293352/77 
