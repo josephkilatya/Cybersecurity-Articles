@@ -11,102 +11,102 @@ The various frameworks covered include:
    
 ## Walkthrough 
 ## Section: ATT&CK® Framework 
-Question: Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?) 
-Answer: **Red Teamers** 
+Question: Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?) <br>
+Answer: **Red Teamers** <br>
 
-Question: What is the ID for this technique? 
-Answer: **T1566** 
+Question: What is the ID for this technique? <br>
+Answer: **T1566** <br>
 
-Question: Based on this technique, what mitigation covers identifying social 
-engineering techniques? 
-Answer: **User Training** 
+Question: Based on this technique, what mitigation covers identifying social engineering techniques? <br>
+Answer: **User Training** <br>
 
-Question: What are the data sources for Detection? (format: source1,source2,source3 with no spaces after commas) 
-Answer: **Application Log,File,Network Traffic** 
+Question: What are the data sources for Detection? (format: source1,source2,source3 with no spaces after commas) <br>
+Answer: **Application Log,File,Network Traffic** <br>
 
-Question: What groups have used spear-phishing in their campaigns? (format: group1,group2) 
-Answer: **Axiom,GOLD SOUTHFIELD** 
+Question: What groups have used spear-phishing in their campaigns? (format: group1,group2) <br>
+Answer: **Axiom,GOLD SOUTHFIELD** <br>
 
-Question: Based on the information for the first group, what are their associated groups? 
-Answer: **Group 72** 
+Question: Based on the information for the first group, what are their associated groups? <br>
+Answer: **Group 72** <br>
 
-Question: What software is associated with this group that lists phishing as a technique? 
-Answer: **Hikit** 
+Question: What software is associated with this group that lists phishing as a technique? <br>
+Answer: **Hikit** <br>
 
-Question: What is the description for this software? 
-Answer:   **Hikit is malware that has been used by Axiom for late-stage persistence and exfiltration after the initial compromise.** 
+Question: What is the description for this software? <br>
+Answer:   **Hikit is malware that has been used by Axiom for late-stage persistence and exfiltration after the initial compromise.** <br>
 
-Question: This group overlaps (slightly) with which other group? 
-Answer: **Winnti Group** 
+Question: This group overlaps (slightly) with which other group? <br>
+Answer: **Winnti Group** <br>
 
-Question: How many techniques are attributed to this group? 
-Answer: **15** 
+Question: How many techniques are attributed to this group? <br>
+Answer: **15** <br>
 
 ## Section: CAR Knowledge Base 
-Question: What tactic has an ID of TA0003? 
-Answer: **Splunk Search** 
+Question: What tactic has an ID of TA0003? <br>
+Answer: **Splunk Search** <br>
 
-Question: What is the name of the library that is a collection of Zeek (BRO) scripts? 
-Answer: **Persistence** 
+Question: What is the name of the library that is a collection of Zeek (BRO) scripts? <br>
+Answer: **Persistence** <br>
 
-Question: What is the name of the technique for running executables with the same hash and different names? 
-Answer: **BZAR** 
+Question: What is the name of the technique for running executables with the same hash and different names? <br> 
+Answer: **BZAR** <br>
 
-Question: Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique? 
-Answer: **Masquerading** 
+Question: Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique? <br>
+Answer: **Masquerading** <br>
 
 ## Section: MITRE Engage 
-Question: Under Prepare, what is ID SAC0002? 
-Answer: **PERSONA CREATION** 
+Question: Under Prepare, what is ID SAC0002? <br>
+Answer: **PERSONA CREATION** <br>
 
-Question: What is the name of the resource to aid you with the engagement activity from the previous question? 
-Answer: **person profile worksheet** 
+Question: What is the name of the resource to aid you with the engagement activity from the previous question? <br>
+Answer: **person profile worksheet** <br>
 
-Question: Which engagement activity baits a specific response from the adversary? 
-Answer: **Lures** 
+Question: Which engagement activity baits a specific response from the adversary? <br>
+Answer: **Lures** <br>
 
-Question: What is the definition of Threat Model? 
-Answer: **A risk assessment that models organizational strengths and weaknesses.** 
+Question: What is the definition of Threat Model? <br>
+Answer: **A risk assessment that models organizational strengths and weaknesses.** <br>
 
 ## Section: MITRE D3FEND 
-Question: What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown? 
-Answer: **data obfuscation** 
+Question: What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown? <br>
+Answer: **data obfuscation** <br>
 
-Question: In D3FEND Inferred Relationships, what does the ATT&CK technique from the previous question produce? 
-Answer: **Outbound internet traffic network** 
+Question: In D3FEND Inferred Relationships, what does the ATT&CK technique from the previous question produce? <br>
+Answer: **Outbound internet traffic network** <br>
 
 ## Section: ATT&CK® Emulation Plans 
-Question: In Phase 1 for the APT3 Emulation Plan, what is listed first? 
-Answer: **c2 setup** 
+Question: In Phase 1 for the APT3 Emulation Plan, what is listed first? <br>
+Answer: **c2 setup** <br>
 
-Question: Under Persistence, what binary was replaced with cmd.exe? 
-Answer: **sethc.exe** 
+Question: Under Persistence, what binary was replaced with cmd.exe? <br>
+Answer: **sethc.exe** <br>
 
-Question: Examining APT29, what  C2 frameworks are listed in Scenario 1 Infrastructure? (format: tool1,tool2) 
-Answer: **pupy,metasploit framework** 
+Question: Examining APT29, what  C2 frameworks are listed in Scenario 1 Infrastructure? (format: tool1,tool2) <br>
+Answer: **pupy,metasploit framework** <br>
 
-Question: What C2 framework is listed in Scenario 2 Infrastructure? 
-Answer: **poshc2** 
+Question: What C2 framework is listed in Scenario 2 Infrastructure? <br>
+Answer: **poshc2** <br>
 
-Question: Examine the emulation plan for Sandworm. What webshell is used for Scenario 1? Check MITRE ATT&CK for the Software ID for the webshell. What is the id? (format: webshell,id) 
-Answer: **P.A.S.,S0598** 
+Question: Examine the emulation plan for Sandworm. What webshell is used for Scenario 1? Check MITRE ATT&CK for the Software ID for the webshell. What is the id? (format: webshell,id) <br>
+Answer: **P.A.S.,S0598** <br>
 
 ## Section: ATT&CK® and Threat Intelligence 
-Question: What is a group that targets your sector who has been in operation since at least 2013? 
-Answer: **APT33** 
+Question: What is a group that targets your sector who has been in operation since at least 2013? <br>
+Answer: **APT33** <br>
 
-Question: As your organization is migrating to the cloud, is there anything attributed to this APT group that you should focus on? If so, what is it? 
-Answer: **cloud accounts** 
+Question: As your organization is migrating to the cloud, is there anything attributed to this APT group that you should focus on? If so, what is it? <br>
+Answer: **cloud accounts** <br>
 
-Question: What tool is associated with the technique from the previous question? 
-Answer: **Ruler** 
+Question: What tool is associated with the technique from the previous question? <br>
+Answer: **Ruler** <br>
 
-Question: Referring to the technique from question 2, what mitigation method suggests using SMS messages as an alternative for its implementation? 
-Answer: **abnormal or malicious behaviour** 
+Question: Referring to the technique from question 2, what mitigation method suggests using SMS messages as an alternative for its implementation? <br>
+Answer: **abnormal or malicious behaviour** <br>
 
-Question: What platforms does the technique from question #2 affect? 
-Answer: **Azure AD, Google Workspace, IaaS, Office 365, SaaS** 
+Question: What platforms does the technique from question #2 affect? <br>
+Answer: **Azure AD, Google Workspace, IaaS, Office 365, SaaS** <br>
 
 ## Conclusion 
 The MITRE projects are really useful to the cyber security community. The information on these platforms can be used by all the cyber security folks from blue teamers to red teamers.  
-I had learned this module about a year but after going through it once again I’m convinced that the MITRE projects are invaluable to the cyber security community. I am now intrigued to go deeper into these projects for better understanding and application in my future career as security analyst. 
+
+I had gone through this module about a year but after going through it once again I’m fully convinced that the MITRE projects are invaluable to the cyber security community. I am now intrigued to go deeper into these projects for better understanding and application in my future career as security analyst. 
