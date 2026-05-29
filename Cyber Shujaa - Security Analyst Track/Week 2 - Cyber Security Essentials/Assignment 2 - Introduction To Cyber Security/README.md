@@ -14,13 +14,13 @@ Answer: **BANK-HACKED** <br>
 
 <img width="956" height="946" alt="1 2 intro to offensive security" src="https://github.com/user-attachments/assets/f00276be-89d5-4e3f-add8-f7e1093c8028" />
 
-_Flag after perfoming the task_ 
+_Flag after perfoming the task_ <br>
 
 ## Section: Web Application Security 
 Question: Check the other users to discover which user account was used to make the malicious changes and revert them. After reverting the changes, what is the flag that you have received? <br>
 Answer: **THM{IDOR_EXPLORED}** <br>
 <img width="954" height="952" alt="2 1 web application security" src="https://github.com/user-attachments/assets/8001c715-c028-4022-9e76-f947bf62b127" />
-_Figure 2: Flag displayed after solving the task_
+_Figure 2: Flag displayed after solving the task_ <br>
 
 ## Section: Intro to Digital Forensics 
 Question: Using pdfinfo, find out the author of the attached PDF file, ransom letter.pdf. <br>
