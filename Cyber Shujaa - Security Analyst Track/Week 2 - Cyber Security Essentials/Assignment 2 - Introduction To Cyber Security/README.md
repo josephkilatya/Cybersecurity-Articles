@@ -14,7 +14,6 @@ Answer: **BANK-HACKED** <br>
 
 <img width="956" height="946" alt="1 2 intro to offensive security" src="https://github.com/user-attachments/assets/f00276be-89d5-4e3f-add8-f7e1093c8028" />
 
-<img width="1920" height="1079" alt="1 3 intro to offensive security complete" src="https://github.com/user-attachments/assets/2d8acbb2-3dd7-4a5f-b534-ec6d3f1db37f" />
 _Flag after perfoming the task_ 
 
 ## Section: Web Application Security 
