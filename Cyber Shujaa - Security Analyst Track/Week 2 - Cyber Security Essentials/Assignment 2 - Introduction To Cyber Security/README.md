@@ -20,8 +20,6 @@ _Flag after perfoming the task_
 Question: Check the other users to discover which user account was used to make the malicious changes and revert them. After reverting the changes, what is the flag that you have received? <br>
 Answer: **THM{IDOR_EXPLORED}** <br>
 <img width="954" height="952" alt="2 1 web application security" src="https://github.com/user-attachments/assets/8001c715-c028-4022-9e76-f947bf62b127" />
-
-<img width="1909" height="1073" alt="2 2 web application security complete" src="https://github.com/user-attachments/assets/39de66f3-9af8-4266-9eb8-60b8e2325f82" />
 _Figure 2: Flag displayed after solving the task_
 
 ## Section: Intro to Digital Forensics 
