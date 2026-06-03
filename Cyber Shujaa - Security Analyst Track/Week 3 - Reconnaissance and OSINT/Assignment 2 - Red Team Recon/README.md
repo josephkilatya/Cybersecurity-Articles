@@ -13,52 +13,52 @@ Another famous OSINT tool, Maltego, is also covered in the room. This tool is po
 ## Walkthrough 
 ## Section: Introduction 
 Task: We suggest you start the AttackBox and experiment with every command and tool we demonstrate. 
-Answer: No answer needed 
+Answer: **No answer needed**
 
 ## Section: Taxonomy of Reconnaissance 
 Task: Ensure you have a clear understanding of the different types of recon activities before proceeding. 
-Answer: No answer needed 
+Answer: **No answer needed** 
 
 ## Section: Built-in Tools 
 Question:  When was thmredteam.com created (registered)? (YYYY-MM-DD) 
-Answer: 2021-09-24 
+Answer: **2021-09-24** 
 
 Question: To how many IPv4 addresses does clinic.thmredteam.com resolve? 
-Answer: 2 
+Answer: **2** 
 
 Question: To how many IPv6 addresses does clinic.thmredteam.com resolve? 
-Answer: 2 
+Answer: **2** 
 
 ## Section: Advanced Searching 
 Question: How would you search using Google for xls indexed for http://clinic.thmredteam.com? 
-Answer: filetype:xls site:clinic.thmredteam.com 
+Answer: **filetype:xls site:clinic.thmredteam.com** 
 
 Question: How would you search using Google for files with the word passwords for http://clinic.thmredteam.com? 
-Answer: passwords site:clinic.thmredteam.com 
+Answer: **passwords site:clinic.thmredteam.com** 
 
 ## Section: Specialized Search Engines 
 Question: What is the shodan command to get your Internet-facing IP address? 
-Answer: shodan myip 
+Answer: **shodan myip** 
 
 ## Section: Recon-ng 
 Question: How do you start recon-ng with the workspace clinicredteam? 
-Answer: recon-ng -w clinicredteam 
+Answer: **recon-ng -w clinicredteam** 
 
 Question: How many modules with the name virustotal exist? 
-Answer: 2 
+Answer: **2** 
 
 Question: There is a single module under hosts-domains. What is its name? 
-Answer: migrate_hosts 
+Answer: **migrate_hosts** 
 
 Question: censys_email_address is a module that “retrieves email addresses from the TLS certificates for a company.” Who is the author? 
-Answer: Censys Team 
+Answer: **Censys Team** 
 
 ## Section: Maltego 
 Question: What is the name of the transform that queries NIST’s National Vulnerability Database? 
-Answer: NIST NVD 
+Answer: **NIST NVD** 
 
 Question: What is the name of the project that offers a transform based on ATT&CK? 
-Answer: MISP Project 
+Answer: **MISP Project** 
 
 ## Module Completion 
 TryHackMe profile link: https://tryhackme.com/p/kl45h 
