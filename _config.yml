@@ -1,12 +1,22 @@
 title: Cybersecurity Articles
 description: Find my Cybersecurity Articles here
+author: Joseph Kilatya
 theme: jekyll-theme-cayman
-# Other options: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-dinsey, etc.
 
-# Navigation
-plugins:
-  - jekyll-sitemap
-
+# Jekyll settings
+markdown: kramdown
+permalink: /:title/
 exclude:
   - .gitignore
-  - README.md
+  - .git
+  - node_modules
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Build settings
+encoding: utf-8
+future: false
+show_drafts: false
