@@ -1,0 +1,12 @@
+title: Cybersecurity Articles
+description: Find my Cybersecurity Articles here
+theme: jekyll-theme-cayman
+# Other options: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-dinsey, etc.
+
+# Navigation
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - .gitignore
+  - README.md
