@@ -12,53 +12,53 @@ Another famous OSINT tool, Maltego, is also covered in the room. This tool is po
 
 ## Walkthrough 
 ## Section: Introduction 
-Task: We suggest you start the AttackBox and experiment with every command and tool we demonstrate. 
-Answer: **No answer needed**
+Task: We suggest you start the AttackBox and experiment with every command and tool we demonstrate. <br>
+Answer: **No answer needed**<br>
 
 ## Section: Taxonomy of Reconnaissance 
-Task: Ensure you have a clear understanding of the different types of recon activities before proceeding. 
-Answer: **No answer needed** 
+Task: Ensure you have a clear understanding of the different types of recon activities before proceeding. <br>
+Answer: **No answer needed** <br>
 
 ## Section: Built-in Tools 
-Question:  When was thmredteam.com created (registered)? (YYYY-MM-DD) 
-Answer: **2021-09-24** 
+Question:  When was thmredteam.com created (registered)? (YYYY-MM-DD) <br>
+Answer: **2021-09-24** <br>
 
-Question: To how many IPv4 addresses does clinic.thmredteam.com resolve? 
-Answer: **2** 
+Question: To how many IPv4 addresses does clinic.thmredteam.com resolve? <br>
+Answer: **2** <br>
 
-Question: To how many IPv6 addresses does clinic.thmredteam.com resolve? 
-Answer: **2** 
+Question: To how many IPv6 addresses does clinic.thmredteam.com resolve? <br>
+Answer: **2** <br>
 
 ## Section: Advanced Searching 
-Question: How would you search using Google for xls indexed for http://clinic.thmredteam.com? 
-Answer: **filetype:xls site:clinic.thmredteam.com** 
+Question: How would you search using Google for xls indexed for http://clinic.thmredteam.com? <br>
+Answer: **filetype:xls site:clinic.thmredteam.com** <br>
 
-Question: How would you search using Google for files with the word passwords for http://clinic.thmredteam.com? 
-Answer: **passwords site:clinic.thmredteam.com** 
+Question: How would you search using Google for files with the word passwords for http://clinic.thmredteam.com? <br>
+Answer: **passwords site:clinic.thmredteam.com** <br>
 
 ## Section: Specialized Search Engines 
-Question: What is the shodan command to get your Internet-facing IP address? 
-Answer: **shodan myip** 
+Question: What is the shodan command to get your Internet-facing IP address? <br>
+Answer: **shodan myip** <br>
 
 ## Section: Recon-ng 
-Question: How do you start recon-ng with the workspace clinicredteam? 
-Answer: **recon-ng -w clinicredteam** 
+Question: How do you start recon-ng with the workspace clinicredteam? <br>
+Answer: **recon-ng -w clinicredteam** <br>
 
-Question: How many modules with the name virustotal exist? 
-Answer: **2** 
+Question: How many modules with the name virustotal exist? <br>
+Answer: **2** <br>
 
-Question: There is a single module under hosts-domains. What is its name? 
-Answer: **migrate_hosts** 
+Question: There is a single module under hosts-domains. What is its name? <br>
+Answer: **migrate_hosts** <br>
 
-Question: censys_email_address is a module that “retrieves email addresses from the TLS certificates for a company.” Who is the author? 
-Answer: **Censys Team** 
+Question: censys_email_address is a module that “retrieves email addresses from the TLS certificates for a company.” Who is the author? <br>
+Answer: **Censys Team** <br>
 
 ## Section: Maltego 
-Question: What is the name of the transform that queries NIST’s National Vulnerability Database? 
-Answer: **NIST NVD** 
+Question: What is the name of the transform that queries NIST’s National Vulnerability Database? <br>
+Answer: **NIST NVD** <br>
 
-Question: What is the name of the project that offers a transform based on ATT&CK? 
-Answer: **MISP Project** 
+Question: What is the name of the project that offers a transform based on ATT&CK? <br>
+Answer: **MISP Project** <br>
 
 ## Module Completion 
 TryHackMe profile link: https://tryhackme.com/p/kl45h 
