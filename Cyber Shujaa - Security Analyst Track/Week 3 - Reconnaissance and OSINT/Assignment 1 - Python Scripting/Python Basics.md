@@ -19,18 +19,23 @@ Answer: **No answer needed.** <br>
 ## Section: Hello World 
 Task: On the code editor, print "Hello World". What is the flag?  <br>
 Answer: **THM{PRINT_STATEMENTS}** <br>
+<img width="1920" height="1080" alt="1 1 Hello World" src="https://github.com/user-attachments/assets/f65034f1-3905-4129-a2ca-f1c8c19162cf" />
 
 Task: In the code editor, print the result of 21 + 43. What is the flag? <br>
 Answer: **THM{ADDITI0N}** <br>
- 
+ <img width="1918" height="1080" alt="2 1 Mathematical Operations" src="https://github.com/user-attachments/assets/a69ef663-567a-4eaa-9d05-fbce7354a07f" />
+
 Task: Print the result of 142 - 52. What is the flag? <br>
 Answer: **THM{SUBTRCT}** <br>
+<img width="1920" height="1073" alt="2 2 Mathematical Operations" src="https://github.com/user-attachments/assets/44a6c10c-1078-475e-8a5c-8cabb0ca3f4a" />
 
 Task: Print the result of 10 * 342. What is the flag? <br>
 Answer: **THM{MULTIPLICATION_PYTHON}** <br>
+<img width="1920" height="1080" alt="2 3 Mathematical Operations" src="https://github.com/user-attachments/assets/706ce485-173f-4749-8c2b-e2fdcf1d5039" />
 
 Task: Print the result of 5 squared. What is the flag? <br>
 Answer: **THM{EXP0N3NT_POWER}** <br>
+<img width="1920" height="1080" alt="2 4 Mathematical Operations" src="https://github.com/user-attachments/assets/90758797-fd8d-4028-8fea-9d42fe4eef5c" />
 
 ## Section: Variable and Data Types 
 Task: In the code editor, create a variable called height and set its initial value to 200. <br>
@@ -41,6 +46,7 @@ Answer: **No answer needed.** <br>
 
 Task: On another new line, print out the value of height. What is the flag that appears? <br>
 Answer: **THM{VARIABL3S}** <br>
+<img width="1920" height="1080" alt="3 1 Variable and Data Types" src="https://github.com/user-attachments/assets/19424058-9438-4243-a609-bedbf8e9b4df" />
 
 ## Section: Logical and Boolean Operators 
 Task: Read the above section. <br>
@@ -54,13 +60,16 @@ Answer: **No answer needed** <br>
 
 Task: Once you've written the application in the code editor's shipping.py tab, a flag will appear, which is the answer to this question. <br>
 Answer: **THM{IF_STATEMENT_SHOPPING}** <br>
+<img width="1920" height="1079" alt="4 1 Introduction to if statements" src="https://github.com/user-attachments/assets/cf875572-53df-4a04-89c3-b92e65f13748" />
 
 Task: In shipping.py, on line 12 (when using the Code Editor's Hint), change the customer_basket_cost variable to 101 and re-run your code. You will get a flag (if the total cost is correct based on your code); the flag is the answer to this question. <br>
 Answer: **THM{MY_FIRST_APP}** <br>
+<img width="1920" height="1079" alt="4 2 Introduction to if statements" src="https://github.com/user-attachments/assets/23d77ccf-8c03-4b6f-b9cd-abdcf06a26ea" />
 
 ## Section: Loops 
 Task: On the code editor, click back on the "script.py" tab and code a loop that outputs every number from 0 to 50. <br>
 Answer: **THM{L00PS_WHILE_FOR}** <br>
+<img width="1920" height="1080" alt="5 1 Loops" src="https://github.com/user-attachments/assets/419f3d4c-1341-49a4-bcbd-07c63fa91b5e" />
 
 ## Section: Introduction to Functions 
 You've invested in Bitcoin and want to write a program that tells you when the value of Bitcoin falls below a particular value in dollars.  
@@ -78,6 +87,7 @@ Answer: **No answer needed.** <br>
 ## Section: Files 
 Task: In the code editor, write Python code to read the flag.txt file. What is the flag in this file? <br>
 Answer: **THM{F1LE_R3AD}** <br>
+<img width="1920" height="1080" alt="6 1 Files" src="https://github.com/user-attachments/assets/afd542c1-0d67-4645-a31d-8e1385b0fe36" />
 
 ## Section: Imports 
 Task: Read the task and run the Python example code above in the code editor on the right. <br>
