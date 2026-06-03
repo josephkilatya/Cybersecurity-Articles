@@ -1,4 +1,4 @@
-# Introduction to Networking Module Report
+# Introduction to Networking Module
 ## Introduction
 This module covers Networking from a borader perspective. Some of the areas covered 
 include but not limited to:
