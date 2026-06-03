@@ -29,29 +29,33 @@ Answer: **namecheap.com** <br>
 Question: Which company is TryHackMe.com using for name servers? <br>
 Answer: **cloudflare.com** <br>
 
-<Screenshot of answers to the above questions numbered in their respective order> <br>
+<img width="1037" height="1008" alt="1 1 whois" src="https://github.com/user-attachments/assets/13f6b3ba-e484-466b-ac83-aa9c232696e6" />
+_Screenshot of answers to the above questions numbered in their respective order_ <br>
   
 ## Task: nslookup and dig 
 Question: Check the TXT records of thmlabs.com. What is the flag there? <br>
 Answer: **THM{a5b83929888ed36acb0272971e438d78}** <br>
+<img width="1037" height="963" alt="1 1 nslookup and dig" src="https://github.com/user-attachments/assets/9b0cde4d-f8af-4a83-8f9f-c52607faac55" />
 
 ## Task: DNSDumpster 
 Question: Lookup tryhackme.com on DNSDumpster. What is one interesting subdomain that you would discover in addition to www and blog? <br> 
 Answer: **remote** <br>
+<img width="1920" height="1080" alt="3 1 dnsdumpster" src="https://github.com/user-attachments/assets/f53fff8c-236f-4b1c-90b2-d5f5603f65ec" />
 
 ## Task: Shodan.io 
 Question: According to Shodan.io, what is the 2nd country in the world in terms of the number of publicly accessible Apache servers? <br>
 Answer: **Germany** <br>
+<img width="1920" height="1079" alt="4 1 shodan io" src="https://github.com/user-attachments/assets/169f54af-b7e0-4bdc-8dc8-ae4d417c8568" />
 
 Question: Based on Shodan.io, what is the 3rd most common port used for Apache? <br>
 Answer: **8080** <br>
-
-<Answers to the first and second questions of this task> 
+<img width="1919" height="1080" alt="4 2 shodan io" src="https://github.com/user-attachments/assets/68e5771e-2f90-4bc4-b35a-81f4c486b26a" />
+_Answers to the first and second questions of this task_ 
   
 Question: Based on Shodan.io, what is the 3rd most common port used for nginx? <br>
 Answer: **5001** <br>
-
-<3rd most common port used for nginx> <br>
+<img width="1919" height="1080" alt="4 2 shodan io" src="https://github.com/user-attachments/assets/bd9a1b11-a03b-4028-a1a4-38ff5011084f" />
+_3rd most common port used for nginx_ <br>
 
 ## Module Completion 
 TryHackMe profile link: https://tryhackme.com/p/kl45h 
