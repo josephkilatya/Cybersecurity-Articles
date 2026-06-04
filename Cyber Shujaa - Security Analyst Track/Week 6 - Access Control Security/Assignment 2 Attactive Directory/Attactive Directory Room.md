@@ -114,8 +114,9 @@ _svc-admin user flag_ <br>
   
 Question: backup <br>
 Answer: **TryHackMe{B4ckM3UpSc0tty!}** <br>
-<img width="663" height="289" alt="3 2 backup flag" src="https://github.com/user-attachments/assets/0d7da9d2-49f3-4c07-a68e-fe0bc0e0fd2b" />
-_backup user flag_
+<img width="663" height="289" alt="3 2 backup flag" src="https://github.com/user-attachments/assets/0d7da9d2-49f3-4c07-a68e-fe0bc0e0fd2b" /> <br>
+_backup user flag_ <br>
+
 Question: Administrator <br>
 Answer: **TryHackMe{4ctiveD1rectoryM4st3r}** <br>
 <img width="772" height="318" alt="4 3 admin root flag" src="https://github.com/user-attachments/assets/5ce3d359-6421-4cc7-8133-1ea84ab8422d" /> <br>
