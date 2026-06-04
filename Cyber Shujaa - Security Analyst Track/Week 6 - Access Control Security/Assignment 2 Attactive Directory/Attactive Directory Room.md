@@ -6,27 +6,27 @@ In this room, we familiarize ourselves with tools during AD penetration testing.
 
 ## Walkthrough 
 ## Section: Deploy The Machine 
-Question: You're now ready to start hacking!  
-Answer: **no answer needed** 
+Question: You're now ready to start hacking!  <br>
+Answer: **no answer needed** <br>
 
-Question: Alternatively, you can deploy the In-Browser Kali or Attack Box and automatically be connected to the TryHackMe Network. 
-Answer: **no answer needed** 
+Question: Alternatively, you can deploy the In-Browser Kali or Attack Box and automatically be connected to the TryHackMe Network. <br>
+Answer: **no answer needed** <br>
 
-Question: Once connected to the VPN, deploy the machine and get hacking! 
-Answer: **no answer needed** 
+Question: Once connected to the VPN, deploy the machine and get hacking! <br>
+Answer: **no answer needed** <br>
 
 ## Section: Setup 
-Question: Install Impacket, Bloodhound and Neo4j 
-Answer: **no answer needed**
+Question: Install Impacket, Bloodhound and Neo4j <br>
+Answer: **no answer needed** <br>
 
 ## Section: Welcome to Attactive Directory 
-Question: What tool will allow us to enumerate port 139/445? 
-Answer: **enum4linux** 
+Question: What tool will allow us to enumerate port 139/445? <br>
+Answer: **enum4linux** <br>
 
-Question: What is the NetBIOS-Domain Name of the machine? 
-Answer: **THM-AD** 
-<img width="996" height="158" alt="1 1 domain name" src="https://github.com/user-attachments/assets/b73e5bdf-3f9a-4473-aa4c-1a14b8ed50eb" />
-_Target machine NetBIOS-Domain Name_
+Question: What is the NetBIOS-Domain Name of the machine? <br>
+Answer: **THM-AD** <br>
+<img width="996" height="158" alt="1 1 domain name" src="https://github.com/user-attachments/assets/b73e5bdf-3f9a-4473-aa4c-1a14b8ed50eb" /> <br>
+_Target machine NetBIOS-Domain Name_ <br>
   
 Question: What invalid TLD do people commonly use for their Active Directory Domain? <br>
 Answer: **.local** <br>
