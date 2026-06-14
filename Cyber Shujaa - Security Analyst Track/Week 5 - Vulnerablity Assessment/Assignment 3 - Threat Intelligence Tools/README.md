@@ -1,10 +1,10 @@
 # Threat Intelligence Tools Room Report 
 ## Introduction 
-Threat intelligence, the usage of threat intelligence platforms to gather already existing cyber threat intelligence during digital forensics and incidence response, and malware analysis. These platforms/tools are useful to cyber security professionals as they help save time during investigation of security incidents. 
+According to [CrowdStrike](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/), Threat intelligence refers to the collection, processing, and analysis of data to understand a threat actor’s motives, targets, and attack methods. It is also commonly referred to as Cyber Threat Intelligence (CTI).
 
-In this room on TryHackMe platform, we are introduced to some of threat intelligence tools. They include: 
-- Urlscan.io – Used to scan suspicious URL links in a sandboxed environment. 
-- Abuse.ch – Used to gather intel on malware and URL links 
+This room brings an introductory guide to some of the worlds top CTI platforms which are as follows: 
+- Urlscan.io – Free platform used to scan and analyse website or specific URL links in a sandboxed environment. 
+- Abuse.ch – A free platform that tracks and shares data on malware, botnets, and malicious domains.
 - PhishTool – Used to investigate phishing emails. 
 - Cisco Talos Intelligence – Used to gather intel during email and malware analysis. 
 
@@ -15,12 +15,11 @@ The room includes 3 test emails addresses to practice phishing email analysis.
 Question: Read the description! Continue to the next task. 
 Answer: No answer needed 
 
-Section: Threat Intelligence Tools 
+## Section: Threat Intelligence Tools 
 Question: I've read on Threat Intel and the classifications 
-
 Answer: No answer needed 
-Section: UrlScan.io 
 
+## Section: UrlScan.io 
 Question: What was TryHackMe's Cisco Umbrella Rank based on the screenshot? 
 Answer: 345612 
 
@@ -91,41 +90,40 @@ Answer: Complete Web Reviews
 this time round I could not get the records which was interesting) 
 
 ## Section: Scenario 1 
-Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you 
-from other coworkers. You must obtain details from each email to triage the incidents 
-reported.  
-Task: Use the tools and knowledge discussed throughout this room (or use your 
-resources) to help you analyze Email2.eml found on the VM attached to Task 5 and use 
+Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents 
+reported. Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email2.eml found on the VM attached to Task 5 and use 
 the information to answer the questions. 
 Question: According to Email2.eml, what is the recipient's email address? 
 Answer: chris.lyons@supercarcenterdetroit.com 
+
 <Recipient’s email address> 
-Question: From Talos Intelligence, the attached file can also be identified by the 
-Detection Alias that starts with an H... 
+
+Question: From Talos Intelligence, the attached file can also be identified by the Detection Alias that starts with an H... 
 Answer: HIDDENEXT/Worm.Gen 
+
 <Attached file Alias from Cisco Talos Intelligence platform> 
+
 Section: Scenario 2 
-Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you 
-from other coworkers. You must obtain details from each email to triage the incidents 
-reported.  
-Task: Use the tools and knowledge discussed throughout this room (or use your 
-resources) to help you analyze Email3.eml found on the VM attached to Task 5 and use 
-the information to answer the questions. 
+Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.  
+
+Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email3.eml found on the VM attached to Task 5 and use the information to answer the questions. 
+
 Question: What is the name of the attachment on Email3.eml? 
 Answer: Sales_Receipt 5606.xls 
+
 <Attached file name> 
+  
 Question: What malware family is associated with the attachment on Email3.eml? 
 Answer: Dridex 
+
 <Malware family name> 
-Section: Conclusion 
+  
+## Section: Conclusion 
 Question: Read the above and completed the room 
 Answer: No answer needed 
+
 Conclusion 
-Threat Intelligence is one of my favourite areas in cyber security. It saves an analyst time 
-during digital forensics and incident response, and malware analysis. 
-I had gone through this room before but it was a good experience to relearn some 
-aspects that I had not well grasped initially. 
-Oh, I also have my own version of PhishTool project that I’m working on. However, 
-unlike PhishTool, this tool is to be used offline. You can check out the project on my 
-github account https://github.com/josephkilatya/MyProject. It is still under 
-development and open for contributions.  
+
+Threat Intelligence is one of my favourite areas in cyber security. It saves an analyst time during digital forensics and incident response, and malware analysis. I had gone through this room before but it was a good experience to relearn some aspects that I had not well grasped initially. 
+
+Oh, I also have my own version of PhishTool project that I’m working on. However, unlike PhishTool, this tool is to be used offline. You can check out the project on my github account https://github.com/josephkilatya/MyProject. It is still under development and open for contributions.  
