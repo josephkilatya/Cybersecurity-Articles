@@ -15,6 +15,8 @@ With that brief introduction, let's keep it going.
 Question: Read the description! Continue to the next task. <br>
 Answer: **No answer needed** <br>
 
+No questions required in this section however make sure to go through the section and get the structure of the room.
+
 ## Section: Threat Intelligence Tools 
 Question: I've read on Threat Intel and the classifications <br>
 Answer: **No answer needed** <br>
