@@ -91,21 +91,33 @@ _From the search results, we find the Alpha-2 code of the associated country as 
 **Scenario:**
 You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below. 
 
+For my case, I will be downloading the Task Files and solve the Task Challenges from my analysis environment. Once opened on Thunderbird, we are able to identify the information/answers in relation to the questions 1-3 for this section as shown in screenshot below.
+
+<img width="958" height="952" alt="2 1 quiz 1-to-3" src="https://github.com/user-attachments/assets/2b9b5386-9b06-436d-a006-b7e97cfd6cc7" /> 
+
 Question: What social media platform is the attacker trying to pose as in the email? <br>
-Answer: LinkedIn <br>
+Answer: **LinkedIn** <br>
 
 Question: What is the senders email address? <br>
-Answer: darkabutla@sc500.whpservers.com <br>
+Answer: **darkabutla@sc500.whpservers.com** <br>
 
 Question: What is the recipient's email address? <br>
-Answer: cabbagecare@hotsmail.com <br>
+Answer: **cabbagecare@hotsmail.com** <br>
 
 <Question 1 to 3 answers> 
 
 Question: What is the Originating IP address? Defang the IP address. <br>
 Answer: 204[.]93[.]183[.]11 <br>
 
-<Sender IP which is also the originating IP> <br>
+To answer this question and the following one, we will be viewing the raw .eml file. You can achieve this by using a Text Editor such as Notepad ++ or using build-in THunderbird feature to view the raw email. This is one of the advantages of using Thunderbird during phishing email analysis as we've got almost all features available under one application thus little tool switching.
+
+Click **More** drop down menu in Thunderbird > Then click **View Source** to view the raw email file. The originating IP address is 204.93.183.11 as shown in screenshot below without defanging. <br>
+
+<img width="958" height="472" alt="image" src="https://github.com/user-attachments/assets/7f90f44a-b27f-4678-8319-21f784fd9881" />
+
+What is defanging? It the practice of modifying potentially harmful digital indicators—such as URLs, domains, and IP addresses—to make them non-clickable and harmless. It is considered a best practice and advised to always have it in mind when preparing CTI or Malware Analysis reports. You can learn more about defanging and refanging from this article [here](https://medium.com/@ranemirusG/defanging-and-refanging-of-ioc-4eaf7852a6ac). To achieve defanging, there is another useful tool that will us with this, [CyberChef](https://gchq.github.io/CyberChef/). If you are not familiar, you check out this walkthough that I recently published or use the THM CyberChef room [here](https://tryhackme.com/room/cyberchefbasics). Defanged IP from CyberChef is shown in screenshot below.
+
+<img width="1540" height="304" alt="image" src="https://github.com/user-attachments/assets/b234438e-4aac-43ee-94f4-bc95ba8376ce" />
   
 Question: How many hops did the email go through to get to the recipient? <br>
 Answer: 4 <br>
