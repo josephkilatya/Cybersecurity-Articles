@@ -56,8 +56,17 @@ Instead of running a single tool, Abuse.ch operates several specialized tracking
 - Feodo Tracker: Focuses specifically on mapping and blocking botnet Command and Control (C2) server IP addresses.
 - SSLBL: A project that tracks malicious SSL/TLS certificates and JA3 fingerprints linked to malware botnets.
 
+With that in mind, let's dive into the questions in this section.
+
 Question: The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
 Answer: Katana <br>
+
+To get the answer to this question, we will first need to visit [ThreatFox](https://threatfox.abuse.ch/) directly or fromm Abuse.ch. Next Go to the ThreatFox Database to search for the given IOC. ThreatFox database has a search syntax which you can find by clicking "**Search Syntax**" just below the search bar. For the given IOC, we wiil use this syntaxt `ioc:<ioc>` which will be `ioc:212.192.246.30:5555`. The search gives a single hit which we can click to start the analysis.
+
+<img width="1341" height="290" alt="image" src="https://github.com/user-attachments/assets/5316304b-e734-4326-90c3-f6c4bcb7d054" />
+_Malware alias is **Katana** while oriniginal name is **Mirai**_
+
+There is additional information provided which can also be useful intelligence. Feel free to look around the intelligence. 
 
 Question: Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist? <br>
 Answer: Dridex <br>
