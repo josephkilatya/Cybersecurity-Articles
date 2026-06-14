@@ -3,10 +3,10 @@
 According to [CrowdStrike](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/), Threat intelligence refers to the collection, processing, and analysis of data to understand a threat actor’s motives, targets, and attack methods. It is also commonly referred to as Cyber Threat Intelligence (CTI).
 
 This room brings an introductory guide to some of the worlds top CTI platforms which are as follows: 
-- Urlscan.io – Free platform used to scan and analyse website or specific URL links in a sandboxed environment. 
-- Abuse.ch – A free platform that tracks and shares data on malware, botnets, and malicious domains.
-- PhishTool – Used to investigate phishing emails. 
-- Cisco Talos Intelligence – Used to gather intel during email and malware analysis. 
+- [Urlscan.io](https://urlscan.io/) – Free platform used to scan and analyse website or specific URL links in a sandboxed environment. 
+- [Abuse.ch](https://abuse.ch/) – A free platform that tracks and shares data on malware, botnets, and malicious domains.
+- [PhishTool](https://www.phishtool.com/) – Is a forensic phishing email analysis and incident response platform. 
+- [Cisco Talos Intelligence](https://talosintelligence.com/) – Is a leading threat intelligence team providing expert security research, analysis, and incident response to protect users globally. It is a commercial service unlike some of the previously mentioned platforms.
 
 The room includes 3 test emails addresses to practice phishing email analysis. 
 
