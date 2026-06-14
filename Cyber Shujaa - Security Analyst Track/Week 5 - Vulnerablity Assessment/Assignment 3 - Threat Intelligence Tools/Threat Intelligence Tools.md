@@ -24,12 +24,13 @@ To answer the questions in this section, we will not need to visit Urlscan but r
 Question: What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
 Answer: **345612** <br>
 
-To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as show in image below. <img width="563" height="155" alt="image" src="https://github.com/user-attachments/assets/068c6e47-13c3-48bc-8af6-37880580cf2d" />
+To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as show in image below. <br>
+<img width="563" height="155" alt="image" src="https://github.com/user-attachments/assets/068c6e47-13c3-48bc-8af6-37880580cf2d" />
 
 Question: How many domains did UrlScan.io identify on the screenshot? <br>
 Answer: **13** <br>
 
-The answer to this question can be found as in previous section, that is under Summary section of provided screenshot.
+The answer to this question can be found as in previous section, that is under Summary section of provided screenshot. <br>
 <img width="1094" height="104" alt="image" src="https://github.com/user-attachments/assets/4067af13-aeca-4cfe-bbb4-2529394332ed" />
 
 Question: What was the main domain registrar listed on the screenshot? <br>
