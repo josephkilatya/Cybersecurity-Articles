@@ -136,7 +136,7 @@ Answer: HIDDENEXT/Worm.Gen <br>
 
 <Attached file Alias from Cisco Talos Intelligence platform> <br>
 
-Section: Scenario 2 
+## Section: Scenario 2 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.  
 
 Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email3.eml found on the VM attached to Task 5 and use the information to answer the questions. 
