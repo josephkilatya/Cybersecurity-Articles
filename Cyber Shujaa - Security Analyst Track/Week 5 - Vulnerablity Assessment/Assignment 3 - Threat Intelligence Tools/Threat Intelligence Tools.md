@@ -47,6 +47,15 @@ The IP address can be found just at the top of the attached screenshot of this s
 <img width="1391" height="152" alt="image" src="https://github.com/user-attachments/assets/a235f8cf-e863-40d7-99d3-ba7fdd99c9ea" />
 
 ## Section: Abuse.ch 
+Abuse.ch is a widely respected, non-profit cybersecurity project dedicated to tracking and fighting global malware, botnets, and cybercrime infrastructure. Founded in 2009 by researcher Roman Hüssy, it is operated out of the Bern University of Applied Sciences in Switzerland and partnered with the Spamhaus Project. It relies on a global network of security researchers to crowd-source and share live threat data completely free of charge.
+
+Instead of running a single tool, Abuse.ch operates several specialized tracking platforms:
+- MalwareBazaar: A crowdsourced repository for sharing and downloading known malware samples for analysis.
+- URLhaus: A project that tracks malicious domains and URLs used to distribute malware.
+- ThreatFox: A platform for sharing validated indicators of compromise (IOCs) with the community.
+- Feodo Tracker: Focuses specifically on mapping and blocking botnet Command and Control (C2) server IP addresses.
+- SSLBL: A project that tracks malicious SSL/TLS certificates and JA3 fingerprints linked to malware botnets.
+
 Question: The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
 Answer: Katana <br>
 
