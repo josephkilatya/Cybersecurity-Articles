@@ -122,13 +122,15 @@ What is defanging? It the practice of modifying potentially harmful digital indi
 Question: How many hops did the email go through to get to the recipient? <br>
 Answer: 4 <br>
 
-<Number of hops of the email from sender to receiver> 
+This question is a little bit tricky when trying to do the hops count manually. I will leave this to you as homework. From my count I did get 4 total hops made by the email as shown in screenshot below.
+
   
 ## Section: Cisco Talos Intelligence 
 Question: What is the listed domain of the IP address from the previous task? <br>
 Answer: scnet.net <br>
 
-<Ip address reverse domain name> <br>
+<img width="961" height="409" alt="2 3 number of hopes" src="https://github.com/user-attachments/assets/5d81dfa5-c0b7-4198-9b63-b5a9da62b9e2" />
+ <br>
   
 Question: What is the customer name of the IP address? <br>
 Answer: Complete Web Reviews <br>
