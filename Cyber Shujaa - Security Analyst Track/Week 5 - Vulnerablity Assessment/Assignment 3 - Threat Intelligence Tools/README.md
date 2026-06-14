@@ -8,6 +8,8 @@ This room brings an introductory guide to some of the worlds top CTI platforms w
 - [PhishTool](https://www.phishtool.com/) – Is a forensic phishing email analysis and incident response platform. 
 - [Cisco Talos Intelligence](https://talosintelligence.com/) – Is a leading threat intelligence team providing expert security research, analysis, and incident response to protect users globally. It is a commercial service unlike some of the previously mentioned platforms.
 
+With that brief introduction, let's keep it going.
+
 ## Walkthrough 
 ## Section: Room Outline 
 Question: Read the description! Continue to the next task. 
