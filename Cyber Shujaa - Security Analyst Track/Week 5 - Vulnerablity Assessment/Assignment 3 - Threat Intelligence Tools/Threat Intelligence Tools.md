@@ -144,12 +144,18 @@ Task: Use the tools and knowledge discussed throughout this room (or use your re
 Question: What is the name of the attachment on Email3.eml? <br>
 Answer: Sales_Receipt 5606.xls <br>
 
-<Attached file name> <br>
+For this task, you can use PhishTool or any other tool of choice. For my case I will be using Thundernird to open the given .eml file. From Thunderbird, you can be able to see other sorts of useful information such as the Sender Address, Email Subject and Message. The attached file appears at the bottom of the Thunderbird Windows as shown in screenshot below.
+
+<img width="953" height="912" alt="5 1 attached file name" src="https://github.com/user-attachments/assets/d94b74d0-9688-44af-9cfa-f404839273f3" /> <br>
   
 Question: What malware family is associated with the attachment on Email3.eml? <br>
 Answer: Dridex <br>
 
-<Malware family name> 
+From the previous question, we can export the attached file by Saving it to the local system. Next step would be uploading the file attachment to CTI platform or calculate the file hash value and use it to conduct you intel gathering. I will be uploading the file directly to [Malware Bazaar](https://bazaar.abuse.ch/upload/) which is also part of Abuse.ch tools.
+
+Let's see how we can achieve that. First visit Malware Bazaar directly from this link or from Abuse.ch. Under **Share malware samples** click the **upload samples** button to upload the file attachment from the email in previous question. **Note**: To upload malware to Malware Bazaar, you will need to login. If you do not have an account you can proceed to create one. Once uploaded, Malware Bazaar calculates the hash value for you and perfoms the hash search on it's internal database. The analysis show the file attachment to be a malware if the Dridex Family as show in screenshot below.
+
+<img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
 ## Section: Conclusion 
 Question: Read the above and completed the room <br>
