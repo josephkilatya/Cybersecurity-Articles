@@ -181,8 +181,10 @@ Let's see how we can achieve that. First visit Malware Bazaar directly from this
 Question: Read the above and completed the room <br>
 Answer: No answer needed <br>
 
-Conclusion 
+## Conclusion 
+Cyber Threat Intelligence is one of my favourite areas in cyber security. It saves an analyst time during incident response, and malware analysis. While this room cover a lot on threat intelligence, there are notable platforms that I do use to aid with CTI.
 
-Threat Intelligence is one of my favourite areas in cyber security. It saves an analyst time during digital forensics and incident response, and malware analysis. I had gone through this room before but it was a good experience to relearn some aspects that I had not well grasped initially. 
-
-Oh, I also have my own version of PhishTool project that I’m working on. However, unlike PhishTool, this tool is to be used offline. You can check out the project on my github account https://github.com/josephkilatya/MyProject. It is still under development and open for contributions.  
+1. VirusTotal
+2. AlienVault
+3. Joe Sandbox
+4. Any.Run
