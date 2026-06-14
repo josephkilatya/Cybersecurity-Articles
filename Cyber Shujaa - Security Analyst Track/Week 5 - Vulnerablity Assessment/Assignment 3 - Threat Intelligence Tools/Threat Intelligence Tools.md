@@ -59,7 +59,7 @@ Instead of running a single tool, Abuse.ch operates several specialized tracking
 With that in mind, let's dive into the questions in this section.
 
 Question: The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
-Answer: Katana <br>
+Answer: **Katana** <br>
 
 To get the answer to this question, we will first need to visit [ThreatFox](https://threatfox.abuse.ch/) directly or fromm Abuse.ch. Next Go to the ThreatFox Database to search for the given IOC. ThreatFox database has a search syntax which you can find by clicking "**Search Syntax**" just below the search bar. For the given IOC, we wiil use this syntaxt `ioc:<ioc>` which will be `ioc:212.192.246.30:5555`. The search gives a single hit which we can click to start the analysis.
 
@@ -69,13 +69,23 @@ _Malware alias is **Katana** while oriniginal name is **Mirai**_
 There is additional information provided which can also be useful intelligence. Feel free to look around the intelligence. 
 
 Question: Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist? <br>
-Answer: Dridex <br>
+Answer: **Dridex** <br>
+
+Let's visit [SSL Blacklist](https://sslbl.abuse.ch/) directly from embedded link or from Abuse.ch. While on this page, click **view details** under **JA3 Fingerprints** as the given IOC is JA3 Fingerprint. You can learn more about JA3 Fingerprints [here](https://medium.com/@ggabrielhd/all-you-need-to-know-about-ja3-ja4-fingerprints-and-how-to-collect-them-8f189085b61f) Next, copy the given fingerprint and search from present SSL Blacklist page. From the search, you will get a single hit. Click to analyze. 
+
+<img width="1180" height="380" alt="image" src="https://github.com/user-attachments/assets/d923bcb1-ec80-4b20-9256-71b7d1e50587" />
+_The given JA3 Fingerprint is associated with **Dridex** Malware_
 
 Question: From the statistics page on URLHaus, what malware-hosting network has the ASN number AS14061? <br>
-Answer: DIGITALOCEAN-ASN <br>
+Answer: **DIGITALOCEAN-ASN** <br>
 
 Question: Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker? <br>
 Answer: Georgia <br>
+
+To get the country associated with given botnet IP, first visit [FedoFracker](https://feodotracker.abuse.ch/) from embeded link or from Abuse.ch page. Next, click **view details** under **Botnet C&Cs** and proceed to search the given IP address from the search bar.
+
+<img width="1183" height="286" alt="image" src="https://github.com/user-attachments/assets/aa8ada73-bafd-4de4-b7a3-8fe6e5685d95" />
+_From the search results, we find the Alpha-2 code of the associated country as GE. Further online searches reveal the Alpha-2 code country to be Georgia_
 
 ## Section: PhishTool 
 **Scenario:**
