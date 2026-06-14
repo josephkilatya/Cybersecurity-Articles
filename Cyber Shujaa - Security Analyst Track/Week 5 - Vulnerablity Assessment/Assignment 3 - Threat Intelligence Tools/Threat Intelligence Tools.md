@@ -129,12 +129,18 @@ Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded t
 Question: According to Email2.eml, what is the recipient's email address? <br>
 Answer: chris.lyons@supercarcenterdetroit.com <br>
 
-<Recipient’s email address> 
+To proceed with analysis, download the file .eml file and open it with your analysis tool of choice. I will be using Thunderbird. Once the .eml file is opened in Thunderbird, it is easy to identify the Recipient address under **To** as shown in screenshot below.
+
+<img width="960" height="901" alt="4 1 recipient email address" src="https://github.com/user-attachments/assets/40b421b2-1fa5-4b73-9f85-2ff2fa58ee6d" />
 
 Question: From Talos Intelligence, the attached file can also be identified by the Detection Alias that starts with an H... <br>
 Answer: HIDDENEXT/Worm.Gen <br>
 
-<Attached file Alias from Cisco Talos Intelligence platform> <br>
+Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with calucate hash values, you can learn to do so from the THM room [Hashing Basics](https://tryhackme.com/room/hashingbasics) from embedded link.
+
+Once you have the hash value, use Cisco Talo Intelligence plaform here to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associted with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
+
+<img width="1900" height="984" alt="4 1 Alias" src="https://github.com/user-attachments/assets/bfdc7ec5-40f7-4721-a0cf-2fd4ed5ac32e" />
 
 ## Section: Scenario 2 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.  
