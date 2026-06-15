@@ -17,7 +17,7 @@ The ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) Framework pro
 **Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purple Teamers, SOC Managers?) <br>
 **Answer:** Red Teamers <br>
 
-To answer the above question, you need some fundamental knowledge. SOC Managaers are Blue Teamers, while Purple Teamers fall between both Red and Blue Teaming. So, the answer we are left with is Red Teamers. Red teamers can use the ATT&CK Framework for engegements such as Threat Simulation Attacks to try and mimick APTs.
+To answer the above question, you need some fundamental knowledge. SOC Managers are Blue Teamers, while Purple Teamers fall between both Red and Blue Teaming. So, the answer we are left with is Red Teamers. Red teamers can use the ATT&CK Framework for engagements such as Threat Simulation Attacks to try and mimic APTs.
 
 **Question:** What is the ID for this technique? <br>
 **Answer:** T1566 <br>
