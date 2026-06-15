@@ -128,7 +128,7 @@ D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) 
 **Answer:** APT33 <br>
 
 Question: As your organization is migrating to the cloud, is there anything attributed to this APT group that you should focus on? If so, what is it? <br>
-Answer: **cloud accounts** <br>
+**Answer:** cloud accounts <br>
 
 **Question:** What tool is associated with the technique from the previous question? <br>
 **Answer:** Ruler <br>
