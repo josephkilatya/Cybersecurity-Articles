@@ -3,6 +3,10 @@
 > This is not a standalone walkthrough. I completed this room a while ago and no longer have access to the content — I also don't have an active TryHackMe subscription to revisit it. Use this guide as a **marking sheet or answer reference** only, not as a step-by-step tutorial.
 
 ## Introduction 
+A practical walkthrough of TryHackMe's MITRE room. Below are the tasks and answers.
+   
+## Walkthrough 
+## Task 1: Introduction to MITRE
 This TryHackMe room introduces the MITRE security framework. According to MITRE's website: *"At MITRE, we solve problems for a safer world. Through our federally funded R&D centers and public-private partnerships, we work across government to tackle challenges to the safety, stability, and well-being of our nation."*
 
 MITRE's frameworks are excellent for threat intelligence — whether you're doing threat defence, detection, or emulation. The room covers five key frameworks:
@@ -12,9 +16,21 @@ MITRE's frameworks are excellent for threat intelligence — whether you're doin
 - ENGAGE (sorry, not a fancy acronym)
 - D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense)
 - AEP (ATT&CK Emulation Plans)
-   
-## Walkthrough 
-## Task 1: ATT&CK® Framework
+
+## Task 2: Basic Terminology
+Before diving into the frameworks, let's cover some key terms you'll need to know.
+
+| Term | Definition |
+| :--- | :--- |
+| **APT** | Advanced Persistent Threat — a team, group, or nation-state actor that engages in long-term attacks against organizations or countries. |
+| **TTP** | Tactics, Techniques, and Procedures — how adversaries operate. |
+| **Tactic** | The adversary's goal or objective (e.g., Persistence, Defense Evasion). |
+| **Technique** | How the adversary achieves the goal (e.g., Spearphishing Attachment). |
+| **Procedure** | The specific implementation of a technique (e.g., the exact code or commands used). |
+
+Think of it this way: the **tactic** is *what* the attacker wants to do, the **technique** is *how* they do it, and the **procedure** is the *specific steps* they take.
+
+## Task 3: ATT&CK® Framework
 The ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) Framework provides a structured knowledge base of adversary TTPs. Use it to identify, prioritize, and track attacker behavior based on real-world observations.
 
 **Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purple Teamers, SOC Managers?) <br>
@@ -49,7 +65,7 @@ To answer the above question, you need some fundamental knowledge. SOC Managers 
 **Question:** How many techniques are attributed to this group? <br>
 **Answer:** 15 <br>
 
-## Task 2: CAR Knowledge Base 
+## Task 4: CAR Knowledge Base 
 CAR (Cyber Analytics Repository) Knowledge Base offers analytics focused on detecting specific ATT&CK techniques. Acts as a bridge between TTP intelligence and detection engineering.
 
 **Question:** For the above analytic, what is the pseudocode a representation of?
@@ -67,7 +83,7 @@ CAR (Cyber Analytics Repository) Knowledge Base offers analytics focused on dete
 **Question:** Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique? <br>
 **Answer:** Unit Tests <br>
 
-## Section: MITRE Engage 
+## Task 5: MITRE Engage 
 MITRE ENGAGE (sorry, not a fancy acronym) focuses on adversary engagement strategies. Useful for proactive CTI — understanding how to interact with and deceive attackers.
 
 **Question:** Under Prepare, what is ID SAC0002? <br>
@@ -82,7 +98,7 @@ MITRE ENGAGE (sorry, not a fancy acronym) focuses on adversary engagement strate
 **Question:** What is the definition of Threat Model? <br>
 **Answer:** A risk assessment that models organizational strengths and weaknesses. <br>
 
-## Section: MITRE D3FEND 
+## Task 6: MITRE D3FEND 
 D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) maps countermeasures to ATT&CK techniques. Helps CTI analysts recommend specific defensive actions based on observed threats.
 
 **Question:** What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown? <br>
@@ -91,7 +107,7 @@ D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) 
 **Question:** In D3FEND Inferred Relationships, what does the ATT&CK technique from the previous question produce? <br>
 **Answer:** Outbound internet traffic network <br>
 
-## Task 3: ATT&CK® Emulation Plans 
+## Task 7: ATT&CK® Emulation Plans 
 **Question:** In Phase 1 for the APT3 Emulation Plan, what is listed first? <br> 
 **Answer:** c2 setup <br>
 
@@ -107,7 +123,7 @@ D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) 
 **Question:** Examine the emulation plan for Sandworm. What webshell is used for Scenario 1? Check MITRE ATT&CK for the Software ID for the webshell. What is the id? (format: webshell,id) <br>
 **Answer:** P.A.S.,S0598 <br>
 
-## Task 4: ATT&CK® and Threat Intelligence 
+## Task 8: ATT&CK® and Threat Intelligence 
 **Question:** What is a group that targets your sector who has been in operation since at least 2013? <br>
 **Answer:** APT33 <br>
 
