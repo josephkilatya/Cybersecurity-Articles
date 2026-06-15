@@ -12,7 +12,7 @@ MITRE's frameworks are excellent for threat intelligence — whether you're doin
    
 ## Walkthrough 
 ## Task 1: ATT&CK® Framework
-**Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?) <br>
+**Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purple Teamers, SOC Managers?) <br>
 **Answer:** Red Teamers <br>
 
 **Question:** What is the ID for this technique? <br>
@@ -43,17 +43,20 @@ MITRE's frameworks are excellent for threat intelligence — whether you're doin
 **Answer:** 15 <br>
 
 ## Task 2: CAR Knowledge Base 
-**Question:** What tactic has an ID of TA0003? <br>
-**Answer:** Splunk Search <br>
+**Question:** For the above analytic, what is the pseudocode a representation of?
+**Answer:** Splunk search
 
-**Question:** What is the name of the library that is a collection of Zeek (BRO) scripts? <br>
+**Question:** What tactic has an ID of TA0003? <br>
 **Answer:** Persistence <br>
 
+**Question:** What is the name of the library that is a collection of Zeek (BRO) scripts? <br>
+**Answer:** BZAR <br>
+
 **Question:** What is the name of the technique for running executables with the same hash and different names? <br> 
-Answer: BZAR <br>
+Answer: Masquerading <br>
 
 **Question:** Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique? <br>
-**Answer:** Masquerading <br>
+**Answer:** Unit Testsg <br>
 
 ## Section: MITRE Engage 
 **Question:** Under Prepare, what is ID SAC0002? <br>
