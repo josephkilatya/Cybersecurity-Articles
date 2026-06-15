@@ -1,14 +1,15 @@
-# Threat Intelligence Tools - THM
+# Threat Intelligence Tools - A Practical Walkthrough (TryHackMe)
 ## Introduction 
-According to [CrowdStrike](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/), Threat intelligence refers to the collection, processing, and analysis of data to understand a threat actor’s motives, targets, and attack methods. It is also commonly referred to as Cyber Threat Intelligence (CTI).
+According to [CrowdStrike](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/), **Threat Intelligence** (also known as Cyber Threat Intelligence or CTI) refers to the collection, processing, and analysis of data to understand a threat actor’s motives, targets, and attack methods.
 
-This room brings an introductory guide to some of the world's top CTI platforms which are as follows: 
-- [Urlscan.io](https://urlscan.io/) – Free platform used to scan and analyse website or specific URL links in a sandboxed environment. 
-- [Abuse.ch](https://abuse.ch/) – A free platform that tracks and shares data on malware, botnets, and malicious domains.
-- [PhishTool](https://www.phishtool.com/) – Is a forensic phishing email analysis and incident response platform. 
-- [Cisco Talos Intelligence](https://talosintelligence.com/) – Is a leading threat intelligence team providing expert security research, analysis, and incident response to protect users globally. It is a commercial service unlike some of the previously mentioned platforms.
+This TryHackMe room provides an excellent hands-on introduction to some of the world’s top free and commercial CTI platforms:
 
-With that brief introduction, let's keep it going.
+- **[Urlscan.io](https://urlscan.io/)** — Free platform for scanning and analysing websites and URLs in a sandboxed environment.
+- **[Abuse.ch](https://abuse.ch/)** — Non-profit project that tracks malware, botnets, and malicious infrastructure.
+- **[PhishTool](https://www.phishtool.com/)** — Forensic phishing email analysis and incident response platform.
+- **[Cisco Talos Intelligence](https://talosintelligence.com/)** — Leading commercial threat intelligence service with deep research and reputation data.
+
+In this article, I’ll walk you through the key concepts and practical exercises from the room, sharing tips I found useful along the way.
 
 ## Walkthrough 
 ## Task 1: Room Outline 
@@ -44,7 +45,10 @@ Threat intel breaks down into four classifications:
 **Answer:** No answer needed <br>
 
 ## Task 3: UrlScan.io 
-To answer the questions in this section, we will not need to visit Urlscan.io but rather use the screenshot provided. 
+UrlScan.io is a powerful free tool for detonating and analysing suspicious URLs.
+
+Using the room-provided screenshot of TryHackMe’s scan:
+
 **Question:** What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
 **Answer:** 345612 <br>
 
@@ -69,6 +73,8 @@ From the attached screenshot, we are able to identify the registrar of the domai
 The IP address can be found just at the top of the attached screenshot of this section.
 
 <img width="1391" height="152" alt="image" src="https://github.com/user-attachments/assets/a235f8cf-e863-40d7-99d3-ba7fdd99c9ea" />
+
+These details (reputation rank, registrar, associated infrastructure) are very useful during initial triage and enrichment of suspicious links.
 
 ## Task 4: Abuse.ch 
 Abuse.ch is a widely respected, non-profit cybersecurity project dedicated to tracking and fighting global malware, botnets, and cybercrime infrastructure. Founded in 2009 by researcher Roman Hüssy, it is operated out of the Bern University of Applied Sciences in Switzerland and partnered with the Spamhaus Project. It relies on a global network of security researchers to crowd-source and share live threat data completely free of charge.
@@ -111,9 +117,10 @@ To get the country associated with given botnet IP, first visit [FedoTracker](ht
 <img width="1183" height="286" alt="image" src="https://github.com/user-attachments/assets/aa8ada73-bafd-4de4-b7a3-8fe6e5685d95" />
 _From the search results, we find the Alpha-2 code of the associated country as GE. Further online searches reveal the Alpha-2 code country to be Georgia_
 
+**Tip**: Always explore the additional context (tags, first seen dates, related samples) these platforms provide.
+
 ## Task 5: PhishTool 
-**Scenario:**
-You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below. 
+**Scenario:** You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below. 
 
 For my case, I will be downloading the Task Files and solve the Task Challenges from my analysis environment. Once opened on Thunderbird, we are able to identify the information/answers in relation to the questions 1-3 for this section as shown in screenshot below.
 
@@ -156,7 +163,7 @@ Answer: scnet.net <br>
 Question: What is the customer name of the IP address? <br>
 Answer: Complete Web Reviews <br>
 
-(When I first did the lab, about a year ago, I was able to get the whois records. However this time round I could not get the records which was interesting) 
+**Note**: WHOIS/reputation data can change over time. When I revisited this recently, some details differed from my first attempt a year ago — always verify freshness of intelligence.
 
 ## Task 7: Scenario 1 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported. Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email2.eml found on the VM attached to Task 5 and use the information to answer the questions. 
