@@ -12,8 +12,12 @@ MITRE's frameworks are excellent for threat intelligence — whether you're doin
    
 ## Walkthrough 
 ## Task 1: ATT&CK® Framework
+The ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) Framework provides a structured knowledge base of adversary TTPs. Use it to identify, prioritize, and track attacker behavior based on real-world observations.
+
 **Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purple Teamers, SOC Managers?) <br>
 **Answer:** Red Teamers <br>
+
+To answer the above question, you need some fundamental knowledge. SOC Managaers are Blue Teamers, while Purple Teamers fall between both Red and Blue Teaming. So, the answer we are left with is Red Teamers. Red teamers can use the ATT&CK Framework for engegements such as Threat Simulation Attacks to try and mimick APTs.
 
 **Question:** What is the ID for this technique? <br>
 **Answer:** T1566 <br>
