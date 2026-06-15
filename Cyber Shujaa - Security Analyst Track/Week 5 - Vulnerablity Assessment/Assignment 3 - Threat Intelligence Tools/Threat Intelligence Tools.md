@@ -219,7 +219,7 @@ The TryHackMe "Threat Intelligence Tools" room provides an excellent hands-on in
 Beyond the tools covered in the room, here are other free and widely used platforms that I regularly rely on:
 
 - **[VirusTotal](https://www.virustotal.com/gui/home/upload)** — Multi-engine scanner and intelligence platform for files, URLs, IPs, and domains. Excellent for quick enrichment and behavioural insights.
-- **[AlienVault OTX](https://otx.alienvault.com/)** — Open Threat Exchange, a large community-driven platform for sharing and consuming threat intelligence pulses and IOCs.
+- **[AlienVault](https://otx.alienvault.com/)** — Open Threat Exchange, a large community-driven platform for sharing and consuming threat intelligence pulses and IOCs.
 - **[PhishTank](https://www.phishtank.net/)** — Collaborative database focused on identifying and verifying phishing sites (powered by Cisco Talos).
 
 These tools complement the ones in the room very well — for example, combining Abuse.ch or UrlScan.io findings with VirusTotal for deeper context is a common workflow in real investigations.
