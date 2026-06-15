@@ -89,7 +89,7 @@ D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) 
 **Answer:** Outbound internet traffic network <br>
 
 ## Task 3: ATT&CK® Emulation Plans 
-**Question:** In Phase 1 for the APT3 Emulation Plan, what is listed first? <br>
+**Question:** In Phase 1 for the APT3 Emulation Plan, what is listed first? <br> 
 **Answer:** c2 setup <br>
 
 **Question:** Under Persistence, what binary was replaced with cmd.exe? <br>
