@@ -1,4 +1,7 @@
 # MITRE Room Report 
+> **Disclaimer**  
+> This is not a standalone walkthrough. I completed this room a while ago and no longer have access to the content — I also don't have an active TryHackMe subscription to revisit it. Use this guide as a **marking sheet or answer reference** only, not as a step-by-step tutorial.
+
 ## Introduction 
 This TryHackMe room introduces the MITRE security framework. According to MITRE's website: *"At MITRE, we solve problems for a safer world. Through our federally funded R&D centers and public-private partnerships, we work across government to tackle challenges to the safety, stability, and well-being of our nation."*
 
