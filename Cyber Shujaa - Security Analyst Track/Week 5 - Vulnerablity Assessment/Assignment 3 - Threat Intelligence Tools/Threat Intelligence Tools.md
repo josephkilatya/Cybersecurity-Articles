@@ -199,15 +199,24 @@ Let's see how we can achieve that. First visit Malware Bazaar directly from this
 <img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
 ## Task 9: Conclusion 
-Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It saves analysts time during incident response and malware analysis. Other CTI platforms mentioned and covred by THM are:
-- [Yara](https://tryhackme.com/room/yara)
-- [MISP](https://tryhackme.com/room/misp)
-- [Red Team Threat Intel](https://tryhackme.com/room/redteamthreatintel)
+Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It significantly saves analysts time during incident response, triage, and malware analysis while enabling more proactive defence.
 
-Additional platforms that I use during CTI exercise:
-- [VirusTotal](https://www.virustotal.com/gui/home/upload)
-- [AlienVault](https://otx.alienvault.com/)
-- [PhishTank](https://www.phishtank.net/)
+The TryHackMe "Threat Intelligence Tools" room provides an excellent hands-on introduction. Other valuable CTI-related rooms on the platform that build on these skills include:
+
+- **[YARA](https://tryhackme.com/room/yara)** — Writing and applying rules to detect malware.
+- **[MISP](https://tryhackme.com/room/misp)** — Setting up and using a Malware Information Sharing Platform.
+- **[Red Team Threat Intel](https://tryhackme.com/room/redteamthreatintel)** — Threat intelligence from an offensive perspective.
+
+### Additional Platforms I Use for CTI Work
+Beyond the tools covered in the room, here are other free and widely used platforms that I regularly rely on:
+
+- **[VirusTotal](https://www.virustotal.com/gui/home/upload)** — Multi-engine scanner and intelligence platform for files, URLs, IPs, and domains. Excellent for quick enrichment and behavioural insights.
+- **[AlienVault OTX](https://otx.alienvault.com/)** — Open Threat Exchange, a large community-driven platform for sharing and consuming threat intelligence pulses and IOCs.
+- **[PhishTank](https://www.phishtank.net/)** — Collaborative database focused on identifying and verifying phishing sites (powered by Cisco Talos).
+
+These tools complement the ones in the room very well — for example, combining Abuse.ch or UrlScan.io findings with VirusTotal for deeper context is a common workflow in real investigations.
+
+**Key Takeaway**: Threat intelligence is most powerful when you use multiple sources to validate IOCs and understand the broader context. Always cross-reference intelligence and consider the freshness of the data.
 
 **Question:** Read the above and completed the room <br>
 **Answer:** No answer needed <br>
