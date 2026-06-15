@@ -11,18 +11,40 @@ This room brings an introductory guide to some of the worlds top CTI platforms w
 With that brief introduction, let's keep it going.
 
 ## Walkthrough 
-## Section: Room Outline 
-Question: Read the description! Continue to the next task. <br>
-Answer: **No answer needed** <br>
+## Task 1: Room Outline 
+This section outlines the room's layout and objectives. They include:
+- Understanding the basics of threat intelligence & its classifications.
+- Using UrlScan.io to scan for malicious URLs.
+- Using Abuse.ch to track malware and botnet indicators.
+- Investigate phishing emails using PhishTool
+- Using Cisco's Talos Intelligence platform for intel gathering.
 
-No questions required in this section however make sure to go through the section and get the structure of the room.
+**Question:** Read the description! Continue to the next task. <br>
+**Answer:** No answer needed <br>
 
-## Section: Threat Intelligence Tools 
-Question: I've read on Threat Intel and the classifications <br>
-Answer: **No answer needed** <br>
+## Task 2: Threat Intelligence Tools 
+This section covers the fundamentals of threat intelligence and its practical applications.
 
-## Section: UrlScan.io 
-To answer the questions in this section, we will not need to visit Urlscan but rather use the screenshot provided. 
+Room's definition of Threat intelligence, it is the analysis of data and information using tools and techniques to generate meaningful patterns — helping you mitigate risks from existing or emerging threats targeting organisations, industries, or governments.
+
+To mitigate risks, start by answering four questions:
+  - Who's attacking you?
+  - What's their motivation?
+  - What are their capabilities?
+  - What IOCs should you look out for?
+This questions will guide you into collecting the right intelligence for the environment you are safeguarding.
+
+Threat intel breaks down into four classifications:
+  - **Strategic Intel:** High-level view of your threat landscape — trends, patterns, and emerging risks that impact business decisions.
+  - **Technical Intel:** Focuses on attack evidence and artefacts. IR teams use this to build a baseline and develop defences.
+  - **Tactical Intel:** Assesses adversary TTPs. Helps strengthen security controls and address vulnerabilities in real time.
+  - **Operational Intel:** Looks at attacker motives and intent. Helps identify critical assets (people, processes, tech) that might be targeted.
+
+**Question:** I've read on Threat Intel and the classifications <br>
+**Answer:** No answer needed <br>
+
+## Task 3: UrlScan.io 
+To answer the questions in this section, we will not need to visit Urlscan.io but rather use the screenshot provided. 
 Question: What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
 Answer: **345612** <br>
 
@@ -48,7 +70,7 @@ The IP address can be found just at the top of the attached screenshot of this s
 
 <img width="1391" height="152" alt="image" src="https://github.com/user-attachments/assets/a235f8cf-e863-40d7-99d3-ba7fdd99c9ea" />
 
-## Section: Abuse.ch 
+## Task 4: Abuse.ch 
 Abuse.ch is a widely respected, non-profit cybersecurity project dedicated to tracking and fighting global malware, botnets, and cybercrime infrastructure. Founded in 2009 by researcher Roman Hüssy, it is operated out of the Bern University of Applied Sciences in Switzerland and partnered with the Spamhaus Project. It relies on a global network of security researchers to crowd-source and share live threat data completely free of charge.
 
 Instead of running a single tool, Abuse.ch operates several specialized tracking platforms:
@@ -89,7 +111,7 @@ To get the country associated with given botnet IP, first visit [FedoFracker](ht
 <img width="1183" height="286" alt="image" src="https://github.com/user-attachments/assets/aa8ada73-bafd-4de4-b7a3-8fe6e5685d95" />
 _From the search results, we find the Alpha-2 code of the associated country as GE. Further online searches reveal the Alpha-2 code country to be Georgia_
 
-## Section: PhishTool 
+## Task 5: PhishTool 
 **Scenario:**
 You are a SOC Analyst and have been tasked to analyse a suspicious email, Email1.eml. To solve the task, open the email using Thunderbird on the attached VM, analyse it and answer the questions below. 
 
@@ -105,8 +127,6 @@ Answer: **darkabutla@sc500.whpservers.com** <br>
 
 Question: What is the recipient's email address? <br>
 Answer: **cabbagecare@hotsmail.com** <br>
-
-<Question 1 to 3 answers> 
 
 Question: What is the Originating IP address? Defang the IP address. <br>
 Answer: 204[.]93[.]183[.]11 <br>
@@ -129,7 +149,7 @@ This question is a little bit tricky when trying to do the hops count manually. 
 <img width="961" height="409" alt="2 3 number of hopes" src="https://github.com/user-attachments/assets/5d81dfa5-c0b7-4198-9b63-b5a9da62b9e2" />
  <br>
   
-## Section: Cisco Talos Intelligence 
+## Task 6: Cisco Talos Intelligence 
 Question: What is the listed domain of the IP address from the previous task? <br>
 Answer: scnet.net <br>
   
@@ -138,7 +158,7 @@ Answer: Complete Web Reviews <br>
 
 (When I first did the lab, about a year ago, I was able to get the whois records. However this time round I could not get the records which was interesting) 
 
-## Section: Scenario 1 
+## Task 7: Scenario 1 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported. Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email2.eml found on the VM attached to Task 5 and use the information to answer the questions. 
 
 Question: According to Email2.eml, what is the recipient's email address? <br>
@@ -157,7 +177,7 @@ Once you have the hash value, use Cisco Talo Intelligence plaform here to get CT
 
 <img width="1900" height="984" alt="4 1 Alias" src="https://github.com/user-attachments/assets/bfdc7ec5-40f7-4721-a0cf-2fd4ed5ac32e" />
 
-## Section: Scenario 2 
+## Task 8: Scenario 2 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported.  
 
 Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email3.eml found on the VM attached to Task 5 and use the information to answer the questions. 
@@ -178,15 +198,19 @@ Let's see how we can achieve that. First visit Malware Bazaar directly from this
 
 <img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
-## Section: Conclusion 
+## Task 9: Conclusion 
+Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It saves analysts time during incident response and malware analysis. Other CTI platforms mentioned are:
+- Yara
+- MISP
+- Red Team Threat Intel
+
+Additional platforms that I use during CTI exercise:
+- VirusTotal
+- AlienVault
+- Joe Sandbox
+- Any.Run
+
 Question: Read the above and completed the room <br>
 Answer: No answer needed <br>
 
-## Conclusion 
-Cyber Threat Intelligence is one of my favourite areas in cyber security. It saves an analyst time during incident response, and malware analysis. While this room cover a lot on threat intelligence, there are notable platforms that I do use to aid with CTI.
 
-1. VirusTotal
-2. AlienVault
-3. Joe Sandbox
-4. Any.Run
-5. MISP
