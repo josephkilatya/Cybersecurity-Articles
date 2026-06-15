@@ -33,7 +33,8 @@ To mitigate risks, start by answering four questions:
   - What's their motivation?
   - What are their capabilities?
   - What IOCs should you look out for?
-This questions will guide you into collecting the right intelligence for the environment you are safeguarding.
+
+These questions will guide you into collecting the right intelligence for the environment you are safeguarding.
 
 Threat intel breaks down into four classifications:
   - **Strategic Intel:** High-level view of your threat landscape — trends, patterns, and emerging risks that impact business decisions.
@@ -55,13 +56,13 @@ Using the room-provided screenshot of TryHackMe’s scan:
 To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as show in image below. <br>
 <img width="563" height="155" alt="image" src="https://github.com/user-attachments/assets/068c6e47-13c3-48bc-8af6-37880580cf2d" />
 
-**Question: **How many domains did UrlScan.io identify on the screenshot? <br>
+**Question:** How many domains did UrlScan.io identify on the screenshot? <br>
 **Answer:** 13 <br>
 
 The answer to this question can be found as in previous section, that is under Summary section of provided screenshot. <br>
 <img width="1094" height="104" alt="image" src="https://github.com/user-attachments/assets/4067af13-aeca-4cfe-bbb4-2529394332ed" />
 
-**Question: **What was the main domain registrar listed on the screenshot? <br>
+**Question:** What was the main domain registrar listed on the screenshot? <br>
 **Answer:** NAMECHEAP INC <br>
 
 From the attached screenshot, we are able to identify the registrar of the domain to be namecheap.
@@ -91,7 +92,7 @@ With that in mind, let's dive into the questions in this section.
 **Question:** The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
 **Answer:** Katana <br>
 
-To get the answer to this question, we will first need to visit [ThreatFox](https://threatfox.abuse.ch/) directly or from Abuse.ch. Next Go to the ThreatFox Database to search for the given IOC. ThreatFox database has a search syntax which you can find by clicking "**Search Syntax**" just below the search bar. For the given IOC, we wiil use this syntaxt `ioc:<ioc>` which will be `ioc:212.192.246.30:5555`. The search gives a single hit which we can click to start the analysis.
+To get the answer to this question, we will first need to visit [ThreatFox](https://threatfox.abuse.ch/) directly or from Abuse.ch. Next Go to the ThreatFox Database to search for the given IOC. ThreatFox database has a search syntax which you can find by clicking "**Search Syntax**" just below the search bar. For the given IOC, we wiil use this syntax `ioc:<ioc>` which will be `ioc:212.192.246.30:5555`. The search gives a single hit which we can click to start the analysis.
 
 <img width="1341" height="290" alt="image" src="https://github.com/user-attachments/assets/5316304b-e734-4326-90c3-f6c4bcb7d054" />
 _Malware alias is **Katana** while original name is **Mirai**_
@@ -112,7 +113,7 @@ _The given JA3 Fingerprint is associated with **Dridex** Malware_
 **Question:** Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker? <br>
 **Answer:** Georgia <br>
 
-To get the country associated with given botnet IP, first visit [FedoTracker](https://feodotracker.abuse.ch/) from embedded link or from Abuse.ch page. Next, click **view details** under **Botnet C&Cs** and proceed to search the given IP address from the search bar.
+To get the country associated with given botnet IP, first visit [FeodoTracker](https://feodotracker.abuse.ch/) from embedded link or from Abuse.ch page. Next, click **view details** under **Botnet C&Cs** and proceed to search the given IP address from the search bar.
 
 <img width="1183" height="286" alt="image" src="https://github.com/user-attachments/assets/aa8ada73-bafd-4de4-b7a3-8fe6e5685d95" />
 _From the search results, we find the Alpha-2 code of the associated country as GE. Further online searches reveal the Alpha-2 code country to be Georgia_
@@ -138,7 +139,7 @@ For my case, I will be downloading the Task Files and solve the Task Challenges 
 **Question:** What is the Originating IP address? Defang the IP address. <br>
 **Answer:** 204[.]93[.]183[.]11 <br>
 
-To answer this question and the following one, we will be viewing the raw .eml file. You can achieve this by using a Text Editor such as Notepad ++ or using build-in THunderbird feature to view the raw email. This is one of the advantages of using Thunderbird during phishing email analysis as we've got almost all features available under one application thus little tool switching.
+To answer this question and the following one, we will be viewing the raw .eml file. You can achieve this by using a Text Editor such as Notepad ++ or using build-in Thunderbird feature to view the raw email. This is one of the advantages of using Thunderbird during phishing email analysis as we've got almost all features available under one application thus little tool switching.
 
 Click **More** drop down menu in Thunderbird > Then click **View Source** to view the raw email file. The originating IP address is 204.93.183.11 as shown in screenshot below without defanging. <br>
 
@@ -163,7 +164,7 @@ Answer: scnet.net <br>
 Question: What is the customer name of the IP address? <br>
 Answer: Complete Web Reviews <br>
 
-**Note**: WHOIS/reputation data can change over time. When I revisited this recently, some details differed from my first attempt a year ago — always verify freshness of intelligence.
+**Note**: WHOIS/reputation data can change over time. When I revisited this recently, some details differed from my first attempt — always verify freshness of intelligence.
 
 ## Task 7: Scenario 1 
 Scenario: You are a SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email to triage the incidents reported. Task: Use the tools and knowledge discussed throughout this room (or use your resources) to help you analyze Email2.eml found on the VM attached to Task 5 and use the information to answer the questions. 
