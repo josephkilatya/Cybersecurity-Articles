@@ -45,26 +45,26 @@ Threat intel breaks down into four classifications:
 
 ## Task 3: UrlScan.io 
 To answer the questions in this section, we will not need to visit Urlscan.io but rather use the screenshot provided. 
-Question: What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
-Answer: **345612** <br>
+**Question:** What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
+**Answer:** 345612 <br>
 
 To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as show in image below. <br>
 <img width="563" height="155" alt="image" src="https://github.com/user-attachments/assets/068c6e47-13c3-48bc-8af6-37880580cf2d" />
 
-Question: How many domains did UrlScan.io identify on the screenshot? <br>
-Answer: **13** <br>
+**Question: **How many domains did UrlScan.io identify on the screenshot? <br>
+**Answer:** 13 <br>
 
 The answer to this question can be found as in previous section, that is under Summary section of provided screenshot. <br>
 <img width="1094" height="104" alt="image" src="https://github.com/user-attachments/assets/4067af13-aeca-4cfe-bbb4-2529394332ed" />
 
-Question: What was the main domain registrar listed on the screenshot? <br>
-Answer: **NAMECHEAP INC** <br>
+**Question: **What was the main domain registrar listed on the screenshot? <br>
+**Answer:** NAMECHEAP INC <br>
 
 From the attached screenshot, we are able to identify the registrar of the domain to be namecheap.
 <img width="1095" height="137" alt="image" src="https://github.com/user-attachments/assets/c03d777c-ed0d-4bca-9f7f-f4652a4f611a" />
 
-Question: What was the main IP address identified for TryHackMe on the screenshot? <br>
-Answer: **2606:4700:10::ac43:1b0a** <br>
+**Question:** What was the main IP address identified for TryHackMe on the screenshot? <br>
+**Answer:** 2606:4700:10::ac43:1b0a <br>
 
 The IP address can be found just at the top of the attached screenshot of this section.
 
@@ -82,8 +82,8 @@ Instead of running a single tool, Abuse.ch operates several specialized tracking
 
 With that in mind, let's dive into the questions in this section.
 
-Question: The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
-Answer: **Katana** <br>
+**Question:** The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox? <br>
+**Answer:** Katana <br>
 
 To get the answer to this question, we will first need to visit [ThreatFox](https://threatfox.abuse.ch/) directly or from Abuse.ch. Next Go to the ThreatFox Database to search for the given IOC. ThreatFox database has a search syntax which you can find by clicking "**Search Syntax**" just below the search bar. For the given IOC, we wiil use this syntaxt `ioc:<ioc>` which will be `ioc:212.192.246.30:5555`. The search gives a single hit which we can click to start the analysis.
 
@@ -92,19 +92,19 @@ _Malware alias is **Katana** while original name is **Mirai**_
 
 There is additional information provided which can also be useful intelligence. Feel free to look around the intelligence. 
 
-Question: Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist? <br>
-Answer: **Dridex** <br>
+**Question:** Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist? <br>
+**Answer:** Dridex <br>
 
 Let's visit [SSL Blacklist](https://sslbl.abuse.ch/) directly from embedded link or from Abuse.ch. While on this page, click **view details** under **JA3 Fingerprints** as the given IOC is JA3 Fingerprint. You can learn more about JA3 Fingerprints [here](https://medium.com/@ggabrielhd/all-you-need-to-know-about-ja3-ja4-fingerprints-and-how-to-collect-them-8f189085b61f) Next, copy the given fingerprint and search from present SSL Blacklist page. From the search, you will get a single hit. Click to analyze. 
 
 <img width="1180" height="380" alt="image" src="https://github.com/user-attachments/assets/d923bcb1-ec80-4b20-9256-71b7d1e50587" />
 _The given JA3 Fingerprint is associated with **Dridex** Malware_
 
-Question: From the statistics page on URLHaus, what malware-hosting network has the ASN number AS14061? <br>
-Answer: **DIGITALOCEAN-ASN** <br>
+**Question:** From the statistics page on URLHaus, what malware-hosting network has the ASN number AS14061? <br>
+**Answer:** DIGITALOCEAN-ASN <br>
 
-Question: Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker? <br>
-Answer: Georgia <br>
+**Question:** Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker? <br>
+**Answer:** Georgia <br>
 
 To get the country associated with given botnet IP, first visit [FedoTracker](https://feodotracker.abuse.ch/) from embedded link or from Abuse.ch page. Next, click **view details** under **Botnet C&Cs** and proceed to search the given IP address from the search bar.
 
@@ -120,7 +120,7 @@ For my case, I will be downloading the Task Files and solve the Task Challenges 
 <img width="958" height="952" alt="2 1 quiz 1-to-3" src="https://github.com/user-attachments/assets/2b9b5386-9b06-436d-a006-b7e97cfd6cc7" /> 
 
 **Question:** What social media platform is the attacker trying to pose as in the email? <br>
-**Answer:** **LinkedIn** <br>
+**Answer:** LinkedIn <br>
 
 **Question:** What is the senders email address? <br>
 **Answer:** darkabutla@sc500.whpservers.com <br>
