@@ -171,7 +171,7 @@ To proceed with analysis, download the file .eml file and open it with your anal
 Question: From Talos Intelligence, the attached file can also be identified by the Detection Alias that starts with an H... <br>
 Answer: HIDDENEXT/Worm.Gen <br>
 
-Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with calucate hash values, you can learn to do so from the THM room [Hashing Basics](https://tryhackme.com/room/hashingbasics) from embedded link.
+Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with calcucate hash values, you can learn to do so from the THM room [Hashing Basics](https://tryhackme.com/room/hashingbasics) from embedded link.
 
 Once you have the hash value, use Cisco Talo Intelligence plaform here to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associted with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
 
@@ -185,7 +185,7 @@ Task: Use the tools and knowledge discussed throughout this room (or use your re
 Question: What is the name of the attachment on Email3.eml? <br>
 Answer: Sales_Receipt 5606.xls <br>
 
-For this task, you can use PhishTool or any other tool of choice. For my case I will be using Thundernird to open the given .eml file. From Thunderbird, you can be able to see other sorts of useful information such as the Sender Address, Email Subject and Message. The attached file appears at the bottom of the Thunderbird Windows as shown in screenshot below.
+For this task, you can use PhishTool or any other tool of choice. For my case I will be using Thunderbird to open the given .eml file. From Thunderbird, you can be able to see other sorts of useful information such as the Sender Address, Email Subject and Message. The attached file appears at the bottom of the Thunderbird Windows as shown in screenshot below.
 
 <img width="953" height="912" alt="5 1 attached file name" src="https://github.com/user-attachments/assets/d94b74d0-9688-44af-9cfa-f404839273f3" /> <br>
   
@@ -199,18 +199,17 @@ Let's see how we can achieve that. First visit Malware Bazaar directly from this
 <img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
 ## Task 9: Conclusion 
-Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It saves analysts time during incident response and malware analysis. Other CTI platforms mentioned are:
-- Yara
-- MISP
-- Red Team Threat Intel
+Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It saves analysts time during incident response and malware analysis. Other CTI platforms mentioned and covred by THM are:
+- [Yara](https://tryhackme.com/room/yara)
+- [MISP](https://tryhackme.com/room/misp)
+- [Red Team Threat Intel](https://tryhackme.com/room/redteamthreatintel)
 
 Additional platforms that I use during CTI exercise:
-- VirusTotal
-- AlienVault
-- Joe Sandbox
-- Any.Run
+- [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [AlienVault](https://otx.alienvault.com/)
+- [PhishTank](https://www.phishtank.net/)
 
-Question: Read the above and completed the room <br>
-Answer: No answer needed <br>
+**Question:** Read the above and completed the room <br>
+**Answer:** No answer needed <br>
 
 
