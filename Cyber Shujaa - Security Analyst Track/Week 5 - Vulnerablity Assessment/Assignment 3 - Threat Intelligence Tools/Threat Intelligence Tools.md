@@ -145,7 +145,7 @@ Click **More** drop down menu in Thunderbird > Then click **View Source** to vie
 
 <img width="958" height="472" alt="image" src="https://github.com/user-attachments/assets/7f90f44a-b27f-4678-8319-21f784fd9881" />
 
-What is defanging? It's the practice of modifying potentially harmful digital indicators—such as URLs, domains, and IP addresses—to make them non-clickable and harmless. It is considered a best practice and advised to always have it in mind when preparing CTI or Malware Analysis reports. You can learn more about defanging and refanging from this article [here](https://medium.com/@ranemirusG/defanging-and-refanging-of-ioc-4eaf7852a6ac). To achieve defanging, there is another useful tool that will us with this, [CyberChef](https://gchq.github.io/CyberChef/). If you are not familiar, you check out this walkthough that I recently published or use the THM CyberChef room [here](https://tryhackme.com/room/cyberchefbasics). Defanged IP from CyberChef is shown in screenshot below.
+What is defanging? It's the practice of modifying potentially harmful digital indicators—such as URLs, domains, and IP addresses—to make them non-clickable and harmless. It is considered a best practice and advised to always have it in mind when preparing CTI or Malware Analysis reports. You can learn more about defanging and refanging from this article [here](https://medium.com/@ranemirusG/defanging-and-refanging-of-ioc-4eaf7852a6ac). To achieve defanging, there is another useful tool that will help us with this, [CyberChef](https://gchq.github.io/CyberChef/). If you are not familiar, you check out [this](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Walkthroughs/TryHackMe/CyberChef%3A%20The%20Basics.md) walkthough that I recently published or use the THM CyberChef room [here](https://tryhackme.com/room/cyberchefbasics). Defanged IP from CyberChef is shown in screenshot below.
 
 <img width="1540" height="304" alt="image" src="https://github.com/user-attachments/assets/b234438e-4aac-43ee-94f4-bc95ba8376ce" />
   
@@ -179,9 +179,9 @@ To proceed with analysis, download the file .eml file and open it with your anal
 Question: From Talos Intelligence, the attached file can also be identified by the Detection Alias that starts with an H... <br>
 Answer: HIDDENEXT/Worm.Gen <br>
 
-Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with calcucate hash values, you can learn to do so from the THM room [Hashing Basics](https://tryhackme.com/room/hashingbasics) from embedded link.
+Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with hash values, you can check out THM's [Hashing Basics] room (https://tryhackme.com/room/hashingbasics).
 
-Once you have the hash value, use Cisco Talo Intelligence plaform here to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associted with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
+Once you have the hash value, use Cisco Talos Intelligence platform [here](https://www.talosintelligence.com/reputation_center) to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associted with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
 
 <img width="1900" height="984" alt="4 1 Alias" src="https://github.com/user-attachments/assets/bfdc7ec5-40f7-4721-a0cf-2fd4ed5ac32e" />
 
