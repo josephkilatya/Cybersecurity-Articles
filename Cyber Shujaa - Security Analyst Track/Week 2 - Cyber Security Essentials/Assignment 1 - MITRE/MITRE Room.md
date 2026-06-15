@@ -114,6 +114,8 @@ Answer: **cloud accounts** <br>
 **Question:** What tool is associated with the technique from the previous question? <br>
 **Answer:** Ruler <br>
 
+**NOTE:** Ruler is a tool that interacts with Exchange services and is associated with APT33's cloud account attacks.
+
 **Question:** Referring to the technique from question 2, what mitigation method suggests using SMS messages as an alternative for its implementation? <br>
 **Answer:** abnormal or malicious behaviour <br>
 
