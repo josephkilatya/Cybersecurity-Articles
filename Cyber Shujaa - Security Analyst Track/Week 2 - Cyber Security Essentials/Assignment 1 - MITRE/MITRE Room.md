@@ -59,10 +59,10 @@ CAR (Cyber Analytics Repository) Knowledge Base offers analytics focused on dete
 **Answer:** BZAR <br>
 
 **Question:** What is the name of the technique for running executables with the same hash and different names? <br> 
-Answer: Masquerading <br>
+**Answer:** Masquerading <br>
 
 **Question:** Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique? <br>
-**Answer:** Unit Testsg <br>
+**Answer:** Unit Tests <br>
 
 ## Section: MITRE Engage 
 MITRE ENGAGE (sorry, not a fancy acronym) focuses on adversary engagement strategies. Useful for proactive CTI — understanding how to interact with and deceive attackers.
@@ -125,4 +125,4 @@ Answer: **cloud accounts** <br>
 ## Conclusion 
 MITRE's projects are incredibly useful to the cybersecurity community. The intelligence on these platforms benefits everyone — from blue teamers to red teamers.
 
-I first went through this module about a while ago. After revisiting it, I'm even more convinced that MITRE's frameworks are invaluable. I'm definitely planning to go deeper into these projects to better understand and apply them in my future career as a security analyst.
+I went through this module about a while ago. After revisiting it, I'm even more convinced that MITRE's frameworks are invaluable. I'm definitely planning to go deeper into these projects to better understand and apply them in my future career as a security analyst.
