@@ -11,8 +11,8 @@ MITRE's frameworks are excellent for threat intelligence — whether you're doin
 - AEP (ATT&CK Emulation Plans)
    
 ## Walkthrough 
-## Section: ATT&CK® Framework
-Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?) <br>
+## Task 1: ATT&CK® Framework
+**Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?) <br>
 **Answer:** Red Teamers <br>
 
 **Question:** What is the ID for this technique? <br>
@@ -42,7 +42,7 @@ Question:** Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Team
 **Question:** How many techniques are attributed to this group? <br>
 **Answer:** 15 <br>
 
-## Section: CAR Knowledge Base 
+## Task 2: CAR Knowledge Base 
 **Question:** What tactic has an ID of TA0003? <br>
 **Answer:** Splunk Search <br>
 
@@ -75,7 +75,7 @@ Answer: BZAR <br>
 **Question:** In D3FEND Inferred Relationships, what does the ATT&CK technique from the previous question produce? <br>
 **Answer:** Outbound internet traffic network <br>
 
-## Section: ATT&CK® Emulation Plans 
+## Task 3: ATT&CK® Emulation Plans 
 **Question:** In Phase 1 for the APT3 Emulation Plan, what is listed first? <br>
 **Answer:** c2 setup <br>
 
@@ -91,7 +91,7 @@ Answer: BZAR <br>
 **Question:** Examine the emulation plan for Sandworm. What webshell is used for Scenario 1? Check MITRE ATT&CK for the Software ID for the webshell. What is the id? (format: webshell,id) <br>
 **Answer:** P.A.S.,S0598 <br>
 
-## Section: ATT&CK® and Threat Intelligence 
+## Task 4: ATT&CK® and Threat Intelligence 
 **Question:** What is a group that targets your sector who has been in operation since at least 2013? <br>
 **Answer:** APT33 <br>
 
@@ -108,6 +108,6 @@ Answer: **cloud accounts** <br>
 **Answer:** Azure AD, Google Workspace, IaaS, Office 365, SaaS <br>
 
 ## Conclusion 
-The MITRE projects are really useful to the cyber security community. The information on these platforms can be used by all the cyber security folks from blue teamers to red teamers.  
+MITRE's projects are incredibly useful to the cybersecurity community. The intelligence on these platforms benefits everyone — from blue teamers to red teamers.
 
-I had gone through this module about a year but after going through it once again I’m fully convinced that the MITRE projects are invaluable to the cyber security community. I am now intrigued to go deeper into these projects for better understanding and application in my future career as security analyst. 
+I first went through this module about a while ago. After revisiting it, I'm even more convinced that MITRE's frameworks are invaluable. I'm definitely planning to go deeper into these projects to better understand and apply them in my future career as a security analyst.
