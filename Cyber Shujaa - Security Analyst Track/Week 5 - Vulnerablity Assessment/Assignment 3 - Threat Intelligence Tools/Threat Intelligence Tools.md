@@ -181,7 +181,7 @@ Answer: HIDDENEXT/Worm.Gen <br>
 
 Extract the file attachment from previous question to save it in your local system. Calculate the hash value. If you are not familiar with hash values, you can check out THM's [Hashing Basics] room (https://tryhackme.com/room/hashingbasics).
 
-Once you have the hash value, use Cisco Talos Intelligence platform [here](https://www.talosintelligence.com/reputation_center) to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associted with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
+Once you have the hash value, use Cisco Talos Intelligence platform [here](https://www.talosintelligence.com/reputation_center) to get CTI on the file attachment. Once the analysis is done, we identify the file is indeed malicious and is associated with the Alias **HIDDENEXT/Worm.Gen** which starts with an H.. as in the question.
 
 <img width="1900" height="984" alt="4 1 Alias" src="https://github.com/user-attachments/assets/bfdc7ec5-40f7-4721-a0cf-2fd4ed5ac32e" />
 
@@ -193,21 +193,21 @@ Task: Use the tools and knowledge discussed throughout this room (or use your re
 Question: What is the name of the attachment on Email3.eml? <br>
 Answer: Sales_Receipt 5606.xls <br>
 
-For this task, you can use PhishTool or any other tool of choice. For my case I will be using Thunderbird to open the given .eml file. From Thunderbird, you can be able to see other sorts of useful information such as the Sender Address, Email Subject and Message. The attached file appears at the bottom of the Thunderbird Windows as shown in screenshot below.
+For this task, you can use [PhishTool](https://www.phishtool.com/) or any other tool of choice. For my case I will be using Thunderbird to open the given .eml file. From Thunderbird, you can be able to see other sorts of useful information such as the Sender Address, Email Subject and Message. The attached file appears at the bottom of the Thunderbird Windows as shown in screenshot below.
 
 <img width="953" height="912" alt="5 1 attached file name" src="https://github.com/user-attachments/assets/d94b74d0-9688-44af-9cfa-f404839273f3" /> <br>
   
 Question: What malware family is associated with the attachment on Email3.eml? <br>
 Answer: Dridex <br>
 
-From the previous question, we can export the attached file by Saving it to the local system. Next step would be uploading the file attachment to CTI platform or calculate the file hash value and use it to conduct you intel gathering. I will be uploading the file directly to [Malware Bazaar](https://bazaar.abuse.ch/upload/) which is also part of Abuse.ch tools.
+From the previous question, we can export the attached file by Saving it to the local system. Next step would be uploading the file attachment to CTI platform or calculate the file hash value and use it to conduct your intel gathering. I will be uploading the file directly to [Malware Bazaar](https://bazaar.abuse.ch/upload/) which is also part of Abuse.ch tools.
 
-Let's see how we can achieve that. First visit Malware Bazaar directly from this link or from Abuse.ch. Under **Share malware samples** click the **upload samples** button to upload the file attachment from the email in previous question. **Note**: To upload malware to Malware Bazaar, you will need to login. If you do not have an account you can proceed to create one. Once uploaded, Malware Bazaar calculates the hash value for you and perfoms the hash search on it's internal database. The analysis show the file attachment to be a malware if the Dridex Family as show in screenshot below.
+Let's see how we can achieve that. First visit Malware Bazaar directly from this link or from Abuse.ch. Under **Share malware samples** click the **upload samples** button to upload the file attachment from the email in previous question. **Note**: To upload malware to Malware Bazaar, you will need to login. If you do not have an account you can proceed to create one. Once uploaded, Malware Bazaar calculates the hash value for you and perfoms the hash search on its internal database. The analysis shows the file attachment to be a malware of the Dridex Family as show in screenshot below.
 
 <img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
 ## Task 9: Conclusion 
-Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It significantly saves analysts time during incident response, triage, and malware analysis while enabling more proactive defence.
+Cyber Threat Intelligence is one of my favourite areas in cybersecurity. It significantly saves analysts time during incident response and malware analysis while enabling more proactive defence.
 
 The TryHackMe "Threat Intelligence Tools" room provides an excellent hands-on introduction. Other valuable CTI-related rooms on the platform that build on these skills include:
 
