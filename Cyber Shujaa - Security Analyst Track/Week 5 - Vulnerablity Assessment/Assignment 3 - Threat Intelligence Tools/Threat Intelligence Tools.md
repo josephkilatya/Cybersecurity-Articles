@@ -17,7 +17,7 @@ This section outlines the room's layout and objectives. They include:
 - Understanding the basics of threat intelligence & its classifications.
 - Using UrlScan.io to scan for malicious URLs.
 - Using Abuse.ch to track malware and botnet indicators.
-- Investigate phishing emails using PhishTool
+- Investigate phishing emails using PhishTool.
 - Using Cisco's Talos Intelligence platform for intel gathering.
 
 **Question:** Read the description! Continue to the next task. <br>
@@ -26,7 +26,7 @@ This section outlines the room's layout and objectives. They include:
 ## Task 2: Threat Intelligence Tools 
 This section covers the fundamentals of threat intelligence and its practical applications.
 
-Room's definition of Threat intelligence, it is the analysis of data and information using tools and techniques to generate meaningful patterns — helping you mitigate risks from existing or emerging threats targeting organisations, industries, or governments.
+The room's definition of Threat intelligence, it is the analysis of data and information using tools and techniques to generate meaningful patterns — helping you mitigate risks from existing or emerging threats targeting organisations, industries, or governments.
 
 To mitigate risks, start by answering four questions:
   - Who's attacking you?
@@ -53,7 +53,7 @@ Using the room-provided screenshot of TryHackMe’s scan:
 **Question:** What was TryHackMe's Cisco Umbrella Rank based on the screenshot? <br>
 **Answer:** 345612 <br>
 
-To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as show in image below. <br>
+To identify THM's Cisco Umbrella Rank, we will have to give a closer look at the Summary section of the attached screenshot as shown in image below. <br>
 <img width="563" height="155" alt="image" src="https://github.com/user-attachments/assets/068c6e47-13c3-48bc-8af6-37880580cf2d" />
 
 **Question:** How many domains did UrlScan.io identify on the screenshot? <br>
@@ -145,7 +145,7 @@ Click **More** drop down menu in Thunderbird > Then click **View Source** to vie
 
 <img width="958" height="472" alt="image" src="https://github.com/user-attachments/assets/7f90f44a-b27f-4678-8319-21f784fd9881" />
 
-What is defanging? It's the practice of modifying potentially harmful digital indicators—such as URLs, domains, and IP addresses—to make them non-clickable and harmless. It is considered a best practice and advised to always have it in mind when preparing CTI or Malware Analysis reports. You can learn more about defanging and refanging from this article [here](https://medium.com/@ranemirusG/defanging-and-refanging-of-ioc-4eaf7852a6ac). To achieve defanging, there is another useful tool that will help us with this, [CyberChef](https://gchq.github.io/CyberChef/). If you are not familiar, you check out [this](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Walkthroughs/TryHackMe/CyberChef%3A%20The%20Basics.md) walkthough that I recently published or use the THM CyberChef room [here](https://tryhackme.com/room/cyberchefbasics). Defanged IP from CyberChef is shown in screenshot below.
+What is defanging? It's the practice of modifying potentially harmful digital indicators—such as URLs, domains, and IP addresses—to make them non-clickable and harmless. It is considered a best practice and advised to always have it in mind when preparing CTI or Malware Analysis reports. You can learn more about defanging and refanging from this article [here](https://medium.com/@ranemirusG/defanging-and-refanging-of-ioc-4eaf7852a6ac). To achieve defanging, there is another useful tool that will help us with this, [CyberChef](https://gchq.github.io/CyberChef/). If you are not familiar, you check out [this](https://github.com/josephkilatya/Cybersecurity-Articles/blob/main/Walkthroughs/TryHackMe/CyberChef%3A%20The%20Basics.md) walkthrough that I recently published or use the THM CyberChef room [here](https://tryhackme.com/room/cyberchefbasics). Defanged IP from CyberChef is shown in screenshot below.
 
 <img width="1540" height="304" alt="image" src="https://github.com/user-attachments/assets/b234438e-4aac-43ee-94f4-bc95ba8376ce" />
   
@@ -202,7 +202,7 @@ Answer: Dridex <br>
 
 From the previous question, we can export the attached file by Saving it to the local system. Next step would be uploading the file attachment to CTI platform or calculate the file hash value and use it to conduct your intel gathering. I will be uploading the file directly to [Malware Bazaar](https://bazaar.abuse.ch/upload/) which is also part of Abuse.ch tools.
 
-Let's see how we can achieve that. First visit Malware Bazaar directly from this link or from Abuse.ch. Under **Share malware samples** click the **upload samples** button to upload the file attachment from the email in previous question. **Note**: To upload malware to Malware Bazaar, you will need to login. If you do not have an account you can proceed to create one. Once uploaded, Malware Bazaar calculates the hash value for you and perfoms the hash search on its internal database. The analysis shows the file attachment to be a malware of the Dridex Family as show in screenshot below.
+Let's see how we can achieve that. First visit Malware Bazaar directly from this link or from Abuse.ch. Under **Share malware samples** click the **upload samples** button to upload the file attachment from the email in previous question. **Note**: To upload malware to Malware Bazaar, you will need to login. If you do not have an account you can proceed to create one. Once uploaded, Malware Bazaar calculates the hash value for you and performs the hash search on its internal database. The analysis shows the file attachment to be a malware of the Dridex Family as show in screenshot below.
 
 <img width="1915" height="996" alt="5 2 malware family" src="https://github.com/user-attachments/assets/cf1f82f8-a43a-4e0b-82dc-a5e39a0e4919" />
   
@@ -219,7 +219,7 @@ The TryHackMe "Threat Intelligence Tools" room provides an excellent hands-on in
 Beyond the tools covered in the room, here are other free and widely used platforms that I regularly rely on:
 
 - **[VirusTotal](https://www.virustotal.com/gui/home/upload)** — Multi-engine scanner and intelligence platform for files, URLs, IPs, and domains. Excellent for quick enrichment and behavioural insights.
-- **[AlienVault](https://otx.alienvault.com/)** — Open Threat Exchange, a large community-driven platform for sharing and consuming threat intelligence pulses and IOCs.
+- **[AlienVault OTX](https://otx.alienvault.com/)** — Open Threat Exchange, a large community-driven platform for sharing and consuming threat intelligence pulses and IOCs.
 - **[PhishTank](https://www.phishtank.net/)** — Collaborative database focused on identifying and verifying phishing sites (powered by Cisco Talos).
 
 These tools complement the ones in the room very well — for example, combining Abuse.ch or UrlScan.io findings with VirusTotal for deeper context is a common workflow in real investigations.
