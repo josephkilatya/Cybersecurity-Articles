@@ -47,6 +47,8 @@ To answer the above question, you need some fundamental knowledge. SOC Managaers
 **Answer:** 15 <br>
 
 ## Task 2: CAR Knowledge Base 
+CAR (Cyber Analytics Repository) Knowledge Base offers analytics focused on detecting specific ATT&CK techniques. Acts as a bridge between TTP intelligence and detection engineering.
+
 **Question:** For the above analytic, what is the pseudocode a representation of?
 **Answer:** Splunk search
 
@@ -63,6 +65,8 @@ Answer: Masquerading <br>
 **Answer:** Unit Testsg <br>
 
 ## Section: MITRE Engage 
+MITRE ENGAGE (sorry, not a fancy acronym) focuses on adversary engagement strategies. Useful for proactive CTI — understanding how to interact with and deceive attackers.
+
 **Question:** Under Prepare, what is ID SAC0002? <br>
 **Answer:** PERSONA CREATION <br>
 
@@ -76,6 +80,8 @@ Answer: Masquerading <br>
 **Answer:** A risk assessment that models organizational strengths and weaknesses. <br>
 
 ## Section: MITRE D3FEND 
+D3FEND (Detection, Denial, and Disruption Framework Empowering Network Defense) maps countermeasures to ATT&CK techniques. Helps CTI analysts recommend specific defensive actions based on observed threats.
+
 **Question:** What is the first MITRE ATT&CK technique listed in the ATT&CK Lookup dropdown? <br>
 **Answer:** data obfuscation <br>
 
