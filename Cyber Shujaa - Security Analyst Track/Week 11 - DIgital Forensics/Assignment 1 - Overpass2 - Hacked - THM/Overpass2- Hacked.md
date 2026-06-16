@@ -84,24 +84,28 @@ Answer: **H4ck3d by CooctusClan** <br>
 <img width="1462" height="276" alt="task 3 1" src="https://github.com/user-attachments/assets/4481abd8-41cc-4e21-84c3-7290883a6dbb" /> <br>
 _Defaced website_
 
+Visiting the compromised website shows the defacement webpage with the defaced text displayed on it.
+
 Question: Using the information you've found previously, hack your way back in! <br>
 Answer: **No answer needed.**
+
+Use the backdoor and the cracked hash to ssh back into the machine on port 2222 as previously seen from the network traffic. 
 
 Question: What's the user flag? <br>
 Answer: **thm{d119b4fa8c497ddb0525f7ad200e6567}** <br>
 <img width="800" height="77" alt="task 3 3" src="https://github.com/user-attachments/assets/f23ae5c8-55d7-4ff2-bf6c-f652e72bc96f" /> <br>
 _User flag_
 
+Once we have SSH'd into the victim machine, we identify we are logged in with username james. Navigating to the user directory, `/home/james`, we get the user flag
+
 Question: What's the root flag? <br>
 Answer: **thm{d53b2684f169360bb9606c333873144d}** <br>
 <img width="451" height="74" alt="task 3 4 " src="https://github.com/user-attachments/assets/8a419f40-d3aa-4073-a769-3c8d83f13316" /> <br>
 _Root flag_
 
-## Module completion
-TryHackMe Profile Link: https://tryhackme.com/p/kl45h
-_Did this module and completed a while ago_
+Further digging led to privilege escalation. Inside the original directory, checking for hidden files revealed a root-owned SUID binary called .suid_bash. By executing ./.suid_bash -p, I spawned a root shell, which unlocked the /root directory and secured the final root flag.
 
-## Conclusion
+## Conlusion
 Learned a couple of new things. One, analyzing malware and network for IOCs collection which can be used for defense in IDS/IPS systems. Two cracking password hashes with JohnTheRipper and hashcat.
 
 This was a good learning experience as this knowledge can be used during Digital Forensics and Incident Response.
