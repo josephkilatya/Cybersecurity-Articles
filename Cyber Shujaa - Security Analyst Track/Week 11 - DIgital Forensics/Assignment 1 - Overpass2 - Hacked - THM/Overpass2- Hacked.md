@@ -96,7 +96,7 @@ Answer: **thm{d119b4fa8c497ddb0525f7ad200e6567}** <br>
 <img width="800" height="77" alt="task 3 3" src="https://github.com/user-attachments/assets/f23ae5c8-55d7-4ff2-bf6c-f652e72bc96f" /> <br>
 _User flag_
 
-Once we have SSH'd into the victim machine, we identify we are logged in with username james. Navigating to the user directory, `/home/james`, we get the user flag
+Once we have SSH'd into the victim machine, we identify we are logged in with username james. Navigating to the user directory, `/home/james/`, we get the user flag as show in above screenshot.
 
 Question: What's the root flag? <br>
 Answer: **thm{d53b2684f169360bb9606c333873144d}** <br>
