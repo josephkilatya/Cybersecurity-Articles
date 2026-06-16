@@ -29,7 +29,8 @@ Let's try and understand what the script does before proceeding with the investi
 Question: What password did the attacker use to privesc? <br>
 Answer: **whenevernoteartinstant**
 
-To get the answer, we filter for http traffic using the filter `http` and analyze the filtered results. Attackers are notorius for using unencrypted protocols such as http and ftp. Filtering for this in a traffic dump can easily tell the analyst the actions of the attacker. <br>
+To get the answer, we filter for http traffic using the filter `http` and analyze the filtered results. Attackers are notorius for using unencrypted protocols such as http and ftp. Filtering for this in a traffic dump can easily tell the analyst the actions of the attacker. Analysis of the attacker activity shows the attacker upgrading from the reverse shell, which is not always stable, to Fully Interactive TTY shell, which is stable. We are also able to see the password used for privilege escalation, _whenevernoteartinstant_ <br>
+
 <img width="1152" height="253" alt="task 1 3" src="https://github.com/user-attachments/assets/d3fd3520-ca2e-4d8a-b202-77b0d6a08ae8" /> <br>
 _Password used by attacker for privilege escalation_
 
@@ -38,8 +39,15 @@ Answer: **https://github.com/NinjaJc01/ssh-backdoor** <br>
 <img width="1171" height="87" alt="task 1 4" src="https://github.com/user-attachments/assets/02b6fa5b-684f-491b-a90a-01cf92daf599" /> <br>
 _Backdoor used by attacker for persistence_
 
+Further analysis shows the attacker cloning the backdoor https://github.com/NinjaJc01/ssh-backdoor for persistence. A backdoor is a covert method of bypassing normal authentication or security controls to gain unauthorized, persistent access to a computer system, network, or software application
+
 Question: Using the fasttrack wordlist, how many of the system passwords were crackable? <br>
 Answer: **4**
+
+To crack the hash, we create a text file which we can name _hash.txt_ and save both the hash and the salt using the format `hash:salt`. For the tool, we will be using hashcat, a higly advanced and open-source utility used to break cryptographic hashes. Coomand used to crack the hash using `rockyou.txt` dictionary:
+
+`hashcat -m 1710 hash.txt /usr/share/wordlists/rockyou.txt -o crackedpass.txt`
+
 
 ## Task 2: Research- Analyse the code
 Let us visit the GitHub link https://github.com/NinjaJc01/ssh-backdoor discovered previously for analysis/reverse engineering. Reverse engineering is the process of deconstructing and analyzing a malicious file—whether a compiled binary, an obfuscated script, or a document macro—to uncover its hidden logic, functionality, and intent without access to the original source code.
