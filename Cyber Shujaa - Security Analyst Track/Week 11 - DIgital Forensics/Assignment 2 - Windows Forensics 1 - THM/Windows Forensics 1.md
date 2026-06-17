@@ -1,8 +1,6 @@
 # Windows Forensics 1
 ## Introduction
-This module covers Windows Forensics with a focus on the registry hives. Registry
-hives can provide invaluable information during Windows Forensics examination and
-analysis processes.
+This module covers Windows Forensics with a focus on the registry hives. Registry hives can provide invaluable information during Windows Forensics examination and analysis processes.
 
 ## Walkthrough
 ## Task 1: Introduction to Windows Forensics
