@@ -29,7 +29,7 @@ Open the provided PCAP file in **Wireshark**.
 This page allowed file uploads, and the attacker used it to upload a malicious PHP file containing a reverse shell.
 
 <img width="953" height="354" alt="task 1 1" src="https://github.com/user-attachments/assets/45184ebb-c109-4842-8c23-8c8ad532ed17" /> <br>
-_URL used to upload the reverse the shell_
+_URL used to upload the reverse shell_
 
 **What is a reverse shell?**  
 A reverse shell is a technique where the compromised victim machine actively connects back to the attacker’s computer. This is very common because most firewalls allow outbound connections but block inbound ones.
@@ -78,7 +78,7 @@ A hidden method to access a system without going through normal login procedures
 **Question:** Using the fasttrack wordlist, how many of the system passwords were crackable? <br>
 **Answer:** 4
 
-## Task 2: Research- Analyse the code
+## Task 2: Research - Analyse the code
 Now we analyse the backdoor source code from the GitHub repository found earlier.
 
 **Question:** What's the default hash for the backdoor? <br>
@@ -107,9 +107,9 @@ How the backdoor works (simplified):
 
 _Hard coded salt for the backdoor_
 
-**Question:** What was the hash that the attacker used?- go back to the
-PCAP for this!
+**Question:** What was the hash that the attacker used?- go back to the PCAP for this!
 **Answer:** `6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed`
+
 <img width="1344" height="724" alt="task 2 3" src="https://github.com/user-attachments/assets/b5d5b3e4-cb9e-4252-a167-3e8980e0f0bf" />
 
 _Hash used by the attacker_
@@ -156,8 +156,8 @@ Answer: **thm{d119b4fa8c497ddb0525f7ad200e6567}** <br>
 <img width="800" height="77" alt="task 3 3" src="https://github.com/user-attachments/assets/f23ae5c8-55d7-4ff2-bf6c-f652e72bc96f" /> <br>
 _User flag_
 
-After logging in as user james, run:bash
-`ls
+After logging in as user `james`, run:
+`ls <br>
 cat user.txt`
 
 The flag is usually in `/home/james/user.txt`
@@ -169,7 +169,7 @@ Don't bother about the commands I used, they give the same results.
 <img width="451" height="74" alt="task 3 4 " src="https://github.com/user-attachments/assets/8a419f40-d3aa-4073-a769-3c8d83f13316" /> <br>
 _Root flag_
 Privilege Escalation Steps:
-1. Clone and use the [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) script from GitHubto find privilege escalation paths
+1. Clone and use the [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) script from GitHub to find privilege escalation paths
 2. Look for hidden files: `ls -la`
 3. You will find a hidden SUID binary called `.suid_bash`
 4. Run it with the -p flag to preserve privileges:
@@ -179,11 +179,12 @@ Privilege Escalation Steps:
 You should now be root. Go to `/root/` and read the flag.
 
 ## Conclusion
-This challenge gave us practical experience in:Network traffic analysis with Wireshark
-Reverse shell understanding
-Password cracking with Hashcat
-Static analysis of backdoor code
-Privilege escalation techniques
-Digital Forensics workflow
+This challenge gave us practical experience in:
+- Network traffic analysis with Wireshark
+- Reverse shell understanding
+- Password cracking with Hashcat
+- Static analysis of backdoor code
+- Privilege escalation techniques
+- Digital Forensics workflow
 
 These skills are very valuable for anyone interested in Cybersecurity Operations, Blue Teaming, or Digital Forensics.
