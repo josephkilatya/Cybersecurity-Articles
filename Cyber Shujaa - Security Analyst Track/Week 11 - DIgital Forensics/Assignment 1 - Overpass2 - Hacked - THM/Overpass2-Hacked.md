@@ -147,30 +147,55 @@ How to find it:
 
 ## Task 3: Attack- Get back in
 **Question:** The attacker defaced the website. What message did they leave as a heading? <br>
-**Answer:** H4ck3d by CooctusClan <br>
+**Answer:** `H4ck3d by CooctusClan` <br>
 <img width="1462" height="276" alt="task 3 1" src="https://github.com/user-attachments/assets/4481abd8-41cc-4e21-84c3-7290883a6dbb" /> <br>
 _Defaced website_
 
-Visiting the compromised website shows the message left by attacker/defaced.
+Just visit the website in your browser to see the defaced page.
 
-Question: Using the information you've found previously, hack your way back in! <br>
-Answer: **No answer needed.**
+**Question:** Using the information you've found previously, hack your way back in! <br>
+**Answer:** `No answer needed.`
 
-Use the backdoor and the cracked hash to ssh back into the machine on port 2222 as previously seen from the network traffic. 
+Steps:
+1. Use the cracked password: november16
+2. Connect via the backdoor SSH port:
+
+`ssh james@<machine-ip> -p 2222`
+
+Enter password `november16` when prompted.
 
 Question: What's the user flag? <br>
 Answer: **thm{d119b4fa8c497ddb0525f7ad200e6567}** <br>
 <img width="800" height="77" alt="task 3 3" src="https://github.com/user-attachments/assets/f23ae5c8-55d7-4ff2-bf6c-f652e72bc96f" /> <br>
 _User flag_
 
-Once we have SSH'd into the victim machine, we identify we are logged in with username james. Navigating to the user directory, `/home/james/`, we get the user flag as show in above screenshot.
+After logging in as user james, run:bash
+`ls
+cat user.txt`
 
-Question: What's the root flag? <br>
-Answer: **thm{d53b2684f169360bb9606c333873144d}** <br>
+The flag is usually in `/home/james/user.txt`
+
+Don't bother about the commands I used, they give the same results.
+
+**Question:** What's the root flag? <br>
+**Answer:** `thm{d53b2684f169360bb9606c333873144d}` <br>
 <img width="451" height="74" alt="task 3 4 " src="https://github.com/user-attachments/assets/8a419f40-d3aa-4073-a769-3c8d83f13316" /> <br>
 _Root flag_
+Privilege Escalation Steps:
+1. Look for hidden files: `ls -la`
+2. You will find a hidden SUID binary called `.suid_bash`
+3. Run it with the -p flag to preserve privileges:
 
-Privilege escalation was achieved by locating a root-owned SUID binary named `.suid_bash` in a hidden directory. Running `./.suid_bash -p` spawned a root shell, allowing access to the `/root` flag.
+`./.suid_bash -p`
+
+You should now be root. Go to `/root/` and read the flag.
 
 ## Conlusion
-This challenge provided valuable hands-on experience with network forensics, reverse shell analysis, password cracking (using Hashcat), static malware analysis, and privilege escalation techniques. Key takeaways include the importance of hunting for Indicators of Compromise (IOCs) in network traffic and the practical application of digital forensics and incident response (DFIR) skills.
+This challenge gave us practical experience in:Network traffic analysis with Wireshark
+Reverse shell understanding
+Password cracking with Hashcat
+Static analysis of backdoor code
+Privilege escalation techniques
+Digital Forensics workflow
+
+These skills are very valuable for anyone interested in Cybersecurity Operations, Blue Teaming, or Digital Forensics.
