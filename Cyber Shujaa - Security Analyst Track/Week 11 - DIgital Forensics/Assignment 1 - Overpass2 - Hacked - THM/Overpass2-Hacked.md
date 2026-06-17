@@ -11,19 +11,6 @@ This TryHackMe challenge is excellent for learning **Digital Forensics and Incid
 - Crack passwords
 - Get back into the machine and retrieve both user and root flags
 
-We will go through every step slowly and clearly.
-
-**Our goals are:**
-- Understand how the attacker gained access
-- Find the reverse shell payload
-- Identify the privilege escalation password
-- Discover how the attacker maintained persistence (backdoor)
-- Analyse the backdoor code
-- Crack passwords
-- Get back into the machine and retrieve both user and root flags
-
-We will go through every step slowly and clearly.
-
 ---
 
 ## Walkthrough
@@ -182,15 +169,16 @@ Don't bother about the commands I used, they give the same results.
 <img width="451" height="74" alt="task 3 4 " src="https://github.com/user-attachments/assets/8a419f40-d3aa-4073-a769-3c8d83f13316" /> <br>
 _Root flag_
 Privilege Escalation Steps:
-1. Look for hidden files: `ls -la`
-2. You will find a hidden SUID binary called `.suid_bash`
-3. Run it with the -p flag to preserve privileges:
+1. Clone and use the [LinPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) script from GitHubto find privilege escalation paths
+2. Look for hidden files: `ls -la`
+3. You will find a hidden SUID binary called `.suid_bash`
+4. Run it with the -p flag to preserve privileges:
 
 `./.suid_bash -p`
 
 You should now be root. Go to `/root/` and read the flag.
 
-## Conlusion
+## Conclusion
 This challenge gave us practical experience in:Network traffic analysis with Wireshark
 Reverse shell understanding
 Password cracking with Hashcat
