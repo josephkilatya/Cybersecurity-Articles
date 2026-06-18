@@ -23,5 +23,13 @@ Cyber Shujaa - Security Analyst Track/
 ├── Week 11 - Digital Forensics/
 ├── Week 12 - Malware Analysis/
 └── README.md
+```
 
-Each folder contains notes, screenshots, command outputs, and platform walkthroughs (TryHackMe, HackTheBox, etc.).Currently being updated.Happy Learning! — josephkilatya
+---
+
+Each folder contains notes, screenshots, command outputs, and platform walkthroughs (TryHackMe, HackTheBox, etc.).Currently being updated.
+
+---
+
+Happy Learning!
+— josephkilatya
