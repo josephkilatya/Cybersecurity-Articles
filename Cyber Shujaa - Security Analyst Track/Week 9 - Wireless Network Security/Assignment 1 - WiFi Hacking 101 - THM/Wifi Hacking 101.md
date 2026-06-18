@@ -6,38 +6,47 @@ This TryHackMe room discusses how exactly to perform that. Let’s get started a
 
 ## Walkthrough
 ## Task 1: The Basics-An Intro to WPA
-Question: What type of attack on the encryption can you perform on WPA(2) personal? <br>
-Answer: **brute force** <br>
+**Question:** What type of attack on the encryption can you perform on WPA(2) personal? <br>
+**Answer:** `brute force` <br>
 <img width="649" height="245" alt="task 1 1" src="https://github.com/user-attachments/assets/807f5759-01f7-48a9-9cfe-40f2e162f5ce" />
 
 I got stuck in this question and had to use the question hint to identify the type of attack asked.
 
-Question: Can this method be used to attack WPA2-EAP handshakes? (Yea/Nay) <br>
-Answer: **Nay** <br>
+**Question:** Can this method be used to attack WPA2-EAP handshakes? (Yea/Nay) <br>
+**Answer:** `Nay` <br>
 <img width="1209" height="48" alt="task 1 2" src="https://github.com/user-attachments/assets/2fd779e6-ea05-4033-b0d8-bf11494999d7" />
 
-Question: What three letter abbreviation is the technical term for the "wifi code/password/passphrase"? <br>
-Answer: **PSK** <br>
+**Question:** What three letter abbreviation is the technical term for the "wifi code/password/passphrase"? <br>
+**Answer:** `PSK` <br>
 <img width="624" height="282" alt="task 1 3" src="https://github.com/user-attachments/assets/6f665bc3-b2a5-4ed5-bb38-0d92ecbd2d91" />
 
-Question: What's the minimum length of a WPA2 Personal password? <br>
-Answer: **8** <br>
+**Question:** What's the minimum length of a WPA2 Personal password? <br>
+**Answer:** `8` <br>
 <img width="573" height="281" alt="task 1 4" src="https://github.com/user-attachments/assets/91a05564-5fe6-4dc8-af7e-9ebbe092e82d" />
 
 ## Task 2: You’re being watched- Capturing packets to attack
 Question: How do you put the interface “wlan0” into monitor mode with Aircrack tools? (Full command) <br>
 Answer: **airmon-ng start wlan0** <br>
 
-Question: What is the new interface name likely to be after you enable monitor mode? <br>
-Answer: **wlan0mon** <br>
+**Command Explained:**
+1. `airmon-ng` - is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
+2. `start` - activates monitor mode on the designated wireless interface.
+3. `wlan0` - the target Wi-Fi interface selected for wireless monitoring.
+   
+**Question:** What is the new interface name likely to be after you enable monitor mode? <br>
+**Answer:** `wlan0mon` <br>
 
 <img width="929" height="436" alt="task 2 1-2" src="https://github.com/user-attachments/assets/0484022e-d559-488d-8d64-f4aa95aed818" />
-
 
 Question: What do you do if other processes are currently trying to use that network adapter? <br>
 Answer: **airmon-ng check kill** <br>
 <img width="931" height="249" alt="task 2 3" src="https://github.com/user-attachments/assets/fb873902-d1bc-45d7-b53e-ef9cc075e1be" />
 
+**Command Explained:**
+- `airmon-ng` - is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
+- `check` - scans the system for running processes that might interfere with wireless sniffing and injection.
+- `kill` - terminates all of those conflicting background processes (like NetworkManager or wpa_supplicant) to ensure clean access to the Wi-Fi card.
+- 
 Question: What tool from the aircrack-ng suite is used to create a capture? <br>
 Answer: **airodump-ng** <br>
 <img width="720" height="189" alt="task 2 4" src="https://github.com/user-attachments/assets/5308e9fe-04d4-41b5-8928-3e52cacae5f4" />
@@ -73,7 +82,7 @@ Answer: **greeneggsandham** <br>
 _Commandissued to crack the password_
 
 <img width="893" height="413" alt="task 3 4 2 password" src="https://github.com/user-attachments/assets/d3ef4261-dd79-4f6e-8804-7375262d0571" />
-**Cracked password**
+_Cracked password_
    
 Question: Where is password cracking likely to be fastest, CPU or GPU? <br>
 Answer: **GPU** <br>
