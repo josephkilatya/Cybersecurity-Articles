@@ -6,20 +6,17 @@ This TryHackMe Room covers Windows Forensics with a focus on the registry hives.
 ## Task 1: Introduction to Windows Forensics
 **Question:** What is the most used Desktop Operating System right now? <br>
 **Answer:** `Microsoft Windows`  <br>
+
 <img width="1568" height="146" alt="task 1" src="https://github.com/user-attachments/assets/8101e579-4677-4230-91ac-f290e9d661a3" />
 
-Explanation: Microsoft Windows continues to dominate the desktop OS market with a share of over 70%. This makes Windows forensics a critical skill for any Security Analyst or DFIR professional.
-
-📸 Where to find screenshots: The TryHackMe room provides a visual of the desktop OS market share statistics. Look for the image showing the percentage breakdown of operating systems in the task description.
+**Explanation:** Microsoft Windows continues to dominate the desktop OS market with a share of over 70%. This makes Windows forensics a critical skill for any Security Analyst or DFIR professional.
 
 ## Task 2: Windows Registry and Forensics
 **Question:** What is the short form for HKEY_LOCAL_MACHINE?  <br>
 **Answer:** `HKLM`  <br>
 <img width="1267" height="63" alt="task 2" src="https://github.com/user-attachments/assets/10e1077f-cd64-4db8-86e0-989b042b902b" />
 
-Explanation: HKLM is one of the main root keys in the Windows Registry. It stores configuration information for the machine itself (hardware, software installed, system settings). It is heavily used in forensics to understand system configuration and installed programs.
-
-📸 Where to find screenshots: The room shows a screenshot of the Windows Registry Editor displaying the five main root keys. Look for the image labeled "Registry Editor" showing HKLM, HKU, HKCR, HKCC, and HKCU.
+**Explanation:** HKLM is one of the main root keys in the Windows Registry. It stores configuration information for the machine itself (hardware, software installed, system settings). It is heavily used in forensics to understand system configuration and installed programs.
 
 ## Task 3: Accessing Registry hives offline
 **Question:** What is the path for the five main registry hives, DEFAULT, SAM, SECURITY, SOFTWARE, and SYSTEM?  <br>
@@ -40,13 +37,14 @@ Explanation: HKLM is one of the main root keys in the Windows Registry. It store
 
 Explanation: AmCache.hve is a very important artifact for evidence of execution. It tracks programs that have been executed on the system and can contain SHA-1 hashes of executables.
 
-📸 Where to find screenshots: The room shows a screenshot of the File Explorer navigating to C:\Windows\System32\config and another to C:\Windows\AppCompat\Programs. Look for images showing these exact paths with the files highlighted.
-
 ## Task 4: Data Acquisition
 **Question:** Try collecting data on your own system or the attached VM using one of the above mentioned tools.  <br>
 **Answer:** `No answer needed.`  <br>
 
-Explanation: In a real investigation, this step involves using tools like FTK Imager, Magnet RAM Capture, triaging with KAPE or simply copying the registry hives (SYSTEM, SAM, SOFTWARE, etc.) while maintaining chain of custody.
+In a real investigation, this step involves using tools like:
+1. KAPE - is a live triage tool used to quickly collect and parse key system artifacts (like logs and registry files) in minutes rather than hours.
+2. Autopsy - is an end-to-end hard drive investigation platform used to perform deep, exhaustive post-mortem forensic analysis, file recovery, and full-disk keyword searches.
+3. FTK Imager - is a data acquisition and preservation tool used to create forensically sound, bit-by-bit duplicates (forensic images) of physical hard drives, volatile memory (RAM), and media cards without altering the original evidence.
 
 📸 Where to find screenshots: The room displays screenshots of FTK Imager showing how to:
 1. Launch FTK Imager
@@ -305,7 +303,7 @@ This challenge combines multiple artifacts (SAM hive for user accounts, AmCache 
 
 🔍 How to find it:
 1. Load the SAM hive
-2. Navigate to SAM\Domains\Account\Users\Names\THM-4n6
+2. Navigate to `SAM\Domains\Account\Users\Names\THM-4n6`
 3. Look for the password hint value
 
 **Question:** When was the file 'Changelog.txt' accessed?  <br>
@@ -314,14 +312,14 @@ This challenge combines multiple artifacts (SAM hive for user accounts, AmCache 
 
 🔍 How to find it:
 1. Load the NTUSER.DAT hive
-2. Navigate to Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+2. Navigate to `Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
 3. Find the entry for 'Changelog.txt'
 
 **Question:** What is the complete path from where the python 3.8.2 installer was run?  <br>
 **Answer:** Z:\setups\python-3.8.2.exe`  <br>
 <img width="1322" height="422" alt="task 10 5" src="https://github.com/user-attachments/assets/ee4f83aa-9fe5-459e-9ab7-146672f4dc50" />
 
-🔍 How to find it:
+**How to find it:**
 1. Load the NTUSER.DAT hive
 2. Navigate to Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
 3. Search for python-related entries
@@ -331,7 +329,7 @@ This challenge combines multiple artifacts (SAM hive for user accounts, AmCache 
 Answer: 2021-11-24 18:40:06
 <img width="1233" height="173" alt="task 10 6" src="https://github.com/user-attachments/assets/5bc62e19-91cd-4141-8bee-9a0cffe090f1" />
 
-🔍 How to find it:
+**How to find it:**
 1. Load the SYSTEM hive
 2. Navigate to SYSTEM\CurrentControlSet\Enum\USBSTOR
 3. Find the Kingston device subkey
