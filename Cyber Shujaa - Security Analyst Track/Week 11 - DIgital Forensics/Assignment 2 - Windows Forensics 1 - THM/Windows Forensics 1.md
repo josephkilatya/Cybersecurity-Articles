@@ -40,7 +40,7 @@ This module covers Windows Forensics with a focus on the registry hives. Registr
 **Question:** Try collecting data on your own system or the attached VM using one of the above mentioned tools.  <br>
 **Answer:** `No answer needed.`  <br>
 
-**Explanation:** In a real investigation, this step involves using tools like FTK Imager, Magnet RAM Capture, or simply copying the registry hives (`SYSTEM`, `SAM`, `SOFTWARE`, etc.) while maintaining chain of custody.
+**Explanation:** In a real investigation, this step involves using tools like FTK Imager, Magnet RAM Capture, triaging with KAPE or simply copying the registry hives (`SYSTEM`, `SAM`, `SOFTWARE`, etc.) while maintaining chain of custody.
 
 ## Task 5: Exploring Windows Registry
 **Question:** Study the above material to understand the difference between the different tools  <br>
