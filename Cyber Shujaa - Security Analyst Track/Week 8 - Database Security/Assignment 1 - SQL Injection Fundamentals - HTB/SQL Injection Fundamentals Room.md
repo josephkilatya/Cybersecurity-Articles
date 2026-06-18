@@ -1,7 +1,7 @@
 # SQL Injection Fundamentals
 ## Introduction
 This modules teaches us the fundamentals required to perform SQL injection. The module covers, but not limited to, the following:
-Whatdatabasesare,howthey workandthedifferent types of databases, that is relational and non-relational databases.
+What databases are,howthey work and the different types of databases, that is relational and non-relational databases.
 - How to connect to MySQL database using the mysql command-line utility.
 - How to performdifferent queries on theDBMS.
 - How to perform different types of SQL injection attacks such as authentication bypass, querying databases to read and write data and more advanced techniques.
