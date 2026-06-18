@@ -1,8 +1,8 @@
 # Wifi Hacking 101 Room
 ## Introduction
-Wi-Fi hacking is a type of attack that focuses on capturing WPA handshake and brute-force them to get the Wi-Fi pass-phrase. It is an easy attack to perform but might require some higher computing power to crack the WPA handshake. 
+Wi-Fi hacking, particularly targeting **WPA/WPA2-PSK** networks, typically involves capturing the WPA handshake and then performing an offline brute-force or dictionary attack to recover the passphrase. 
 
-This TryHackMe room discusses how exactly to perform that. Let’s get started and try to answer the question asked in the room.
+While relatively straightforward to execute, the success heavily depends on the strength of the password and the computing power available for cracking. This TryHackMe room provides a practical introduction to the attack workflow using the Aircrack-ng suite.
 
 ## Walkthrough
 ## Task 1: The Basics-An Intro to WPA
@@ -79,7 +79,16 @@ Answer: **airmon-ng start wlan0** <br>
 **Question:** Using the rockyou wordlist, crack the password in the attached capture. What's the password? <br>
 **Answer:** `greeneggsandham` <br>
 <img width="1314" height="51" alt="task 3 4 1 command used" src="https://github.com/user-attachments/assets/5bf292ef-1086-4f12-888f-0fd0f63f8534" />
-_Command used to crack the password_
+_Command to crack the password_
+
+Command Explained:
+- `aircrack-ng` — The main tool in the Aircrack-ng suite used for cracking WEP and WPA/WPA2-PSK passwords.
+- `b 02:AB:34:CD:5E:6F` — Specifies the target BSSID (MAC address of the access point). This tells aircrack-ng which network’s handshake to attack.
+- `w /usr/share/wordlists/rockyou.txt` — Points to the wordlist (dictionary) to be used for the brute-force/dictionary attack. `rockyou.txt` is one of the most popular and effective wordlists for Wi-Fi cracking.
+- `capture-01.cap` — The capture file containing the WPA handshake collected earlier with airodump-ng.
+
+**How the attack works:**
+Aircrack-ng reads the handshake from the capture file and repeatedly tries passwords from the wordlist against the captured handshake until it finds a match. This is an offline attack, meaning it does not require staying connected to the target network after capturing the handshake.
 
 <img width="893" height="413" alt="task 3 4 2 password" src="https://github.com/user-attachments/assets/d3ef4261-dd79-4f6e-8804-7375262d0571" />
 _Cracked password_
@@ -89,18 +98,20 @@ Answer: **GPU** <br>
 <img width="1638" height="100" alt="task 3 5" src="https://github.com/user-attachments/assets/b49d3675-c7b8-481d-8786-6f57edc6cbee" />
 
 ## Conclusion
-This TryHackMe room served as a great refresher on the fundamentals of Wi-Fi hacking, specifically capturing WPA handshakes and cracking them offline. It was one of the first things I explored when starting in cybersecurity—back when I was (naively) trying to crack my neighbor’s Wi-Fi. However, I quickly learned that hacking into systems without explicit permission is illegal and unethical. Always ensure you have authorization (e.g., in a lab, CTF, or authorized pentest environment) before performing these actions.
-While handshake capture and brute-force/dictionary attacks on WPA/WPA2-PSK are among the most popular and accessible attacks, they represent only one facet of wireless security threats. Other common types of Wi-Fi attacks include:Evil Twin Attacks: An attacker sets up a rogue access point that mimics a legitimate network (same SSID). Users connect to the fake AP, allowing the attacker to perform Man-in-the-Middle (MitM) interception, credential theft, or traffic manipulation. 
+This TryHackMe room was more of a refresher for me. It was one of the first things I learned when I started in cybersecurity — naively trying to crack my neighbor’s Wi-Fi. However, I quickly learned that hacking into any system or network **without explicit permission** is illegal and unethical. Always perform these activities only in authorized lab environments, CTFs, or during professional penetration tests.
 
-- **Deauthentication (Deauth) / Disassociation Attacks:** The attacker floods clients with forged deauth frames to disconnect them from the legitimate AP. Often used to force reconnection for handshake capture or as a simple Denial-of-Service (DoS). 
-- **Eavesdropping / Packet Sniffing:** Passive capture of unencrypted or weakly encrypted traffic on open or poorly secured networks using tools like Wireshark.
-- **Rogue Access Points:** Unauthorized APs plugged into the wired network, bypassing security controls and providing backdoor access.
-- **WPS (Wi-Fi Protected Setup) Attacks:** Exploiting weaknesses in WPS (e.g., PIN brute-forcing with tools like Reaver) to gain network access without the full passphrase. 
-- **KRACK (Key Reinstallation Attack):** A protocol-level attack against WPA2 that can force nonce reuse and decrypt traffic (less practical now but historically significant).
-- **Jamming / RF Interference:** Physical-layer DoS by overwhelming the radio frequency, disrupting all Wi-Fi in the area.
-War Driving / War Flying: Scanning for vulnerable networks while mobile (often just reconnaissance).
+While capturing the WPA handshake and performing dictionary attacks is one of the most common Wi-Fi attacks, there are several other notable attack types:
 
-Modern defenses (WPA3, Protected Management Frames, strong PSKs, certificate-based authentication in enterprise setups, and client isolation) significantly raise the bar against many of these attacks. Understanding both offensive techniques and defensive best practices is essential for any security analyst.
-This room builds a strong foundation—keep practicing in legal environments and explore advanced wireless modules next!
+- **Evil Twin Attacks** — Setting up a fake access point with the same SSID as a legitimate network to perform Man-in-the-Middle attacks.
+- **Deauthentication Attacks** — Flooding clients with deauth frames to disconnect them (often used to force reconnection and capture handshakes).
+- **WPS Attacks** — Exploiting weaknesses in Wi-Fi Protected Setup using tools like Reaver.
+- **KRACK Attack** — Key Reinstallation Attack against WPA2 (protocol vulnerability).
+- **Rogue Access Points** — Unauthorized access points connected to the internal network.
+- **Packet Sniffing / Eavesdropping** — Capturing traffic on open or weakly encrypted networks.
+- **Jamming** — Radio frequency interference to cause Denial of Service.
+
+Understanding these attacks helps security analysts better defend wireless networks using strong passwords, WPA3, Protected Management Frames (PMF), and proper network segmentation.
+
+Keep practicing responsibly!
 
 
