@@ -1,6 +1,6 @@
 # Windows Forensics 1
 ## Introduction
-This module covers Windows Forensics with a focus on the registry hives. Registry hives can provide invaluable information during Windows Forensics examination and analysis processes.
+This TryHackMe Room covers Windows Forensics with a focus on the registry hives. Registry hives can provide invaluable information during Windows Forensics examination and analysis processes.
 
 ## Walkthrough
 ## Task 1: Introduction to Windows Forensics
@@ -8,14 +8,18 @@ This module covers Windows Forensics with a focus on the registry hives. Registr
 **Answer:** `Microsoft Windows`  <br>
 <img width="1568" height="146" alt="task 1" src="https://github.com/user-attachments/assets/8101e579-4677-4230-91ac-f290e9d661a3" />
 
-**Explanation:** Microsoft Windows continues to dominate the desktop OS market with a share of over 70%. This makes Windows forensics a critical skill for any Security Analyst or DFIR professional.
+Explanation: Microsoft Windows continues to dominate the desktop OS market with a share of over 70%. This makes Windows forensics a critical skill for any Security Analyst or DFIR professional.
+
+📸 Where to find screenshots: The TryHackMe room provides a visual of the desktop OS market share statistics. Look for the image showing the percentage breakdown of operating systems in the task description.
 
 ## Task 2: Windows Registry and Forensics
 **Question:** What is the short form for HKEY_LOCAL_MACHINE?  <br>
 **Answer:** `HKLM`  <br>
 <img width="1267" height="63" alt="task 2" src="https://github.com/user-attachments/assets/10e1077f-cd64-4db8-86e0-989b042b902b" />
 
-**Explanation:** HKLM is one of the main root keys in the Windows Registry. It stores configuration information for the machine itself (hardware, software installed, system settings). It is heavily used in forensics to understand system configuration and installed programs.
+Explanation: HKLM is one of the main root keys in the Windows Registry. It stores configuration information for the machine itself (hardware, software installed, system settings). It is heavily used in forensics to understand system configuration and installed programs.
+
+📸 Where to find screenshots: The room shows a screenshot of the Windows Registry Editor displaying the five main root keys. Look for the image labeled "Registry Editor" showing HKLM, HKU, HKCR, HKCC, and HKCU.
 
 ## Task 3: Accessing Registry hives offline
 **Question:** What is the path for the five main registry hives, DEFAULT, SAM, SECURITY, SOFTWARE, and SYSTEM?  <br>
@@ -24,9 +28,9 @@ This module covers Windows Forensics with a focus on the registry hives. Registr
 
 **Explanation:** These five hives are the core offline registry files. During incident response, analysts copy these files from a compromised machine for offline analysis without booting the original system.
 
-- The SYSTEM hive contains configuration data regarding the computer’s hardware, device drivers, and system services. It is a critical forensic artifact for building timelines because it tracks system time zones, network configurations, and the serial numbers of connected USB devices.
+- The SYSTEM hive contains configuration data regarding the computer's hardware, device drivers, and system services. It is a critical forensic artifact for building timelines because it tracks system time zones, network configurations, and the serial numbers of connected USB devices.
 - The SOFTWARE hive stores information about the operating system configuration, file associations, and installed third-party applications. It is a vital resource for forensic investigators to identify malware persistence mechanisms—such as automatic boot triggers—and to determine exactly what software was available to a user.
-- The SAM (Security Accounts Manager) hive serves as the local database for user accounts, groups, and their associated security descriptors. It is an essential artifact during an investigation for uncovering unauthorized backdoor profiles, tracking user login metrics, and extracting password hashes for credential analysis
+- The SAM (Security Accounts Manager) hive serves as the local database for user accounts, groups, and their associated security descriptors. It is an essential artifact during an investigation for uncovering unauthorized backdoor profiles, tracking user login metrics, and extracting password hashes for credential analysis.
 - The SECURITY hive manages system-wide security policies, user privileges, and local security audit settings. Its importance in digital forensics lies in revealing active event logging configurations and exposing cached domain credentials or sensitive service account passwords.
 - The DEFAULT hive acts as the registry configuration template applied to any new user profile created on the system. It is important in forensics because investigators inspect it to establish baseline settings and ensure attackers have not modified the template to automatically infect new users.
 
@@ -34,19 +38,32 @@ This module covers Windows Forensics with a focus on the registry hives. Registr
 **Answer:** `C:\Windows\AppCompat\Programs\Amcache.hve`  <br>
 <img width="1536" height="142" alt="task 3 2" src="https://github.com/user-attachments/assets/d6472c3f-e189-46db-ae9c-597ec8f961f0" />
 
-**Explanation:** AmCache.hve is a very important artifact for evidence of execution. It tracks programs that have been executed on the system and can contain SHA-1 hashes of executables.
+Explanation: AmCache.hve is a very important artifact for evidence of execution. It tracks programs that have been executed on the system and can contain SHA-1 hashes of executables.
+
+📸 Where to find screenshots: The room shows a screenshot of the File Explorer navigating to C:\Windows\System32\config and another to C:\Windows\AppCompat\Programs. Look for images showing these exact paths with the files highlighted.
 
 ## Task 4: Data Acquisition
 **Question:** Try collecting data on your own system or the attached VM using one of the above mentioned tools.  <br>
 **Answer:** `No answer needed.`  <br>
 
-**Explanation:** In a real investigation, this step involves using tools like FTK Imager, Magnet RAM Capture, triaging with KAPE or simply copying the registry hives (`SYSTEM`, `SAM`, `SOFTWARE`, etc.) while maintaining chain of custody.
+Explanation: In a real investigation, this step involves using tools like FTK Imager, Magnet RAM Capture, triaging with KAPE or simply copying the registry hives (SYSTEM, SAM, SOFTWARE, etc.) while maintaining chain of custody.
+
+📸 Where to find screenshots: The room displays screenshots of FTK Imager showing how to:
+1. Launch FTK Imager
+2. Navigate to the C:\Windows\System32\config folder
+3. Add the registry hives for acquisition
+4. Export the files for offline analysis.
 
 ## Task 5: Exploring Windows Registry
 **Question:** Study the above material to understand the difference between the different tools  <br>
 **Answer:** `No answer needed.`  <br>
 
-**Explanation:** Different tools (Registry Explorer, RegRipper, Autoruns, etc.) offer different strengths. Registry Explorer is excellent for manual browsing with tagging, while RegRipper is great for automated extraction of common artifacts.
+Explanation: Different tools (Registry Explorer, RegRipper, Autoruns, etc.) offer different strengths. Registry Explorer is excellent for manual browsing with tagging, while RegRipper is great for automated extraction of common artifacts.
+
+📸 Where to find screenshots: The room shows comparative screenshots of:
+- Registry Explorer: Showing the GUI interface with loaded hives and the ability to bookmark artifacts
+- RegRipper: Displaying the command-line interface and output of extracted artifacts
+- EZTools: The combined tool interface used in the hands-on section
 
 ## Task 6: Sysytem Information and System Accounts
 **Question:** What is the Current Build Number of the machine whose data is being investigated?  <br>
