@@ -65,7 +65,7 @@ Explanation: Different tools (Registry Explorer, RegRipper, Autoruns, etc.) offe
 - RegRipper: Displaying the command-line interface and output of extracted artifacts
 - EZTools: The combined tool interface used in the hands-on section
 
-## Task 6: Sysytem Information and System Accounts
+## Task 6: System Information and System Accounts
 **Question:** What is the Current Build Number of the machine whose data is being investigated?  <br>
 **Answer:** `19044`  <br>
 <img width="1374" height="681" alt="task 4 1" src="https://github.com/user-attachments/assets/05bb858f-356b-4727-bcb1-6811eadbba2d" />
@@ -344,12 +344,8 @@ Answer: 2021-11-24 18:40:06
 **Answer:** `No answer needed.`  <br>
 
 ## Conclusion
-With my passion for digital forensics, I cannot describe how valuable this room was to my skill set. I had gone through this room a while ago and still enjoyed revisiting it. Solving mysteries through forensics is definitely my thing.
-In this room, I mainly used Registry Explorer and EZTools for registry analysis. However, other important forensics tools every analyst should know include:
-1. [FTK Imager](https://medium.com/@tojopthomas/ftk-imager-5df0c870074) – For creating forensic images and extracting files/hives.
-2. [OSForensics](https://medium.com/@careertechnologymiraroad/osforensics-79d96202d5ef) – All-in-one tool for fast searching and registry analysis.
-3. [Volatility](https://medium.com/@cyberengage.org/step-by-step-guide-to-uncovering-threats-with-volatility-a-beginners-memory-forensics-0213072b2bd8) – For memory forensics and analyzing RAM dumps.
-4. [Wireshark](https://jacob-e-stickney.medium.com/wireshark-for-network-forensics-ecd2baa136cd) – For network forensics and traffic analysis.
-5. [Autopsy / Sleuth Kit](https://www.sans.org/blog/a-step-by-step-introduction-to-using-the-autopsy-forensic-browser) – Open-source tools for disk and file system forensics.
+This room is an excellent deep dive into Windows Registry forensics. Even though I had completed it before, revisiting it reinforced key concepts and introduced better analysis techniques using tools like Registry Explorer and EZTools.
 
-Key Takeaway: Strong registry knowledge combined with the right tools is very powerful in digital investigations.
+Digital Forensics continues to be one of my favorite areas in cybersecurity — there’s something incredibly satisfying about reconstructing events and solving the mystery hidden in artifacts.
+
+**Key Takeaway:** Never underestimate the value of the Windows Registry. It often holds the answers that event logs or file system timestamps alone cannot provide.
