@@ -5,7 +5,7 @@ Wi-Fi hacking, particularly targeting **WPA/WPA2-PSK** networks, typically invol
 While relatively straightforward to execute, the success heavily depends on the strength of the password and the computing power available for cracking. This TryHackMe room provides a practical introduction to the attack workflow using the Aircrack-ng suite.
 
 ## Walkthrough
-## Task 1: The Basics-An Intro to WPA
+## Task 1: The Basics - An Intro to WPA
 **Question:** What type of attack on the encryption can you perform on WPA(2) personal? <br>
 **Answer:** `brute force` <br>
 <img width="649" height="245" alt="task 1 1" src="https://github.com/user-attachments/assets/807f5759-01f7-48a9-9cfe-40f2e162f5ce" />
@@ -24,14 +24,14 @@ I got stuck in this question and had to use the question hint to identify the ty
 **Answer:** `8` <br>
 <img width="573" height="281" alt="task 1 4" src="https://github.com/user-attachments/assets/91a05564-5fe6-4dc8-af7e-9ebbe092e82d" />
 
-## Task 2: You’re being watched- Capturing packets to attack
-Question: How do you put the interface “wlan0” into monitor mode with Aircrack tools? (Full command) <br>
-Answer: **airmon-ng start wlan0** <br>
+## Task 2: You’re being watched - Capturing packets to attack
+**Question:** How do you put the interface “wlan0” into monitor mode with Aircrack tools? (Full command) <br>
+**Answer:** airmon-ng start wlan0 <br>
 
 **Command Explained:**
-1. `airmon-ng` - is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
-2. `start` - activates monitor mode on the designated wireless interface.
-3. `wlan0` - the target Wi-Fi interface selected for wireless monitoring.
+1. `airmon-ng` is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
+2. `start` activates monitor mode on the designated wireless interface.
+3. `wlan0` the target Wi-Fi interface selected for wireless monitoring.
    
 **Question:** What is the new interface name likely to be after you enable monitor mode? <br>
 **Answer:** `wlan0mon` <br>
@@ -43,9 +43,9 @@ Answer: **airmon-ng start wlan0** <br>
 <img width="931" height="249" alt="task 2 3" src="https://github.com/user-attachments/assets/fb873902-d1bc-45d7-b53e-ef9cc075e1be" />
 
 **Command Explained:**
-- `airmon-ng` - is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
-- `check` - scans the system for running processes that might interfere with wireless sniffing and injection.
-- `kill` - terminates all of those conflicting background processes (like NetworkManager or wpa_supplicant) to ensure clean access to the Wi-Fi card.
+- `airmon-ng` is a core script within the Aircrack-ng suite used to enable and disable monitor mode on wireless network interfaces.
+- `check` scans the system for running processes that might interfere with wireless sniffing and injection.
+- `kill` terminates all of those conflicting background processes (like NetworkManager or wpa_supplicant) to ensure clean access to the Wi-Fi card.
   
 **Question:** What tool from the aircrack-ng suite is used to create a capture? <br>
 **Answer:** `airodump-ng` <br>
@@ -63,7 +63,7 @@ Answer: **airmon-ng start wlan0** <br>
 **Answer:** `-w` <br>
 <img width="699" height="200" alt="task 2 7" src="https://github.com/user-attachments/assets/ce99731b-bd1e-4873-bb4b-1ad1177b44ab" />
 
-## Task 3: Aircrack-ng- Let’s Get Cracking
+## Task 3: Aircrack-ng - Let’s Get Cracking
 **Question:** What flag do we use to specify a BSSID to attack? <br>
 **Answer:** `-b` <br>
 <img width="945" height="322" alt="task 3 1" src="https://github.com/user-attachments/assets/705d2276-c8ea-4125-9dd3-37adb6e741aa" />
