@@ -24,6 +24,12 @@ This module covers Windows Forensics with a focus on the registry hives. Registr
 
 **Explanation:** These five hives are the core offline registry files. During incident response, analysts copy these files from a compromised machine for offline analysis without booting the original system.
 
+- The SYSTEM hive contains configuration data regarding the computer’s hardware, device drivers, and system services. It is a critical forensic artifact for building timelines because it tracks system time zones, network configurations, and the serial numbers of connected USB devices.
+- The SOFTWARE hive stores information about the operating system configuration, file associations, and installed third-party applications. It is a vital resource for forensic investigators to identify malware persistence mechanisms—such as automatic boot triggers—and to determine exactly what software was available to a user.
+- The SAM (Security Accounts Manager) hive serves as the local database for user accounts, groups, and their associated security descriptors. It is an essential artifact during an investigation for uncovering unauthorized backdoor profiles, tracking user login metrics, and extracting password hashes for credential analysis
+- The SECURITY hive manages system-wide security policies, user privileges, and local security audit settings. Its importance in digital forensics lies in revealing active event logging configurations and exposing cached domain credentials or sensitive service account passwords.
+- The DEFAULT hive acts as the registry configuration template applied to any new user profile created on the system. It is important in forensics because investigators inspect it to establish baseline settings and ensure attackers have not modified the template to automatically infect new users.
+
 **Question:** What is the path for the AmCache hive?  <br>
 **Answer:** `C:\Windows\AppCompat\Programs\Amcache.hve`  <br>
 <img width="1536" height="142" alt="task 3 2" src="https://github.com/user-attachments/assets/d6472c3f-e189-46db-ae9c-597ec8f961f0" />
