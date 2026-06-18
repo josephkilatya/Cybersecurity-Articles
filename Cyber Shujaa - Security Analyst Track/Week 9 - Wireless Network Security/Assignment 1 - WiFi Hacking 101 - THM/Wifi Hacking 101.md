@@ -79,7 +79,7 @@ Answer: **airmon-ng start wlan0** <br>
 **Question:** Using the rockyou wordlist, crack the password in the attached capture. What's the password? <br>
 **Answer:** `greeneggsandham` <br>
 <img width="1314" height="51" alt="task 3 4 1 command used" src="https://github.com/user-attachments/assets/5bf292ef-1086-4f12-888f-0fd0f63f8534" />
-_Commandissued to crack the password_
+_Command used to crack the password_
 
 <img width="893" height="413" alt="task 3 4 2 password" src="https://github.com/user-attachments/assets/d3ef4261-dd79-4f6e-8804-7375262d0571" />
 _Cracked password_
@@ -87,8 +87,6 @@ _Cracked password_
 Question: Where is password cracking likely to be fastest, CPU or GPU? <br>
 Answer: **GPU** <br>
 <img width="1638" height="100" alt="task 3 5" src="https://github.com/user-attachments/assets/b49d3675-c7b8-481d-8786-6f57edc6cbee" />
-
-The answer to this answer can be found from the task notes
 
 ## Conclusion
 To me, this room was more of a refresher, nothing new learned as this was the first I leared when I
