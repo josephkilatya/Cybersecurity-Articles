@@ -89,5 +89,18 @@ Answer: **GPU** <br>
 <img width="1638" height="100" alt="task 3 5" src="https://github.com/user-attachments/assets/b49d3675-c7b8-481d-8786-6f57edc6cbee" />
 
 ## Conclusion
-To me, this room was more of a refresher, nothing new learned as this was the first I leared when I
-got started with cyber security. Trying to crack my neighbors Wi-Fi. However, do not try that as I later learned it is illegal to hack into a system without permision to do so.
+This TryHackMe room served as a great refresher on the fundamentals of Wi-Fi hacking, specifically capturing WPA handshakes and cracking them offline. It was one of the first things I explored when starting in cybersecurity—back when I was (naively) trying to crack my neighbor’s Wi-Fi. However, I quickly learned that hacking into systems without explicit permission is illegal and unethical. Always ensure you have authorization (e.g., in a lab, CTF, or authorized pentest environment) before performing these actions.
+While handshake capture and brute-force/dictionary attacks on WPA/WPA2-PSK are among the most popular and accessible attacks, they represent only one facet of wireless security threats. Other common types of Wi-Fi attacks include:Evil Twin Attacks: An attacker sets up a rogue access point that mimics a legitimate network (same SSID). Users connect to the fake AP, allowing the attacker to perform Man-in-the-Middle (MitM) interception, credential theft, or traffic manipulation. 
+
+- **Deauthentication (Deauth) / Disassociation Attacks:** The attacker floods clients with forged deauth frames to disconnect them from the legitimate AP. Often used to force reconnection for handshake capture or as a simple Denial-of-Service (DoS). 
+- **Eavesdropping / Packet Sniffing:** Passive capture of unencrypted or weakly encrypted traffic on open or poorly secured networks using tools like Wireshark.
+- **Rogue Access Points:** Unauthorized APs plugged into the wired network, bypassing security controls and providing backdoor access.
+- **WPS (Wi-Fi Protected Setup) Attacks:** Exploiting weaknesses in WPS (e.g., PIN brute-forcing with tools like Reaver) to gain network access without the full passphrase. 
+- **KRACK (Key Reinstallation Attack):** A protocol-level attack against WPA2 that can force nonce reuse and decrypt traffic (less practical now but historically significant).
+- **Jamming / RF Interference:** Physical-layer DoS by overwhelming the radio frequency, disrupting all Wi-Fi in the area.
+War Driving / War Flying: Scanning for vulnerable networks while mobile (often just reconnaissance).
+
+Modern defenses (WPA3, Protected Management Frames, strong PSKs, certificate-based authentication in enterprise setups, and client isolation) significantly raise the bar against many of these attacks. Understanding both offensive techniques and defensive best practices is essential for any security analyst.
+This room builds a strong foundation—keep practicing in legal environments and explore advanced wireless modules next!
+
+
